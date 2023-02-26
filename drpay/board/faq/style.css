@@ -1,0 +1,84 @@
+@charset "utf-8";
+.container{width:100%; max-width:1200px !important; margin:5% auto; padding:0 !important;}
+
+#bo_cate {margin:15px 0 10px}
+#bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+#bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
+#bo_cate li {display:inline-block;}
+#bo_cate a {display:block;border:1px solid #dadada;background:#fff;margin:0 0 5px 0;line-height:30px;padding:0 10px;border-radius:3px}
+#bo_cate a:focus, #bo_cate a:hover, #bo_cate a:active {text-decoration:none;background:none}
+#bo_cate #bo_cate_on {z-index:2;border: 1px solid #0352f5;color: #0352f5;font-weight: 500;}
+
+#faq_wrap {margin:10px 0 30px}
+#faq_wrap h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
+.faq_admin {text-align:right;padding-top:20px;}
+.faq_admin:hover a{color:#fff !important;}
+#faq_wrap ol {margin:0;padding:0;list-style:none}
+#faq_wrap li{border: 1px solid #eee;background:#fff;margin:5px 0;border-radius: 8px;}
+#faq_wrap li h3{min-height: 61px;line-height:30px;padding: 18px;padding-left: 55px;position:relative;}
+#faq_wrap li h3 p{font-size:16px; font-weight:500;}
+#faq_wrap li h3 .tit_bg{display:inline-block;position:absolute;top: 50%;left:10px;text-align:center;background: none;color: #0352f5;border-radius:50%;width:30px;height:30px;transform: translateY(-50%);}
+#faq_con .con_inner{display:none;border-top:1px solid #ddd;padding:15px;padding-left: 79px;position:relative;background: #fbfbfb;}
+#faq_con .con_inner p{font-size:14px; color:#777;}
+#faq_con .con_inner .tit_bg{display:inline-block;position:absolute;top:10px;left: 40px;text-align:center;color: #0352f5;border-radius:50%;width:30px;line-height:30px;height:30px;}
+#faq_con .con_inner .closer_btn{height: 28px;font-size: 0.98em;display:inline-block;padding: 0px 10px;border-radius:5px;background: #0352f5;color: #fff;border: none;}
+#faq_con .con_closer{text-align:right}
+
+#faq_sch {text-align:center;padding:30px;margin:10px 0;border-radius: 14px;background: #f9f9f9f9;}
+#faq_sch form{display:inline-block;position:relative;width: 44%;}
+#faq_sch .sch_tit{font-size:20px;font-weight:bold;display:inline-block;margin-right:10px;color: #333;display: block;margin-bottom: 20px;}
+#faq_sch .frm_input{padding-left: 20px;border-color: #e3e3e3;border-radius:0;width: 100%;border-radius: 0;height: 46px;}
+#faq_sch input:focus{border-bottom:2px solid #444 !important; background:none !important;}
+#faq_sch .btn_submit{padding:0 10px;height:40px;color: #f29001;font-size:1.083em;font-weight:bold;color:#fff;background: none;position: absolute;right: 9px;top: 50%;}
+#faq_sch .btn_submit i{color: #464646;}
+.title_fq{width:auto;}
+.center_cont{padding:10px 0;max-width:1200px;width:100%; margin:0 auto;}
+.sm_nav a{color:#999 ;}
+.sm_nav a i{margin: 0 8px;}
+a.btn_admin, .btn_admin{position:relative; right:342px;}
+
+@media all and (max-width:1620px){
+    a.btn_admin, .btn_admin{right:200px;}
+}
+@media all and (max-width:1340px){
+    a.btn_admin, .btn_admin{right:80px;}
+}
+@media all and (max-width:1200px){
+    .container{padding:0 10px !important;}
+    .center_cont{padding:10px;}
+
+}
+@media all and (max-width:1164px){
+
+    a.btn_admin, .btn_admin{position:relative; right:10px;}
+
+}
+@media all and (max-width:1024px){
+    #bo_cate a{width:130px; text-align:center;}
+    #faq_sch .frm_input{width:100%;}
+    #faq_sch form{width:70%; margin: 0 auto;}
+
+
+
+}
+@media all and (max-width:768px){
+    #sch_res_detail .btn_submit{float:right; right:20px;}
+    .sm_nav a{font-size:13px;}
+    .dr_not .title{font-size:18px;}
+}
+@media all and (max-width:480px){
+    #faq_sch form{width:90%; margin: 0 auto;}
+    #faq_sch{padding:28px 0 !important;}
+    #faq_sch .sch_tit{font-size:18px;}
+    #faq_wrap li h3 p{font-size:14px;}
+    #faq_wrap li h3{min-height:54px; line-height:26px;}
+    #faq_wrap li h3 .tit_bg{width:26px;height:26px;font-size: 16px;line-height:26px;font-weight: 600;}
+    #faq_wrap li h3{padding-left:46px;}
+    #bo_cate a{width:110px; font-size:13px;}
+
+}
+@media all and (max-width:360px){
+    .frm_input{height:32px !important;}
+    #faq_sch .sch_tit{font-size:18px;}
+
+}

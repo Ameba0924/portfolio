@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>아이폰 잠금 풀기</title>
+	<style>
+		body {
+			background: linear-gradient(1deg, black, #393939);
+		}
+
+		.hidden {
+			font-size: 0;
+		}
+
+		.form {
+			width: 50%;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.img-box {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.box_password {
+			width: 100%;
+			text-align: center;
+			;
+		}
+
+		.pass {
+			height: 50px;
+			border-radius: 4px;
+			width: 270px;
+			background: #ffffff26;
+			border: 2px solid #fff;
+			padding: 7px 15px;
+			box-sizing: border-box;
+			font-size: 16px;
+			color: #fff;
+		}
+
+		.wrap_btn {
+			margin-top: 35px;
+		}
+
+		.wrap_btn span {
+			width: 26px;
+			height: 26px;
+			border: 1px solid #555;
+			border-radius: 50%;
+			display: inline-block;
+			position: relative;
+			margin: 0 7px;
+		}
+
+		.wrap_btn span em {
+			position: absolute;
+			width: 26px;
+			height: 26px;
+			background: #ffffff;
+			border-radius: 50%;
+			opacity: 0;
+			margin: 0;
+			left: 0;
+			top: 0
+		}
+
+		.wrap_btn.on1 span:nth-child(1) em {
+			opacity: 1;
+		}
+
+		.wrap_btn.on2 span:nth-child(2) em,
+		.wrap_btn.on2 span:nth-child(1) em {
+			opacity: 1;
+		}
+
+		.wrap_btn.on3 span:nth-child(3) em,
+		.wrap_btn.on3 span:nth-child(1) em,
+		.wrap_btn.on3 span:nth-child(2) em {
+			opacity: 1;
+		}
+
+		.wrap_btn.on4 span:nth-child(4) em,
+		.wrap_btn.on4 span:nth-child(1) em,
+		.wrap_btn.on4 span:nth-child(2) em,
+		.wrap_btn.on4 span:nth-child(3) em {
+			opacity: 1;
+		}
+
+		.wrap_btn.on5 span:nth-child(5) em,
+		.wrap_btn.on5 span:nth-child(1) em,
+		.wrap_btn.on5 span:nth-child(2) em,
+		.wrap_btn.on5 span:nth-child(3) em,
+		.wrap_btn.on5 span:nth-child(4) em {
+			opacity: 1;
+		}
+
+		.wrap_btn.on6 span:nth-child(6) em,
+		.wrap_btn.on6 span:nth-child(1) em,
+		.wrap_btn.on6 span:nth-child(2) em,
+		.wrap_btn.on6 span:nth-child(3) em,
+		.wrap_btn.on6 span:nth-child(4) em,
+		.wrap_btn.on6 span:nth-child(5) em {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="form">
+		<form action="">
+			<div class="img-box"><img src="./phone.png" alt=""></div>
+			<div class="box_password">
+				<input type="password" class="pass" placeholder="">
+				<div class="wrap_btn">
+					<span>
+						<em class="hidden">비밀번호 입력하는 1번째 칸</em>
+					</span>
+					<span>
+						<em class="hidden">비밀번호 입력하는 2번째 칸</em>
+					</span>
+					<span>
+						<em class="hidden">비밀번호 입력하는 3번째 칸</em>
+					</span>
+					<span>
+						<em class="hidden">비밀번호 입력하는 4번째 칸</em>
+					</span>
+					<span>
+						<em class="hidden">비밀번호 입력하는 5번째 칸</em>
+					</span>
+					<span>
+						<em class="hidden">비밀번호 입력하는 6번째 칸</em>
+					</span>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+
+		const passwordBox = document.querySelector('.wrap_btn');
+		const targetBtn = passwordBox.querySelectorAll('span');
+		const motionPswd = document.querySelector('.pass');
+
+
+		motionPswd.addEventListener('keyup', KeyupEvent);
+
+
+		function KeyupEvent(event) {
+
+			var target = event.target;
+			var valuelength = target.value.length;
+
+			const resetDefaultClass = () => {
+				passwordBox.className = 'wrap_btn';   //클래스네임은 클래스 속성의 값을 가져오거나 설정할수 있다
+			}
+
+
+			//if else문으로 구현
+
+			//if(valuelength === 0){
+			//resetDefaultClass();
+
+			//}else if(valuelength === 1){
+			//	resetDefaultClass();
+			//	passwordBox.classList.add('on1');
+
+			//}else if(valuelength === 2){
+			//		resetDefaultClass();
+			//	passwordBox.classList.add('on2');
+
+			//}else if(valuelength === 3){
+			//	resetDefaultClass();
+			//	passwordBox.classList.add('on3');
+
+			//}else if(valuelength === 4){
+			//	resetDefaultClass();
+			//	passwordBox.classList.add('on4');
+
+			//	}else if(valuelength === 5){
+			//	resetDefaultClass();
+			//	passwordBox.classList.add('on5');
+
+			//	}else if(valuelength === 6){
+			//	resetDefaultClass();
+			//	passwordBox.classList.add('on6');
+			//}else if(valuelength > 6  || valuelength < 0){
+
+			//	return;
+			//}
+
+
+
+			//for 반복문으로 구현
+
+			//for (let i = 0; i < 7; i++) { //숫자로 잡으면 숫자가 더길어지거나 할때는 어떻게 할지모르니까변수로 잡는게 좋음
+
+			//	if (i === valuelength) {
+
+			//	resetDefaultClass();//리셋 인풋클래스
+			//	passwordBox.classList.add('on' + i);
+
+			//}
+
+			//}
+
+
+
+			//for다른 반복문으로 구현
+			for (a = 0; a <= valuelength; a++) {
+				if (valuelength === 0) {
+					resetDefaultClass();
+				} else {
+					resetDefaultClass();
+					passwordBox.classList.add(`on${a}`);
+
+				}
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		};
+
+	</script>
+
+</body>
+
+</html>

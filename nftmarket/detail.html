@@ -1,0 +1,1206 @@
+<html lang="en">
+
+<head>
+	<base href="">
+	<meta charset="utf-8">
+	<meta property="og:type" content="IPKIN">
+	<meta property="og:image" content="/img/kakaometa.png">
+	<meta property="og:description" content="IPKIN">
+	<meta name="description" content="Updates and statistics">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>IPKIN</title>
+
+
+	<link rel="stylesheet" href="./css/default.css">
+
+	<!--begin::Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	<link href="https://fonts.googleapis.com/css2?family=Amiri&amp;display=swap" rel="stylesheet">
+	<link href="./css/style.bundle.css" rel="stylesheet" type="text/css">
+
+	<!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
+	<link href="./css/common.css" rel="stylesheet" type="text/css">
+	<link href="./css/swiper.min.css" rel="stylesheet" type="text/css">
+	<link href="./css/explorer.css" rel="stylesheet" type="text/css">
+	<link href="./css/sub.css" rel="stylesheet" type="text/css">
+
+
+
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="./js/common.js" defer></script>
+	<script src="./js/swiper.min.js" type="text/javascript"></script>
+
+	<script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="">
+
+	<style>
+		body.modal-open {
+			overflow: hidden !important;
+		}
+	</style>
+
+	<header class="header " id="top_menu">
+		<button class="menu_btn"><i class="fas fa-bars"></i></button>
+		<div id="backscreen"></div>
+		<div class="toggle_wrapper">
+			<div class="top_inner">
+				<div class="logo"><a href=""><img src="./img/white_logo.png" alt=""></a></div>
+
+
+				<button class="close"><i class="fas fa-times"></i></button>
+			</div>
+			<div class="menu_wrap">
+				<ul class="list_menu">
+					<li>
+						<a href="./index.html" class="first_nav">홈 </a>
+					</li>
+					<li>
+						<a href="./mynft.html" class="first_nav">NFT 찾기 <i class="xi-angle-down-min"></i></a>
+						<ul class="depth_nav">
+							<li><a href="./category.html">특허 </a></li>
+							<li><a href="#">상표</a></li>
+							<li><a href="#">음악</a></li>
+							<li><a href="#">미술</a></li>
+							<li><a href="#">출팔물</a></li>
+							<li><a href="#">사진</a></li>
+							<li><a href="#">기타</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class="first_nav" href="./mynft.html">
+
+							NFT 만들기 <i class="xi-angle-down-min"></i>
+						</a>
+					</li>
+					<li>
+						<a href="./author.html" class="first_nav">저자 <i class="xi-angle-down-min"></i></a>
+						<ul class="depth_nav">
+							<li><a href="#">전체</a></li>
+							<li><a href="#">인증된 저자</a></li>
+							<li><a href="#">미인증 저자</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="./contact_us.html" class="first_nav">문의하기 <i class="xi-angle-down-min"></i></a>
+						<ul class="depth_nav">
+							<li><a href="./contact_us.html">문의하기</a></li>
+							<li><a href="./faq.html">자주묻는 질문</a></li>
+							<li><a href="#">서비스 이용 약관</a></li>
+							<li><a href="#">개인정보 처리방침</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="header_con">
+
+			<h1 class="header_logo">
+				<a href="./index.html"><img src="./img/white_logo.png" class="logo" alt=""></a>
+				<a href="./index.html"><img src="./img/logo.png" class="hd" alt=""></a>
+			</h1>
+
+			<div class="header_menu">
+				<div class="header_menu_head d-lg-none">
+					<div class="menu_flex">
+
+					</div>
+
+				</div>
+				<ul class="nav ex_nav nexon">
+					<li class="nav-item">
+						<a class="nav-link active" href="./index.html">홈</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#">
+							NFT 찾기
+							<i class="xi-plus-circle-o"></i>
+						</a>
+						<div class=" sub_nav">
+							<a class="" href="./category.html">
+								<div class="sub_nav_text">-특허</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-상표</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-음악</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-미술</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-출판물</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-사진</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-기타</div>
+							</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="./mynft.html">
+							NFT 만들기
+							<i class="xi-plus-circle-o"></i>
+						</a>
+						<div class=" sub_nav">
+
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#">
+							저자
+							<i class="xi-plus-circle-o"></i>
+						</a>
+						<div class=" sub_nav">
+							<a class="" href="./author.html">
+								<div class="sub_nav_text">-전체</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-인증된 저자</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-미인증 저자</div>
+							</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link " href="#">
+							문의하기
+							<i class="xi-plus-circle-o"></i>
+						</a>
+						<div class=" sub_nav">
+							<a class="" href="./contact_us.html">
+								<div class="sub_nav_text">-문의하기</div>
+							</a>
+							<a class="" href="./faq.html">
+								<div class="sub_nav_text">-자주묻는질문</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-서비스 이용 약관</div>
+							</a>
+							<a class="" href="#">
+								<div class="sub_nav_text">-개인정보 처리방침</div>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="header_actions">
+
+				<div class="d-none d-lg-flex header_action header_actions_con">
+
+
+					<div class="dropdown header_profile" id="divProfileAddressInfo" style="display:block;">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+							aria-expanded="false">
+							<div class="profile_con">
+
+								<span class="svg-icon svg-icon-primary svg-icon-2x mr-2">
+									<img id="divCreateNFTImage2" style="border-radius: 50%;" src="./img/profile.svg"
+										alt="">
+								</span>
+								<div class="con_info nexon">
+									<div id="spanWalletName" class="text_style">
+										0x2302efdfa6215b56902c9df04fc7277127f592f0</div>
+									<div id="spanWalletBalance" class="text_style">0</div>
+								</div>
+							</div>
+						</a>
+						<div class="dropdown-menu sub_nav nexon">
+							<a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">
+								<i class="xi-wallet mr-2"></i>
+								<div class="sub_nav_text">지갑 변경</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="xi-user-address mr-2"></i>
+								<div class="sub_nav_text">내 정보</div>
+							</a>
+							<a class="dropdown-item" href="./nft.html">
+								<i class="xi-puzzle mr-2"></i>
+								<div class="sub_nav_text">NFT 만들기</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="xi-cog mr-2"></i>
+								<div class="sub_nav_text">설정</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="xi-shield-checked-o mr-2"></i>
+								<div class="sub_nav_text">인증신청</div>
+							</a>
+							<a class="dropdown-item" href="#">
+								<i class="xi-wallet mr-2"></i>
+								<div class="sub_nav_text">로그아웃</div>
+							</a>
+						</div>
+					</div>
+
+
+
+
+				</div>
+
+				<button class="sch_btn"><i class="fas fa-search"></i></button>
+
+			</div>
+		</div>
+		<div class="search_box">
+			<button type="button" class="close_sch" id="btnNFTSearch">
+				<i class="fas fa-times"></i>
+			</button>
+			<form class="header_search" id="frmNFTSearch" action="./explorer.php?category=all">
+				<input type="text" value="" title="작품검색" placeholder="제목으로 작품 찾기" required="required"
+					aria-required="true" class="form-control input_sch nexon" name="nftsearch" id="nftsearch">
+				<button type="submit" class="header_search_btn">
+					<i class="flaticon2-search-1"></i>
+				</button>
+			</form>
+		</div>
+	</header>
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/caver-js/1.8.1-rc.3/caver.min.js"></script>
+
+	<script>
+		//헤더
+		var $head_nav = $('.header .ex_nav .nav-item');
+		$head_nav.mouseover(function (e) {
+			$(this).addClass('on');
+			$('.header_con').addClass('active');
+			$('.header').addClass('hd_hover');
+
+		});
+		$head_nav.mouseout(function (e) {
+			$(this).removeClass('on');
+			$('.header_con').removeClass('active');
+			$('.header').removeClass('hd_hover');
+		});
+		var $gnb = $(".header .ex_nav .nav-item");
+		$gnb.mouseover(function (e) {
+
+			$(this).addClass('on');
+			$('.header .ex_nav .sub_nav').show();
+		});
+
+		$gnb.mouseout(function (e) {
+			$(this).removeClass('on');
+			$('.header .ex_nav .sub_nav').hide();
+		});
+
+		//검색버튼 클릭시
+		$('.sch_btn').click(function () {
+			$('.header .search_box').slideToggle();
+		});
+
+
+		//닥기버튼 클릭시 토글창 닫음
+		$('.header .close').click(function (e) {
+			$('.header .toggle_wrapper').hide();
+			$("#backscreen").hide();
+		});
+
+
+		//토글버튼 클릭시 토글창 열림
+		$('.header .menu_btn').click(function (e) {
+			$('.header .toggle_wrapper').show();
+			$("#backscreen").show();
+		});
+
+
+		//toggle메뉴 아코디언
+		var $ac_nav = $('.header .toggle_wrapper .menu_wrap .list_menu > li .first_nav');
+		$ac_nav.click(function (e) {
+			e.preventDefault();
+			$(this).siblings().slideToggle('slow');
+			$(this).toggleClass('on');
+
+		});
+
+
+		$("#backscreen").click(function () {
+			$('.header .toggle_wrapper').hide();
+			$(this).hide();
+		});
+
+
+
+
+
+
+		//모달
+
+
+		window.addEventListener('DOMContentLoaded', async () => {
+			if (!window.ethereum && !window.klaytn) {
+				$('#exampleModal').modal('show');
+			}
+			else if (walletprovider == "") {
+				$('#exampleModal').modal('show');
+			}
+			else {
+				$('#exampleModal').modal('show');
+			}
+		});
+
+		async function showBalance(walletaddress) {
+			var web3;
+
+			if (walletprovider == "metamask") {
+				web3 = new Web3(window.ethereum);
+			}
+			else if (walletprovider == "klaytn") {
+				web3 = new Web3(window.klaytn);
+			}
+
+
+			var walletbalance = web3.utils.fromWei(await web3.eth.getBalance(walletaddress), "ether");
+
+			walletbalance = Math.floor(walletbalance * 1000) / 1000
+
+			$("#spanWalletBalance").html(walletbalance);
+		}
+
+		async function loginWallet(provider) {
+			setCookie("walletprovider", provider, 30);
+			walletprovider = provider;
+
+			var walletaddress = await getWalletAddress();
+			var params = "walletaddress=" + walletaddress;
+
+			$.ajax({
+				url: "login.php",
+				type: "post",
+				data: params,
+				success: function (response) {
+					location.reload();
+				},
+				error: function (jqXHR, textStatus, errorThrown) {
+					console.log(textStatus, errorThrown);
+				}
+			});
+		}
+
+		$(function () {
+			//검색
+			$('.header_action_search').click(function () {
+				$('.header_search').addClass('active');
+			});
+			$('.header_search_close').click(function () {
+				$('.header_search').removeClass('active');
+			});
+
+
+			$('.header .search_box .close_sch').click(function () {
+				$('.header .search_box').slideUp();
+			});
+
+
+
+
+			//메뉴
+			$('.header_btn').click(function () {
+				$('.header_menu').addClass('active');
+			});
+			$('.header_menu_close').click(function () {
+				$('.header_menu').removeClass('active');
+			});
+		});
+
+		$(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			//console.log(scroll);
+			if (scroll >= 300) {
+				//console.log('a');
+				$("#top_menu").addClass("hd_bg");
+			} else {
+				//console.log('a');
+				$("#top_menu").removeClass("hd_bg");
+			}
+		});
+
+	</script>
+
+
+	<div class="main_box">
+		<div class="top_subwrap detail">
+			<div class="container">
+
+				<div class="top_sub">
+					<ul class="nav">
+						<li class="home"><a href="">홈</a><i class="xi-angle-right-min"></i></li>
+						<li class="home"><a href="">NFT 찾기</a><i class="xi-angle-right-min"></i></li>
+						<li class="on"><a>sf2</a></li>
+					</ul>
+					<div class="wrap">
+						<h1 class="tit nexon">sf2</h1>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="list_wrap">
+			<div class="container">
+				<div class="item_detail">
+					<div class="left_img">
+						<div class="img">
+							<img src="./img/game.png" alt="sf23">
+						</div>
+						<div class="flex_wrapper">
+							<ul class="list">
+								<li>
+									<div class="profile"><img src="./img/profile.svg" alt=""></div>
+									<div class="txt_inner">
+										<a href="#" class="id">0x0e5fbca625acc00c2382bb3e91057ce82bb3c592</a>
+										<p class="owner">제작자</p>
+									</div>
+								</li>
+							</ul>
+							<div class="share_flex">
+								<div class="share_asset">
+									<a class="social-share facebook">
+										<i class="fab fa-facebook-f"></i>
+										<p class="hover_txt">페이스북 공유하기</p>
+									</a>
+									<a class="social-share twitter">
+										<i class="fab fa-twitter"></i>
+										<p class="hover_txt">트위터 공유하기</p>
+									</a>
+									<a class="social-share linkedin">
+										<i class="fas fa-link"></i>
+										<p class="hover_txt">링크 복사하기</p>
+									</a>
+								</div>
+
+
+								<a class="link_heart"><img id="divImageNFTLike82" onclick="btnLikeClick('nft', 0, '82')"
+										src="./img/heart_2.png" style="width: 25px; height: 25px" alt=""><span
+										id="divNFTLikes82">0</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="right_detail">
+
+						<div class="asset__desc">
+							<h2>작품 설명</h2>
+							<p>sf23</p>
+						</div>
+						<ul class="tab_list">
+							<li class="nav-item"><a href="" class="on">세부정보</a></li>
+							<li class="nav-item" style="display:block;"><a href="">소유목록</a></li>
+
+							<li class="nav-item" style="display:block;"><a href="">거래기록</a></li>
+
+						</ul>
+						<div class="tab_cont">
+							<div class="tab_panel">
+								<ul class="asset__authors">
+									<li>
+										<span class="s_tit">NFT ID</span>
+
+										<p class="content gray">Unpublished</p>
+									</li>
+									<li>
+										<span class="s_tit">발행양</span>
+
+										<p class="content gray">Unpublished</p>
+									</li>
+									<li>
+										<span class="s_tit">생성거래</span>
+										<p class="content blue">Unpublished</p>
+									</li>
+									<li>
+										<span class="s_tit">계약주소</span>
+										<p class="content blue">Unpublished</p>
+									</li>
+									<li>
+										<span class="s_tit">발행 연도</span>
+										<p class="content">Unpublished</p>
+									</li>
+									<li style="display:none;">
+										<span class="s_tit">판매 가격</span>
+										<p class="content">100000000 KLAY ≈ ￦0</p>
+									</li>
+								</ul>
+
+								<ul class="list_btn">
+									<li class="wid49" id="btnButtons">
+										<button id="btnLoad" class="sale" disabled="disabled">
+											<span id="spn-to-load" style="display: none;">&nbsp;</span>
+											<i class="xi-spinner-3 load xi-spin" id="btn-loader"></i>
+										</button>
+									</li>
+								</ul>
+							</div>
+							<div class="tab_panel" style="display: none;">
+								<div class="asset_action">
+									<ul id="divHoldings">
+									</ul>
+								</div>
+							</div>
+							<div class="tab_panel" style="display: none;">
+								<div class="asset_action">
+									<ul>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		var id = GetUrlParameter(window.location.href, "id");
+
+		window.addEventListener('DOMContentLoaded', async () => {
+			$('#spn-to-load').hide();
+			$('#btn-loader').show();
+			$('#btnLoad').attr('disabled', true);
+
+			//social media
+			$('#divShareFacebook').attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + window.location.href);
+
+			//get listings 
+			arrRemainingList = await getRemainingList();
+
+			LoadNFTitems(wr_mb_id, 'othernfts', 100, "0", "all", "", id);
+
+			var walletaddress = await getWalletAddress();
+
+			if (walletaddress == "") {
+				$('#btnButtons').html("");
+				return;
+			}
+
+			//check if there is tx hash but there's no tokenid. then correct it.
+			if (wr_hashno != "" && wr_tokenid == 0) {
+				var response = await checkTokenidfromHash(wr_hashno);
+
+				if (response != null && response.tokenid != null) {
+					var r = await populateTokenFromHash(response.tokenid, id);
+					alert("Page needs refresh to update token id.");
+					location.reload();
+				}
+			}
+
+			//check wallet address holdings. then update the holdings table.
+			var blnListed = false;
+			var balance = 0;
+			var arrSeller = [];
+			var sellerItemId = 0;
+			var sellerRemaining = 0;
+
+			if (wr_tokenid != "0") {
+				balance = await checkTokenIdBalanceByAddress(walletaddress, wr_tokenid, wr_contract);
+
+				arrHolding = arrHoldings.find(e => e.mb_id === walletaddress);
+
+				var intHolding = 0;
+
+				if (arrHolding != null) {
+					intHolding = arrHolding.amount;
+				}
+
+				//alert(balance);
+				//return;
+
+				if (balance != intHolding) {
+					var r = await updateHoldings(wr_tokenid, id, balance, walletaddress);
+					alert("Page needs refresh to update token possessions.");
+					location.reload();
+				}
+
+				//check if listed
+				for (var item in arrRemainingList) {
+					if (arrRemainingList[item].nftContract.toUpperCase() == wr_contract.toUpperCase() && arrRemainingList[item].tokenId == wr_tokenid) {
+						arrSeller.push(arrRemainingList[item].seller);
+						blnListed = true;
+
+						if (arrRemainingList[item].seller.toUpperCase() == walletaddress.toUpperCase()) {
+							sellerItemId = arrRemainingList[item].itemId;
+							sellerRemaining = arrRemainingList[item].remaining;
+						}
+					}
+				}
+			}
+
+			//populate holdings
+			var strSQL = "";
+
+			for (var item in arrHoldings) {
+				strSQL = strSQL + "<li>";
+				strSQL = strSQL + "<div class=\"flex_history\">";
+
+				if (arrHoldings[item].mb_image == "") {
+					strSQL = strSQL + "<div class=\"img\"><img src=\"./img/profile.svg\" alt=\"\" /></div>";
+				}
+				else {
+					strSQL = strSQL + "<div class=\"img\"><img style=\"border-radius: 50%; width: 45px; height: 45px\" src=\"" + dataURL + '/member_image/' + arrHoldings[item].mb_image + "\" alt=\"\" /></div>";
+				}
+
+				strSQL = strSQL + "<div class=\"txt\">";
+				strSQL = strSQL + "<a class=\"id\" href=\"mynft.php?category=owner&id=" + arrHoldings[item].mb_id + "\">@" + arrHoldings[item].mb_nick + "</a>";
+
+				var amount = arrHoldings[item].amount;
+				var blnBuy = false;
+				var listItemId = 0;
+
+				for (var item2 in arrRemainingList) {
+					if (arrRemainingList[item2].nftContract.toUpperCase() == wr_contract.toUpperCase() && arrRemainingList[item2].tokenId == wr_tokenid) {
+						if (arrRemainingList[item2].seller.toUpperCase() == arrHoldings[item].mb_id.toUpperCase()) {
+							amount = parseInt(arrHoldings[item].amount) + parseInt(arrRemainingList[item2].remaining);
+							listItemId = arrRemainingList[item2].itemId;
+							blnBuy = true;
+						}
+					}
+				}
+
+				strSQL = strSQL + "<p class=\"detail1\">" + amount + " 복사</p>";
+				strSQL = strSQL + "</div>";
+				strSQL = strSQL + "</div>";
+
+				if (blnBuy && walletaddress.toUpperCase() != arrHoldings[item].mb_id.toUpperCase()) {
+					strSQL = strSQL + "<button type=\"button\" onclick=\"initBuyModal('" + listItemId + "');\" data-toggle=\"modal\" data-target=\"#buyModal\" class=\"\" id=\"myBtn\">구매</button>";
+				}
+				else {
+				}
+
+				strSQL = strSQL + "</li>";
+			}
+
+			$('#divHoldings').html(strSQL);
+
+			//define buttons
+			//check sell button
+			var blnSell = false;
+
+			if (wr_tokenid == "0" && walletaddress == wr_mb_id) {
+				blnSell = true;
+			}
+			else if (balance > 0) {
+				blnSell = true;
+			}
+
+			strSQL = "";
+
+			if (blnSell) {
+				strSQL = strSQL + "<li>";
+				strSQL = strSQL + "<button class=\"sale\" data-toggle=\"modal\" data-target=\"#saleModal\">Sell</button>";
+				strSQL = strSQL + "</li>";
+			}
+
+			//check buy button
+			blnSeller = false;
+
+			for (var item in arrSeller) {
+				if (arrSeller[item].toUpperCase() == walletaddress.toUpperCase()) {
+					blnSeller = true;
+				}
+			}
+
+			if (blnListed && blnSeller == false && balance == 0) {
+				for (var item in arrRemainingList) {
+					if (arrRemainingList[item].nftContract.toUpperCase() == wr_contract.toUpperCase() && arrRemainingList[item].tokenId == wr_tokenid) {
+						strSQL = strSQL + "<li>";
+						strSQL = strSQL + "<button class=\"sale\" onclick=\"initBuyModal('" + arrRemainingList[item].itemId + "');\" data-toggle=\"modal\" data-target=\"#buyModal\">Buy for " + getPriceforDisplay(arrRemainingList[item].price) + " " + unit + "</button>";
+						strSQL = strSQL + "</li>";
+						break;
+					}
+				}
+			}
+
+			//check cancel button
+			if (blnListed && blnSeller == true) {
+				strSQL = strSQL + "<li>";
+				strSQL = strSQL + "<button class=\"sale black_color\" id=\"btnCancel\" onclick=\"btnCancelNFT('" + sellerItemId + "','" + sellerRemaining + "');\">";
+				strSQL = strSQL + "<span id=\"spn-to-cancel\">Cancel Listing</span>";
+				strSQL = strSQL + "<i class=\"xi-spinner-3 load xi-spin\" id=\"btn-loader-cancel\" style=\"display: none;\"></i>";
+				strSQL = strSQL + "</button>";
+				strSQL = strSQL + "</li>";
+			}
+
+			//check delete button
+			if (wr_tokenid == "0" && walletaddress == wr_mb_id) {
+				strSQL = strSQL + "<li>";
+				strSQL = strSQL + "<button class=\"sale black_color\" id=\"btnDelete\" onclick=\"btnDeleteNFT();\">";
+				strSQL = strSQL + "<span id=\"spn-to-delete\">Delete</span>";
+				strSQL = strSQL + "<i class=\"xi-spinner-3 load xi-spin\" id=\"btn-loader-delete\" style=\"display: none;\"></i>";
+				strSQL = strSQL + "</button>";
+				strSQL = strSQL + "</li>";
+			}
+
+			$('#btnButtons').html(strSQL);
+		});
+
+		async function initBuyModal(id) {
+			for (var item in arrRemainingList) {
+				if (arrRemainingList[item].itemId == id) {
+					$('#hdnItemId').val(arrRemainingList[item].itemId);
+					$('#hdnPrice').val(arrRemainingList[item].price);
+					$('#hdnSeller').val(arrRemainingList[item].seller);
+					$('#divPrice').html(getPriceforDisplay(arrRemainingList[item].price) + " " + unit);
+					$('#divQty').html(arrRemainingList[item].remaining);
+					break;
+				}
+			}
+		}
+
+		async function btnBuyClick() {
+			if (!isNumeric($('#txtNFTQty').val())) {
+				alert("Quantity should be a number.");
+				return;
+			}
+
+			var intQty = $('#txtNFTQty').val();
+
+			if (intQty > parseInt($('#divQty').html())) {
+				alert("Quantity cannot be more than the Selling Qty.");
+				return;
+			}
+
+			var walletaddress = await getWalletAddress();
+
+			if (walletaddress == "") {
+				return;
+			}
+
+			$('#spn-to-buy').hide();
+			$('#btn-loader-buy').show();
+			$('#btnBuy').attr('disabled', true);
+
+			try {
+				var receipt_buy = await buyFunction($('#hdnItemId').val(), intQty, $('#hdnPrice').val(), walletaddress, $('#hdnSeller').val());
+			}
+			catch (error) {
+				$('#spn-to-buy').show();
+				$('#btn-loader-buy').hide();
+				$('#btnBuy').attr('disabled', false);
+				return;
+			}
+
+			$('#buyModal').modal('hide');
+			alert("User Successfully Bought this NFT.");
+			location.reload();
+		}
+
+
+		async function btnSellClick() {
+			if (!isNumeric($('#txtNFTPrice').val())) {
+				alert("Price should be a number.");
+				return;
+			}
+
+			var decPrice = $('#txtNFTPrice').val();
+			var intQty = 0;
+
+			if (document.getElementById("divQuantity").style.display == "block") {
+				if (!isInt($('#txtNFTQuantity').val())) {
+					alert("Quantity should be an integer.");
+					return;
+				}
+
+				intQty = $('#txtNFTQuantity').val();
+			}
+			else {
+				intQty = 1;
+			}
+
+			var walletaddress = await getWalletAddress();
+
+			if (walletaddress == "") {
+				return;
+			}
+
+			$('#spn-to-sell').hide();
+			$('#btn-loader-sell').show();
+			$('#btnSell').attr('disabled', true);
+
+			if (wr_tokenid != "0") {
+				var balance = await checkTokenIdBalanceByAddress(walletaddress, wr_tokenid, wr_contract);
+
+				if (balance > 0 && intQty > balance) {
+					alert("User cannot sell more than its holdings.");
+					$('#spn-to-sell').show();
+					$('#btn-loader-sell').hide();
+					$('#btnSell').attr('disabled', false);
+					return;
+				}
+			}
+
+			//minting
+			if (wr_tokenid == "0") {
+				try {
+					var receipt_mint = await mintFunction(intQty, wr_metadata, walletaddress);
+				}
+				catch (error) {
+					$('#spn-to-sell').show();
+					$('#btn-loader-sell').hide();
+					$('#btnSell').attr('disabled', false);
+					return;
+				}
+			}
+
+			//isApproved
+			var blnApprove = await checkifIsApproved(walletaddress, wr_contract, wr_contractmarket);
+
+			if (blnApprove == false) {
+				try {
+					var receipt_approve = await approveFunction(walletaddress);
+				}
+				catch (error) {
+					$('#spn-to-sell').show();
+					$('#btn-loader-sell').hide();
+					$('#btnSell').attr('disabled', false);
+					return;
+				}
+			}
+
+			//listing
+			try {
+				var receipt_list = await listFunction(intQty, decPrice, walletaddress, wr_tokenid);
+			}
+			catch (error) {
+				$('#spn-to-sell').show();
+				$('#btn-loader-sell').hide();
+				$('#btnSell').attr('disabled', false);
+				return;
+			}
+
+			$('#saleModal').modal('hide');
+			alert("User Successfully Listed this NFT.");
+			location.reload();
+		}
+
+		async function approveFunction(walletaddress) {
+			if (walletprovider == "metamask") {
+				var web3 = new Web3(window.ethereum);
+				let contract = new web3.eth.Contract(mintABI, wr_contract);
+
+				const tx = {
+					'from': walletaddress
+				};
+
+				var receipt = await contract.methods.setApprovalForAll(wr_contractmarket, true).send(tx)
+					.on('transactionHash', function (hash) {
+						console.log(hash);
+					})
+					.on('receipt', function (receipt) {
+						console.log(receipt);
+					});
+
+				return receipt;
+			}
+			else if (walletprovider == "klaytn") {
+				var web3 = new Web3(window.klaytn);
+				let contract = new caver.klay.Contract(mintABI, wr_contract);
+
+				const tx = {
+					'from': walletaddress,
+					'gas': 8000000
+				};
+
+				var receipt = await contract.methods.setApprovalForAll(wr_contractmarket, true).send(tx);
+
+				return receipt;
+			}
+		}
+
+		async function mintFunction(amount, metadata, walletaddress) {
+			if (walletprovider == "metamask") {
+				var web3 = new Web3(window.ethereum);
+				let contract = new web3.eth.Contract(mintABI, mintContractAddress);
+
+				const tx = {
+					'from': walletaddress
+				};
+
+				var receipt = await contract.methods.mint(amount, metadata).send(tx)
+					.on('transactionHash', function (hash) {
+						console.log(hash);
+						mintHashInsert(hash, id, amount, walletaddress);
+					})
+					.on('receipt', function (receipt) {
+						console.log(receipt);
+						wr_tokenid = receipt.events.URI.returnValues.id;
+						wr_contract = mintContractAddress;
+						wr_contractmarket = marketContractAddress;
+						var hash = receipt.transactionHash;
+						mintReceiptInsert(wr_tokenid, amount, id, walletaddress, hash)
+					});
+
+				return receipt;
+			}
+			else if (walletprovider == "klaytn") {
+				var web3 = new Web3(window.klaytn);
+				let contract = new caver.klay.Contract(mintABI, mintContractAddress);
+
+				const tx = {
+					'from': walletaddress,
+					'gas': 8000000
+				};
+
+				var receipt = await contract.methods.mint(amount, metadata).send(tx);
+				console.log(receipt);
+				wr_tokenid = receipt.events.URI.returnValues.id;
+				wr_contract = mintContractAddress;
+				wr_contractmarket = marketContractAddress;
+				var hash = receipt.transactionHash;
+
+				mintReceiptInsert(wr_tokenid, amount, id, walletaddress, hash)
+
+				return receipt;
+			}
+		}
+
+
+
+		$(document).ready(function () {
+
+
+
+
+			//슬라이드
+
+			var swiper = new Swiper(".mySwiper", {
+				slidesPerView: 4,
+				// loop:true,
+				spaceBetween: 30,
+				breakpoints: {
+					// 화면의 넓이가 320px 이상일 때
+					280:
+					{
+						slidesPerView: 1.2, spaceBetween: 20
+					},
+					320:
+					{
+						slidesPerView: 1.5, spaceBetween: 20
+					},
+
+					// 화면의 넓이가 640px 이상일 때
+					640:
+					{
+						slidesPerView: 2.2, spaceBetween: 25
+
+
+					},
+					768:
+					{
+						slidesPerView: 2.6, spaceBetween: 25
+					},
+					991:
+					{
+						slidesPerView: 2.8, spaceBetween: 25
+					},
+					1024:
+					{
+						slidesPerView: 3, spaceBetween: 25
+					},
+					1411:
+					{
+						slidesPerView: 4, spaceBetween: 30
+					}
+
+				}
+
+			});
+
+
+
+
+
+
+			//탭 버튼
+
+
+			var tab_btn = $('.item_detail .right_detail .tab_list .nav-item');
+			var tab_body = $('.tab_panel');
+
+			tab_btn.click(function (e) {
+				e.preventDefault();
+				var Idx = $(this).index();
+				tab_btn.find('a').removeClass('on');
+				tab_btn.eq(Idx).find('a').addClass('on');
+
+
+				tab_body.hide();
+				tab_body.eq(Idx).show();
+			})
+			tab_btn.eq(0).trigger('click');
+		});
+
+		setShareLinks();
+
+		function socialWindow(url) {
+			var left = (screen.width - 570) / 2;
+			var top = (screen.height - 570) / 2;
+			var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left; window.open(url, "NewWindow", params);
+		}
+
+		function setShareLinks() {
+			var pageUrl = encodeURIComponent(document.URL);
+			var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+
+			$(".social-share.facebook").on("click", function () {
+				url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+				socialWindow(url);
+			});
+
+			$(".social-share.twitter").on("click", function () {
+				url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
+				socialWindow(url);
+			});
+
+			$(".social-share.linkedin").on("click", function () {
+				url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+				socialWindow(url);
+			})
+		}
+
+	</script>
+	<div class="footer nexon">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-4 order-4 order-md-1 order-lg-4 order-xl-1">
+					<div class="footer_logo">
+						<img src="./img/ft_logo.png" alt="ipkin">
+					</div>
+					<p class="footer_info">상호 : IPKIN</p>
+					<p class="footer_info mt-0">사업자 번호 : 411-81-91466</p>
+					<p class="footer_info mt-0">연락처 : 1644-9856</p>
+					<p class="footer_info mt-0">주소 : http://nftmarket.ricorean.kr/explorer</p>
+					<p class="footer_info">IPKIN NFT는 실물자산과 디지털자산의 NFT를 발행,거래할수있는 플렛폼입니다.</p>
+				</div>
+				<div
+					class="col-6 col-md-4 col-lg-3 col-xl-2 order-1 order-md-2 order-lg-1 order-xl-2 offset-md-2 offset-lg-0">
+					<div class="footer_title">저자 찾기</div>
+					<div class="footer_nav">
+						<a href="./author.html" class="">전체</a>
+						<a href="#" class="">인증된 저자</a>
+						<a href="#" class="">미인증 저자</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-8 col-lg-6 col-xl-4 order-3 order-lg-2 order-md-3 order-xl-3">
+					<div class="row">
+						<div class="col-12">
+							<div class="footer_title">NFT 찾기</div>
+						</div>
+						<div class="col-4">
+							<div class="footer_nav">
+								<a href="" class="">특허 NFT</a>
+								<a href="" class="">상표 NFT</a>
+								<a href="" class="">음악 NFT</a>
+								<a href="" class="">미술 NFT</a>
+								<a href="" class="">출판물 NFT</a>
+							</div>
+						</div>
+						<div class="col-4">
+							<div class="footer_nav">
+								<a href="" class="">사진 NFT</a>
+								<a href="" class="">기타 NFT</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 col-md-4 col-lg-3 col-xl-2 order-2 order-lg-3 order-md-4 order-xl-4">
+					<div class="footer_title">문의하기</div>
+					<div class="footer_nav">
+						<a href="./contact_us.html" class="">문의하기</a>
+						<a href="./faq.html" class="">자주묻는질문</a>
+						<a href="#" class="">개인정보 처리방침</a>
+						<a href="#" class="">서비스 이용 약관</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="footer_con">
+						<div class="d-flex w-100">
+							<small class="ml-0 footer_copyright"></small>
+							<div class="d-flex align-items-center ml-auto">
+								<div class="d-none d-sm-flex footer_social mr-3">
+									<a href="" target="_blank">
+										<i class="fab fa-facebook-square"></i>
+									</a>
+									<a href="" target="_blank">
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="" target="_blank">
+										<i class="fab fa-twitter"></i>
+									</a>
+									<a href="" target="_blank">
+										<i class="fab fa-blogger"></i>
+									</a>
+								</div>
+								<div class="btn_group">
+									<button id="btnlang" type="button" class="btn dropdown-toggle btn_lang"
+										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										한국어
+									</button>
+									<div class="dropdown-menu" aria-labelledby="btnlang">
+										<a class="dropdown-item" href="#">한국어</a>
+										<a class="dropdown-item" href="#">English</a>
+										<a class="dropdown-item" href="#">中文</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<button class="go_top" id="top_btn2"><i class="fas fa-angle-up"></i></button>
+
+
+
+
+	<script>
+		$(function () {
+			$("#top_btn2").on("click", function () {
+				$("html, body").animate({ scrollTop: 0 }, '500');
+				return false;
+			});
+		});
+	</script>
+
+
+
+	<!-- end::Body -->
+
+</body>
+
+</html>

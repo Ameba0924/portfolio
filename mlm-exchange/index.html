@@ -1,0 +1,679 @@
+<html lang="en">
+
+<head>
+
+
+
+
+    <base href="">
+    <meta charset="utf-8">
+    <meta property="og:type" content="mlm-exchange">
+    <meta property="og:image" content="./img/kakaometa.png">
+    <meta property="og:description" content="mlm-exchange">
+    <meta name="description" content="Updates and statistics">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>mlm-exchange</title>
+
+    <link rel="stylesheet" href="./css/default.css">
+
+    <!--begin::Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&amp;display=swap"
+        rel="stylesheet">
+
+    <!--end::Fonts -->
+
+    <link href="./css/style.bundle.css" rel="stylesheet" type="text/css">
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
+    <link href="./css/common.css" rel="stylesheet" type="text/css">
+    <link href="./css/theme.css" rel="stylesheet" type="text/css">
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+    <script src="./js/common.js" ype="text/javascript"></script>
+    <script src="./js/common.js"></script>
+
+</head>
+
+<body class="">
+
+    <div id="sidebox2" class="main_aside">
+        <div class="aside_inner">
+            <button type="button" class="btn_close" id="close"><i class="xi-close-min"></i></button>
+            <div class="aside_wrap">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="./img/w-logo.png" alt="리코렌인프라">
+                    </a>
+                </h1>
+
+                <div class="aside_sc01">
+                    <div class="aside_menu_tt">address :</div>
+                    <div class="aside_menu">
+                        <a href="./exchange/spot.html" class="menu_btn">Spot</a>
+                        <a href="./exchange/perpetual_contract.html" class="menu_btn">Margin</a>
+                        <a href="./exchange/option.html" class="menu_btn">Option</a>
+                        <a href="javascript:alert_popup('준비중입니다.');" class="menu_btn">OTC</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_txt">
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total balance</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Total P&amp;L</div>
+                                <div class="price rubik"><span class="num">0%</span> 0 USDd</div>
+                            </li>
+                        </ul>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Available</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Unavailable</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_have_box">
+                        <h3 class="aside_tt fbold">Balance</h3>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>balance</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">Don’t have any coins.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="./wallets/wallets.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_deposit_box">
+                        <h3 class="aside_tt fbold">Staking status</h3>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total invest value</div>
+                                <div class="price"><span class="num">0</span> USDT</div>
+                            </li>
+                        </ul>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>Invest Amount</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">No coins staked</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="/staking/staking.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="header_inner">
+            <button type="button" class="toggle" id="bar"><i class="xi-bars"></i></button>
+            <div class="left">
+                <div class="logo"><a href="./index.html"><img src="./img/w-logo.png" alt="리코렌인프라" title=""></a></div>
+            </div>
+            <div class="gnb">
+                <ul class="nav">
+                    <li><a href="#" onclick="location.href ='./perpetual_contract.html';"
+                            data-name="perpetual_contract">Margin</a></li>
+                    <li><a href="#" onclick="location.href ='./spot.html';" data-name="spot">Spot</a></li>
+                    <li><a href="#" onclick="openmodal();" data-name="option">Option</a></li>
+                    <li><a href="./swap.html" data-name="swap">Swap</a></li>
+                    <li>
+                        <a href="./staking.html" data-name="staking">Staking</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./staking.html" data-name="staking">Staking</a></li>
+                                <li><a href="./pool.html" data-name="pool">Pool</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./mypage.html">NFT</a></li>
+                    <li><a href="#" onclick="location.href ='./wallets.html';">Wallets</a></li>
+                    <li>
+                        <a href="#" onclick="openmodal();">Support</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Fee Guide</a></li>
+                                <li><a href="">Ricorean Status</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./listing.html">Application</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./listing.html">Listing</a></li>
+                                <li><a href="./agent.html">Agent</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="nav_login">
+                    <a href=""><i class="xi-globus"></i></a>
+                    <a href="#" class="wallet" id="myBtn"><i class="fas fa-wallet"></i><span>Connect Wallet</span></a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2 class="modal_tit">Connect wallet</h2>
+            <div class="modal_inner">
+                <ul class="link_list">
+                    <li class="link_item"><a href=""><img src="./img/meta.png" alt="Metamask">Metamask</a></li>
+                    <li class="link_item"><a href=""><img src="./img/tw.png" alt="Trust Wallet">Trust Wallet</a></li>
+                    <li class="link_item"><a href=""><img src="./img/im.png" alt="imToken">imToken</a></li>
+                    <li class="link_item"><a href=""><img src="./img/rain.png" alt="Rainbow Wallet">Rainbow Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/wc.png" alt="Wallet Connect">Wallet Connect</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/mail.png" alt="E-Mail Wallet">E-Mail Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/cb.png" alt="Coinbase Wallet">Coinbase Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/led.png" alt="Ledger Wallet">Ledger Wallet</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 메뉴 준비중 The Modal -->
+    <div id="myModal2" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">×</span>
+            <h3 class="not">Notice</h3>
+            <p class="desc">Comming soon!</p>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        //헤더 뎁스
+        $(".header_inner .gnb .nav > li").mouseenter(function (e) {
+            e.preventDefault();
+            $(this).children('.nav_depth').addClass('open');
+        });
+        $(".header_inner .gnb .nav > li").mouseleave(function (e) {
+            e.preventDefault();
+            $(this).children('.nav_depth').removeClass('open');
+        });
+
+
+
+
+
+
+        //모달
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+
+        //메뉴쥰비중 모달
+        // Get the modal
+        function openmodal() {
+            var modal2 = document.getElementById("myModal2");
+
+            modal2.style.display = "block";
+
+            var span2 = document.getElementsByClassName("close2")[0];
+            span2.onclick = function () {
+                modal2.style.display = "none";
+            }
+
+        }
+
+
+
+
+        //클로즈
+        $('#bar').click(function () {
+            $('#sidebox2').addClass('show');
+
+        })
+        $('#close').click(function () {
+            $('#sidebox2').removeClass('show');
+
+        })
+
+        //토글메뉴 아코디언
+
+        var togglemn = $('.toggle_wrap .toggle_inner .toggle_nav > li');
+
+        togglemn.click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('aco');
+            $(this).children('.toggle_wrap .toggle_inner .toggle_nav > li > .depth').slideToggle();
+        })
+
+
+        //헤더 엑티브
+        var nav1 = $('.header_inner .gnb .nav > li > a');
+        var Currentrut = window.location.pathname
+
+
+
+        nav1.each(function (index, element) {
+            if (Currentrut.indexOf($(this).data('name')) != -1) {
+                $(this).addClass("on");
+            }
+
+
+        });
+
+
+
+    </script>
+    <div id="sidebox" class="main_aside">
+        <div class="aside_inner">
+            <button type="button" id="asideBtn" onclick="asideBtn()"><i id="aside_arrow"
+                    class="fas fa-chevron-right"></i></button>
+            <div class="aside_wrap">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./img/w-logo.png" alt="리코렌인프라">
+                    </a>
+                </div>
+                <div class="aside_sc01">
+                    <div class="aside_menu_tt">address :</div>
+                    <div class="aside_menu">
+                        <a href="./exchange/spot.html" class="menu_btn">Spot</a>
+                        <a href="./exchange/perpetual_contract.html" class="menu_btn">Margin</a>
+                        <a href="./exchange/option.html" class="menu_btn">Option</a>
+                        <a href="javascript:alert_popup('준비중입니다.');" class="menu_btn">OTC</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_txt">
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total balance</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Total P&amp;L</div>
+                                <div class="price rubik"><span class="num">0%</span> 0 USDd</div>
+                            </li>
+                        </ul>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Available</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Unavailable</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_have_box">
+                        <h3 class="aside_tt fbold">Balance</h3>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>balance</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">Don’t have any coins.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="./wallets.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_deposit_box">
+                        <h3 class="aside_tt fbold">Staking status</h3>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total invest value</div>
+                                <div class="price"><span class="num">0</span> USDT</div>
+                            </li>
+                        </ul>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>Invest Amount</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">No coins staked</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="./staking.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="section section01">
+            <div class="main_bn">
+                <img class="mo_hidden pc_img" src="./img/bg_main.png" alt="">
+                <img class="pc_hidden mo_img" src="./img/bg_main_mobile.png" alt="">
+                <div class="main_txt">
+                    <div class="main_wrap">
+                        <h3 class="main_txt_tt"><span class="fbold">Buy &amp; Sell</span><br>Cryptocurrencies Near You
+                        </h3>
+                        <p class="main_txt_p">
+                            Buy &amp; Sell Cryptocurrencies Near You. Buy &amp; Sell Cryptocurrencies<br>
+                            Near You. Buy &amp; Sell Cryptocurrencies Near You.
+                        </p>
+                        <a href="./spot.html" class="a_btn tfclr">Trade NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section section02">
+            <div class="main_wrap">
+                <div class="main_table01">
+                    <ul class="table01_th">
+                        <li>Name</li>
+                        <li>Price(USD)</li>
+                        <li>24H Change</li>
+                        <li>24H High</li>
+                        <li>24H Low</li>
+                        <li>24H Volume</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <ul class="table01_td">
+
+                        <li class="table01_wid">
+                            <div class="td_coin_box">
+                                <span class="coin_img"><img src="./img/ETH.png" alt="이더리움" height="25"
+                                        width="25"></span>
+                                <p class="coin_name">이더리움</p>
+                            </div>
+
+                            <div class="rubik">10.8</div>
+                            <div class="rubik de_st"><span class="pc_hidden">24H Change</span> 0%</div>
+                            <div class="up rubik de_st"><span class="pc_hidden">24H High</span> 10.8</div>
+                            <div class="up rubik de_st"><span class="pc_hidden">24H Low</span> 10.8</div>
+                            <div class="rubik de_st"><span class="pc_hidden">24H Volume</span> 0.1</div>
+                            <div><a href="./spot.html" class="box_btn tfclr">Trade</a></div>
+                        </li>
+                        <li class="table01_wid">
+                            <div class="td_coin_box">
+                                <span class="coin_img"><img src="./img/ETH.png" alt="이더리움" height="25"
+                                        width="25"></span>
+                                <p class="coin_name">이더리움</p>
+                            </div>
+
+                            <div class="rubik">10.8</div>
+                            <div class="rubik de_st"><span class="pc_hidden">24H Change</span> 0%</div>
+                            <div class="up rubik de_st"><span class="pc_hidden">24H High</span> 10.8</div>
+                            <div class="up rubik de_st"><span class="pc_hidden">24H Low</span> 10.8</div>
+                            <div class="rubik de_st"><span class="pc_hidden">24H Volume</span> 0.1</div>
+                            <div><a href="./spot.html" class="box_btn tfclr">Trade</a></div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="btn_area"><a href="./spot.html" class="box_btn tfclr">View more <i
+                            class="xi-long-arrow-right"></i></a></div>
+            </div>
+        </div>
+        <div class="section section03">
+            <div class="main_wrap">
+                <h3 class="sect_tt fbold">About Us</h3>
+                <p class="sect_p">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of
+                    letters, as opposed to using <br>'Content here, content here', making it look like readable English.
+                </p>
+                <ul class="about_area">
+                    <li>
+
+                        <h4 class="about_tt rubik fbold ico">about</h4>
+                        <p class="about_p">It is a long established fact that <br>a reader will be distracted by the
+                            readable <br>content of a page when looking <br>at its layout. </p>
+                    </li>
+                    <li>
+
+                        <h4 class="about_tt rubik fbold ico2">Secure</h4>
+                        <p class="about_p">Lorem Ipsum is simply dummy <br>text of the printing and typesetting
+                            industry.</p>
+                    </li>
+                    <li>
+
+                        <h4 class="about_tt fbold rubik ico3">Secure</h4>
+                        <p class="about_p">It is a long established fact <br>that a reader will be distracted.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="section section04">
+            <div class="main_wrap">
+                <div class="app_area">
+                    <div class="app_box">
+                        <h3 class="sect_tt"><span class="fbold">Trade</span> <br>Anytime, Anywhere</h3>
+                        <p class="sect_p">The point of using Lorem Ipsum is that it has a more-or-less normal
+                            <br>distribution of letters, as opposed to using 'Content here, content <br>here', making it
+                            look like readable English.
+                        </p>
+                        <div class="btn_box">
+                            <a href="javascript:alert_popup('Coming Soon');"><img src="./img/img_main_google.png"
+                                    alt="Google play" title="" class="app_btn"></a>
+                            <a href="javascript:alert_popup('Coming Soon');"><img src="./img/img_main_apple.png"
+                                    alt="App Store" title="" class="app_btn"></a>
+                        </div>
+                    </div>
+                    <div class="app_img">
+                        <img src="./img/img_main_app.png" alt="dexoroca">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        function asideBtn() {
+            if ($('#aside_arrow').hasClass("fa-chevron-right") === true) {
+                $('.main_aside').addClass('open');
+                $('#aside_arrow').attr('class', 'fa-chevron-left');
+            } else {
+                $('#aside_arrow').attr('class', 'fa-chevron-right');
+                $('.main_aside').removeClass('open');
+            }
+        }
+
+    </script>
+
+    <div class="tgclr ft">
+        <div class="main_wrap">
+            <div class="ft_inner">
+                <div class="ft_con">
+                    <img src="./img/w-logo.png" alt="리코렌인프라">
+                    <p class="ft_copy">Copyright 2022. MLM-EXCHANGE. All rights reserved.</p>
+                </div>
+                <div class="ft_con ft_link">
+                    <ul class="ft_link_list">
+                        <li><a href="" class="tfclr">master@ricorean.com</a></li>
+                        <li><a href="" class="tfclr">Listing</a></li>
+                        <li><a href="" class="tfclr">Agent</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed_menu">
+        <ul class="tab_list">
+            <li>
+                <a href="" class="drop"><i class="fas fa-exchange-alt"></i><span>Trade <i
+                            class="fas fa-sort-up arrow"></i></span>
+                </a>
+                <div class="depth">
+                    <ul class="list">
+                        <li><a href="./spot.html">Spot</a></li>
+                        <li><a href="./perpetual_contract.html">Margin</a></li>
+                        <li><a href="#" onclick="openmodal();">Option</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="" class="drop"><i class="far fa-money-bill-alt"></i><span>Staking<i
+                            class="fas fa-sort-up arrow"></i></span>
+                </a>
+                <div class="depth">
+                    <ul class="list">
+                        <li><a href="./staking.html">Staking</a></li>
+                        <li><a href="./pool.html">Pool</a></li>
+
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#" onclick="location.href='./wallets.html'" class=""><i class="fas fa-wallet"></i><span>Wallet
+                    </span></a></li>
+            <li><a href="#" class="" onclick="openmodal();"><i class="fas fa-info-circle"></i><span>Support </span></a>
+        </ul>
+    </div>
+
+
+    <!-- 메뉴 준비중 The Modal -->
+    <div id="myModal2" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">×</span>
+            <h4 class="not">Notice</h4>
+            <p class="desc">Comming soon!</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        $('.fixed_menu .tab_list > li > a').click(function (e) {
+            e.preventDefault();
+            var Idx = $(this).index();
+            $('.fixed_menu .tab_list li .depth').removeClass('open');
+            $(this).siblings('.fixed_menu .tab_list li .depth').toggleClass('open');
+
+        });
+
+
+
+        //메뉴쥰비중 모달
+        // Get the modal
+        function openmodal() {
+            var modal2 = document.getElementById("myModal2");
+
+            modal2.style.display = "block";
+
+            var span2 = document.getElementsByClassName("close2")[0];
+            span2.onclick = function () {
+                modal2.style.display = "none";
+            }
+
+        }
+
+    </script>
+
+
+
+
+
+    <!-- end::Body -->
+
+</body>
+
+</html>

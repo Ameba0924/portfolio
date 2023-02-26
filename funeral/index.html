@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고려대학교의로원 장례식장</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="고려대학교의료원 장례식장"></a></h1>
+            <p class="name">홍길동장례식장</p>
+            <p class="day">01월 10일 화요일 <span class="time">03:30 PM</span></p>
+            <div class="link-btn_box">
+                <a href="./info.html">기본정보</a>
+                <a href="#">로그아웃</a>
+            </div>
+        </div>
+        <div class="header_bot">
+            <ul class="menu_list">
+                <li><a href="./reserve.html"><img src="./img/ico_mn-off.png" alt=""> 예약상담 관리</a></li>
+                <li class="on"><a href="#"><img src="./img/ico_mn1_on.png" alt="">부고등록 관리</a></li>
+                <li class=""><a href="./obituary_info.html"><img src="./img/ico_mn1.png" alt="">부고정보 보기</a></li>
+                <li><a href="./media.html"><img src="./img/ico_mn2.png" alt="">미디어 서비스</a></li>
+                <li><a href="./form.html"><img src="./img/ico_mn3.png" alt="">서식 관리</a></li>
+                <li><a href="#"><img src="./img/ico_mn5.png" alt="">공지사항</a></li>
+                <li><a href="#"><img src="./img/ico_mn6.png" alt="">자주 찾는 질문</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="cont-tit sct_1">부고관리</h2>
+            <div class="cont_header">
+                <div class="top_box">
+                    <div class="not_box sct">
+                        <h3 class="s_tit">공지사항</h3>
+                        <a href="" class="btn_more">더보기 +</a>
+                        <ul class="list_not">
+                            <li><a href="">[신규 기능 안내] 상주가 직접 부의금계좌 등록 <span class="date">2022.03.10</span></a></li>
+                            <li><a href="">[신규 기능 안내] 상주가 직접 부의금계좌 등록 <span class="date">2022.03.10</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="enroll_wrap">
+                        <a href="./obituary_info.html">
+                            <div class="ico_deco"></div>
+                            <p class="title">부고정보 보기 <span class="pl">+</span></p>
+                            <div class=" desc">부고정보를 간편하게<br>
+                                보세요</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="grape_area">
+                    <ul class="list_grape">
+                        <li class="sct">
+                            <div class="left">
+                                <p class="b_tit">월별 부고 등록 수 <br><span>(최근 6개월)</span></p>
+                                <strong class="val">79</strong>
+                            </div>
+                            <div class="right">
+                                <div id="lineChart"></div>
+                            </div>
+                        </li>
+                        <li class="sct">
+                            <div class="left">
+                                <p class="b_tit">월별 부고 열람 수 <br><span>(최근 6개월)</span></p>
+                                <strong class="val">55,101</strong>
+                            </div>
+                            <div class="right">
+
+                                <div id="lineChart2"></div>
+
+                            </div>
+                        </li>
+                        <li class="sct">
+                            <div class="left">
+                                <p class="b_tit">부고 등록률 <br><span>진행중인 부고 수</span></p>
+                                <strong class="val">3</strong>
+                            </div>
+                            <div class="right">
+
+                                <div id="lineChart3"></div>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cont_area sct">
+                <div class="search-bar">
+                    <form action="">
+                        <div class="sch-bar_inner">
+                            <div class="search-bar-cell select">
+                                <select name="" id="" title="전체선택" class="ui-input">
+                                    <option value="">전체</option>
+                                    <option value="">장례식중</option>
+                                    <option value="">공실</option>
+                                </select>
+
+                            </div>
+                            <div class="search-bar-cell">
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                                    max="2018-12-31" class="ui-input flatpickr">
+                            </div>
+                            <div class="search-bar-cell dash">
+                                <span class="colorGray">~</span>
+                            </div>
+                            <div class="search-bar-cell">
+                                <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01"
+                                    max="2018-12-31" class="ui-input flatpickr">
+                            </div>
+                            <div class="search-bar-cell select">
+                                <select name="" id="" title="검색조건" class="ui-input">
+                                    <option value="">고인명</option>
+                                    <option value="">상주명</option>
+                                    <option value="">상주전화번호</option>
+                                </select>
+                            </div>
+                            <div class="search-bar-cell">
+                                <input type="text " placeholder="고인명입력" title="고인명입력" class="ui-input ">
+                            </div>
+                            <div class="search-bar-cell sch">
+                                <button type="button">Search</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <colgroup>
+                            <col width="14%">
+                            <col width="12%">
+                            <col width="11%">
+                            <col width="15%">
+                            <col width="15%">
+                            <col width="33%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">빈소</th>
+                                <th scope="col">고인명</th>
+                                <th scope="col">상주명</th>
+                                <th scope="col">발인일시</th>
+                                <th scope="col">등록일시</th>
+                                <th scope="col">기능</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="info">
+                                    <p class="info_align">201호 <span class="state">장례 중</span></p>
+                                    <p class="not_txt">[입실예정 01-13 09:00]</p>
+                                </td>
+                                <td>
+                                    <p class="name">홍길동</p>
+                                </td>
+                                <td>
+                                    <p class="sangju">홍길동 외 11명</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="btn_box">
+                                        <a href="" class="btn">모니터 보기</a>
+                                        <a href="" class="btn">부고수정</a>
+                                        <a href="" class="btn">부고출력</a>
+                                        <a href="" class="btn">상주별부고전송</a>
+                                        <a href="" class="view">보기</a>
+                                        <a href="" class="del">삭제</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="info">
+                                    <p class="info_align">201호 <span class="state">장례 중</span></p>
+                                    <p class="not_txt">[입실예정 01-13 09:00]</p>
+                                </td>
+                                <td>
+                                    <p class="name">홍길동</p>
+                                </td>
+                                <td>
+                                    <p class="sangju">홍길동 외 11명</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="btn_box">
+                                        <a href="" class="btn">모니터 보기</a>
+                                        <a href="" class="btn">부고수정</a>
+                                        <a href="" class="btn">부고출력</a>
+                                        <a href="" class="btn">상주별부고전송</a>
+                                        <a href="" class="view">보기</a>
+                                        <a href="" class="del">삭제</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="info">
+                                    <p class="info_align">201호 <span class="state">장례 중</span></p>
+                                    <p class="not_txt">[입실예정 01-13 09:00]</p>
+                                </td>
+                                <td>
+                                    <p class="name">홍길동</p>
+                                </td>
+                                <td>
+                                    <p class="sangju">홍길동 외 11명</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="date">2023-02-01 08:00</p>
+                                </td>
+                                <td>
+                                    <p class="btn_box">
+                                        <a href="" class="btn">모니터 보기</a>
+                                        <a href="" class="btn">부고수정</a>
+                                        <a href="" class="btn">부고출력</a>
+                                        <a href="" class="btn">상주별부고전송</a>
+                                        <a href="" class="view">보기</a>
+                                        <a href="" class="del">삭제</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="data">전체 <span> 3</span>건</p>
+                    <div class="btn-wrap"> <a href="" class="btn_big">화장예약 바로가기</a></div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.36.0/apexcharts.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            new ApexCharts(document.querySelector("#lineChart"), {
+
+                series: [{
+
+                    data: [31, 40, 28, 51, 42, 109, 100]
+                }, {
+
+                    data: [11, 32, 45, 32, 34, 52, 41]
+                }],
+                chart: {
+                    height: 140,
+                    type: 'area'
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                stroke: {
+                    curve: 'smooth'
+                },
+                colors: ['#960020', '#c78392'],
+                fill: {
+                    colors: ['#960020', '#c78392']
+                },
+
+                tooltip: {
+                    x: {
+                        format: 'dd/MM/yy HH:mm'
+                    },
+                },
+
+            }).render();
+        });
+
+        //2번째 차트
+        document.addEventListener("DOMContentLoaded", () => {
+            new ApexCharts(document.querySelector("#lineChart2"), {
+
+                series: [{
+                    name: 'Net Profit',
+                    data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+                }, {
+                    name: 'Revenue',
+                    data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
+                }],
+                chart: {
+                    type: 'bar',
+                    height: 140
+                },
+                plotOptions: {
+                    bar: {
+                        horizontal: false,
+                        columnWidth: '55%',
+                        endingShape: 'rounded'
+                    },
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                stroke: {
+                    show: true,
+                    width: 2,
+                    colors: ['transparent']
+                },
+                colors: ['#960020', '#c78392'],
+                fill: {
+                    colors: ['#960020', '#c78392']
+                },
+                xaxis: {
+                    categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+                },
+                yaxis: {
+                    title: {
+                        text: '$ (thousands)'
+                    }
+                },
+                fill: {
+                    opacity: 1
+                },
+                tooltip: {
+                    y: {
+                        formatter: function (val) {
+                            return "$ " + val + " thousands"
+                        }
+                    }
+                }
+
+            }).render();
+        });
+
+
+
+
+        //3번째 차트
+        document.addEventListener("DOMContentLoaded", () => {
+            new ApexCharts(document.querySelector("#lineChart3"), {
+
+                series: [70],
+                chart: {
+                    height: 160,
+                    type: 'radialBar',
+                },
+                plotOptions: {
+                    radialBar: {
+                        hollow: {
+                            size: '60%',
+                        }
+                    },
+                },
+                colors: ['#960020', '#be6073'],
+                fill: {
+                    colors: ['#960020', '#be6073']
+                },
+                labels: [''],
+
+            }).render();
+        });
+
+
+
+
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,1831 @@
+<html lang="en">
+
+<head>
+
+
+
+    <base href="">
+    <meta charset="utf-8">
+    <meta property="og:type" content="mlm-exchange">
+    <meta property="og:image" content="./img/kakaometa.png?v=3">
+    <meta property="og:description" content="mlm-exchange">
+    <meta name="description" content="Updates and statistics">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>mlm-exchange</title>
+
+    <link rel="stylesheet" href="./css/default.css">
+
+    <!--begin::Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&amp;display=swap"
+        rel="stylesheet">
+
+    <!--end::Fonts -->
+
+    <link href="./css/style.bundle.css" rel="stylesheet" type="text/css">
+    <!--end::Layout Skins -->
+    <link rel="shortcut icon" href="./img/favicon.ico" />
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+    <!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
+    <link href="./css/common.css" rel="stylesheet" type="text/css">
+    <link href="./css/theme.css" rel="stylesheet" type="text/css">
+    <link href="./css/index.css" rel="stylesheet" type="text/css">
+    <link href="./css/app.css" rel="stylesheet" type="text/css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+    <script src="./js/common.js" type="text/javascript"></script>
+    <script src="./js/common.js"></script>
+
+</head>
+
+<body class="">
+
+
+    <div id="sidebox2" class="main_aside">
+        <div class="aside_inner">
+            <button type="button" class="btn_close" id="close"><i class="xi-close-min"></i></button>
+            <div class="aside_wrap">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="./img/w-logo.png" alt="리코렌인프라">
+                    </a>
+                </h1>
+
+                <div class="aside_sc01">
+                    <div class="aside_menu_tt">address :</div>
+                    <div class="aside_menu">
+                        <a href="./exchange/spot.html" class="menu_btn">Spot</a>
+                        <a href="./exchange/perpetual_contract.html" class="menu_btn">Margin</a>
+                        <a href="./exchange/option.html" class="menu_btn">Option</a>
+                        <a href="javascript:alert_popup('준비중입니다.');" class="menu_btn">OTC</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_txt">
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total balance</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Total P&amp;L</div>
+                                <div class="price rubik"><span class="num">0%</span> 0 USDd</div>
+                            </li>
+                        </ul>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Available</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                            <li>
+                                <div class="aside_txt_st">Unavailable</div>
+                                <div class="price rubik"><span class="num">0</span> USDd</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_have_box">
+                        <h3 class="aside_tt fbold">Balance</h3>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>balance</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">Don’t have any coins.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="./wallets/wallets.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+                <div class="aside_sc tgclr2">
+                    <div class="aside_deposit_box">
+                        <h3 class="aside_tt fbold">Staking status</h3>
+                        <ul class="aside_txt_box">
+                            <li>
+                                <div class="aside_txt_st">Total invest value</div>
+                                <div class="price"><span class="num">0</span> USDT</div>
+                            </li>
+                        </ul>
+                        <div class="aside_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>coin</th>
+                                        <th>Invest Amount</th>
+                                        <th>USDT value(USDT)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="none_p">No coins staked</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <a href="/staking/staking.html" class="detail_btn">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header_inner">
+            <button type="button" class="toggle" id="bar"><i class="xi-bars"></i></button>
+            <div class="left">
+                <div class="logo"><a href="./index.html"><img src="./img/w-logo.png" alt="리코렌인프라"></a></div>
+            </div>
+            <div class="gnb">
+                <ul class="nav">
+                    <li><a href="#" onclick="location.href ='./perpetual_contract.html';"
+                            data-name="perpetual_contract">Margin</a></li>
+                    <li><a href="#" onclick="location.href ='./spot.html';" data-name="spot">Spot</a></li>
+                    <li><a href="#" onclick="openmodal();" data-name="option">Option</a></li>
+                    <li><a href="./swap.html" data-name="swap">Swap</a></li>
+                    <li>
+                        <a href="./staking.html" data-name="staking">Staking</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./staking.html" data-name="staking">Staking</a></li>
+                                <li><a href="./pool.html" data-name="pool">Pool</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./mypage.html">NFT</a></li>
+                    <li><a href="#" onclick="location.href ='./wallets.html';">Wallets</a></li>
+                    <li>
+                        <a href="#" onclick="openmodal();">Support</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Fee Guide</a></li>
+                                <li><a href="">Ricorean Status</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./listing.html">Application</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./listing.html">Listing</a></li>
+                                <li><a href="./agent.html">Agent</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="nav_login">
+                    <a href=""><i class="xi-globus"></i></a>
+                    <a href="#" class="wallet" id="myBtn"><i class="fas fa-wallet"></i><span>Connect Wallet</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!-- The Modal -->
+    <div id="myModalWallets" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">×</span>
+            <h2 class="modal_tit">Connect wallet</h2>
+            <div class="modal_inner">
+                <ul class="link_list">
+                    <li class="link_item"><a href=""><img src="./img/meta.png" alt="Metamask">Metamask</a></li>
+                    <li class="link_item"><a href=""><img src="./img/tw.png" alt="Trust Wallet">Trust Wallet</a></li>
+                    <li class="link_item"><a href=""><img src="./img/im.png" alt="imToken">imToken</a></li>
+                    <li class="link_item"><a href=""><img src="./img/rain.png" alt="Rainbow Wallet">Rainbow Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/wc.png" alt="Wallet Connect">Wallet Connect</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/mail.png" alt="E-Mail Wallet">E-Mail Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/cb.png" alt="Coinbase Wallet">Coinbase Wallet</a>
+                    </li>
+                    <li class="link_item"><a href=""><img src="./img/led.png" alt="Ledger Wallet">Ledger Wallet</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- The Modal -->
+
+
+    <!-- 메뉴 준비중 The Modal -->
+    <div id="myModal2" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">×</span>
+            <h4 class="not">Notice</h4>
+            <p class="desc">Comming soon!</p>
+        </div>
+    </div>
+
+
+
+    <!--  메타지갑연결 -->
+    <div id="metaModal" class="meta_modal">
+        <div class="modal-content">
+            <div class="wallet_connect">
+                <button type="button" id="btn_clo" class="close"><i class="xi-close"></i></button>
+                <div class="inner">
+                    <div class="logo_box">
+                        <div class="lg"><img src="./img/rico.png" alt="리코렌인프라"></div>
+                        <div class="meta"><img src="./img/mt.png" alt="Metamask"></div>
+                        <i class="xi-attachment"></i>
+
+                    </div>
+                    <h5 class="tit">Create wallet success.</h5>
+                    <p class="s_tit">Please proceed with security verification.</p>
+                    <div class="input_wrap">
+                        <form action="">
+                            <div class="input_group">
+                                <label for="">Dexcorca Address</label>
+                                <input type="text" readonly="" value="0x49D8bc0a246fFea770193102131A2825D13d73c1">
+                            </div>
+                            <div class="input_group">
+                                <label for="">Metamask Address</label>
+                                <input type="text" readonly="" value="0x2302efdfa6215b56902c9df04fc7277127f592f0">
+                            </div>
+                            <div class="input_group">
+                                <label for="">Key</label>
+                                <div class="input_box">
+                                    <input type="text" readonly="" value="0x2302efdfa6215b56902c9df04fc7277127f592f0">
+                                    <button type="button"><i class="xi-documents-o"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                        <button type="button" class="btn_next" id="nextBtn">Next</button>
+                        <p class="desc">Keep the issued key value safely. <br>
+                            If you lose your key, you cannot trade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 메타지갑연결2 -->
+    <div id="metaModal2" class="meta_modal">
+        <div class="modal-content">
+            <div class="wallet_connect">
+                <button type="button" id="btn_clo2" class="close"><i class="xi-close"></i></button>
+                <div class="inner">
+                    <div class="logo_box">
+                        <div class="lg"><img src="./img/rico.png" alt="ricorean logo"></div>
+                        <div class="meta"><img src="./img/mt.png" alt="metamask logo"></div>
+                        <i class="xi-attachment"></i>
+                    </div>
+                    <h5 class="tit">Create wallet success.</h5>
+                    <p class="s_tit">Please proceed with security verification.</p>
+                    <div class="input_wrap">
+                        <form action="">
+                            <div class="input_group">
+                                <label for="">Dexcorca Address</label>
+                                <input type="text" readonly="" value="0x49D8bc0a246fFea770193102131A2825D13d73c1">
+                            </div>
+                            <div class="input_group">
+                                <label for="">Metamask Address</label>
+                                <input type="text" readonly="" value="0x2302efdfa6215b56902c9df04fc7277127f592f0">
+                            </div>
+                            <div class="input_group">
+                                <label for="key">Key</label>
+                                <input type="text" id="key" placeholder="Please enter the issued key.">
+                            </div>
+                        </form>
+                        <button type="button" class="btn_next" id="nextBtn2">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 메타연결3 성공 The Modal -->
+    <div id="myModal4" class="head_modal">
+        Modal content
+        <div class="modal-content meta">
+            <span class="close2" id="btn_clo3">×</span>
+            <div class="lg"><img src="./img/rico.png" alt="ricorean logo"></div>
+            <h4 class="not">Security verification succeeded.</h4>
+            <p class="desc_col">Please transfer coins from your Metamask wallet to Ricorean Wallet. <br>
+                Spot,Perpetual, Option trade are only possible through Ricorean Wallet.
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <script>
+
+        //모달
+        // Get the modal
+        var modal = document.getElementById("myModalWallets");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+
+        //메뉴쥰비중 모달
+        // Get the modal
+        function openmodal() {
+            var modal2 = document.getElementById("myModal2");
+
+            modal2.style.display = "block";
+
+            var span2 = document.getElementsByClassName("close2")[0];
+            span2.onclick = function () {
+                modal2.style.display = "none";
+            }
+
+        }
+
+
+
+
+        //클로즈
+        $('#bar').click(function () {
+            $('#sidebox2').addClass('show');
+
+        })
+        $('#close').click(function () {
+            $('#sidebox2').removeClass('show');
+
+        })
+
+
+
+
+
+
+
+
+
+        //메타연결 모달2
+        var modal2 = document.getElementById("metaModal2");
+
+        // Get the button that opens the modal
+        var btn2 = document.getElementById("nextBtn");
+
+        // Get the <span> element that closes the modal
+        var close2 = document.getElementById("btn_clo2");
+
+        // When the user clicks the button, open the modal 
+        btn2.onclick = function () {
+            modal2.style.display = "block";
+            modal.style.display = "none";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        close2.onclick = function () {
+            modal2.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+        }
+
+    </script>
+
+
+
+    <script type="text/javascript">
+        var announcement_date = new Date(localStorage.getItem("announcement"));
+        var currentdate = new Date();
+
+        if (new Date(announcement_date.setDate((announcement_date.getDate() + 7))) > currentdate) {
+            document.getElementById('modal_announcement').style.display = 'none';
+        }
+        else {
+            document.getElementById('modal_announcement').style.display = 'block';
+        }
+
+        function btnAnnouncement() {
+            if (document.getElementById('chk_lossCut').checked) {
+                var currentdate = new Date();
+                localStorage.setItem("announcement", currentdate);
+            }
+        }
+
+        async function loginWallet(provider) {
+            setCookie("walletprovider", provider, 30);
+            walletprovider = provider;
+
+            var walletaddress = await getWalletAddress();
+            var params = "walletaddress=" + walletaddress;
+
+
+            if (walletaddress == "mobile") {
+                $('#myModalWallets').modal('hide');
+                return;
+            }
+            else if (walletaddress == "") {
+                alert("Your Metamask is lock. Please unlock it.");
+            }
+            else {
+                $.ajax({
+                    url: "login.php",
+                    type: "post",
+                    data: params,
+                    success: function (response) {
+                        location.reload();
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus, errorThrown);
+                    }
+                });
+            }
+        }
+
+    </script>
+
+    <script type="text/javascript">
+        //헤더 뎁스
+        $(".header_inner .gnb .nav > li").mouseenter(function (e) {
+            e.preventDefault();
+            $(this).children('.nav_depth').addClass('open');
+        });
+        $(".header_inner .gnb .nav > li").mouseleave(function (e) {
+            e.preventDefault();
+            $(this).children('.nav_depth').removeClass('open');
+        });
+
+
+
+
+
+
+        //토글메뉴 아코디언
+
+        var togglemn = $('.toggle_wrap .toggle_inner .toggle_nav > li');
+
+        togglemn.click(function (e) {
+            e.preventDefault();
+            $(this).toggleClass('aco');
+            $(this).children('.toggle_wrap .toggle_inner .toggle_nav > li > .depth').slideToggle();
+        })
+
+
+        //헤더 엑티브
+        var nav1 = $('.header_inner .gnb .nav > li > a');
+        var Currentrut = window.location.pathname
+
+
+
+        nav1.each(function (index, element) {
+            if (Currentrut.indexOf($(this).data('name')) != -1) {
+                $(this).addClass("on");
+            }
+
+
+        });
+
+
+        //팝업모달
+        $('#conf').click(function () {
+            $('.popup-box').addClass('hide');
+        });
+
+
+
+    </script>
+
+
+
+
+    <style>
+        body {
+            background: #070419;
+        }
+    </style>
+    <div class="loading-box ">
+        <span class="loader"></span>
+    </div>
+    <div class="exchange">
+        <div class="ex_wrap">
+            <div class="ex_box">
+                <div class="ex_con">
+                    <div class="coin_top mo_tgclr">
+                        <div id="mgcoin" class="coin_name_box">
+                            <div class="coin_info">
+                                <div class="coin_img"><img src="./img/ETH.png" alt="이더리움" height="28" width="28"></div>
+                                <div class="coin_name">ETHm <i class="xi-angle-down"></i><span>USDd</span></div>
+                                <div class="coin_list_box fix">
+                                    <div class="search_box">
+                                        <div class="search_inp_box">
+                                            <input type="text" title="검색어를 입력하세요" placeholder="Search">
+                                            <button type="button" class="sch"><i class="xi-search"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class=" tgclr">
+                                        <ul class="hisusd_tabs all_tabs">
+                                            <li class="tab-link all_tabs09 tab_usdd-link current" data-tab="front_tab1">
+                                                USDd</li>
+                                            <li class="tab-link all_tabs09 tab_usdd-link" data-tab="front_tab2"><i
+                                                    class="xi-star"></i></li>
+
+                                        </ul>
+
+                                        <div id="front_tab1" class="hisusdd_tab_con tab_con09 current">
+                                            <div class="his_table his_table01">
+                                                <ul class="his_table_th usdd_table">
+                                                    <li class="usdd">Coin</li>
+                                                    <li class="usdd">Price</li>
+                                                    <li class="usdd">Change</li>
+
+                                                </ul>
+                                                <ul class="his_table_th_list usd_list scroll-y_ct">
+
+                                                    <li class="his_table_th" style="">
+                                                        <div class="usdd">BTCm</div>
+                                                        <div class="usdd">20,217.83 </div>
+                                                        <div class="usdd up">+0.57%</div>
+                                                    </li>
+                                                    <li class="his_table_th" style="">
+                                                        <div class="usdd">ETHm</div>
+                                                        <div class="usdd">20,217.83 </div>
+                                                        <div class="usdd down">-0.02%</div>
+                                                    </li>
+                                                    <li class="his_table_th" style="">
+                                                        <div class="usdd">BTCm</div>
+                                                        <div class="usdd">20,217.83 </div>
+                                                        <div class="usdd up">+0.57%</div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div id="front_tab2" class="hisusdd_tab_con tab_con09">
+                                            <div class="his_table his_table02">
+                                                <ul class="his_table_th usdd_table">
+                                                    <li class="usdd">Coin</li>
+                                                    <li class="usdd">Price</li>
+                                                    <li class="usdd">Change</li>
+
+                                                </ul>
+                                                <ul class="his_table_th_list scroll-y_ct">
+                                                    <li class="his_table_th">
+                                                        <div class="no_data">No data found</div>
+                                                    </li>
+                                                    <li class="his_table_th" style="display:none;">
+                                                        <div class="usdd">0</div>
+                                                        <div class="usdd">1</div>
+                                                        <div class="usdd">0</div>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coin_cost">
+                                <span class="cost fbold">1,319.43</span>
+                                <span class="unit">USDd</span>
+                                <span class="per down">-0.50%</span>
+                            </div>
+                        </div>
+                        <div class="coin_price">
+                            <ul class="coin_price_list">
+                                <li>High (USDd)<span class="fbold up">1,354.32</span></li>
+                                <li>Low(USDd)<span class="fbold down">1,312.54</span></li>
+                                <li>24H Volume(ETHm)<span class="fbold">29.6893</span></li>
+                                <li>24H Total(USDd)<span class="fbold">39,670.966</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="mo_tabs all_tabs">
+                        <li class="tab-link all_tabs08 current" data-tab="mo_tab1">Order Book</li>
+                        <li class="tab-link all_tabs08" data-tab="mo_tab2">Chart</li>
+                    </ul>
+
+                    <div id="mo_tab2" class="mo_tab_con tab_con08">
+                        <div class="chart"><img src="./img/chart.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="con_set tgclr">
+                    <div class="con_set_wrap">
+                        <ul class="set_list">
+                            <li>
+                                <div class="input_tt">
+                                    <input type="checkbox" id="chk_lossCut" class="inp_chk">
+                                    <label for="chk_lossCut" class="inp_lb">SL</label>
+                                </div>
+                                <div class="input_num_box">
+                                    <div class="num_box_inner sl">
+                                        <input type="number" id="inptext" value="0" placeholder="" readonly="readonly"
+                                            class="inp">
+                                        <div class="inp_back">Tic</div>
+                                    </div>
+                                    <div class="num_box_btn">
+                                        <button type="button" name="plus"><i class="xi-caret-up-min"></i></button>
+                                        <button type="button" name="minus"><i class="xi-caret-down-min"></i></button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="input_tt">
+                                    <input type="checkbox" id="chk_gainCut" class="inp_chk">
+                                    <label for="chk_gainCut" class="inp_lb">TP</label>
+                                </div>
+                                <div class="input_num_box">
+                                    <div class="num_box_inner tic">
+                                        <input type="number" id="inptext" value="0" placeholder="" readonly="readonly"
+                                            class="inp">
+                                        <div class="inp_back">Tic</div>
+                                    </div>
+                                    <div class="num_box_btn">
+                                        <button type="button" name="plus"><i class="xi-caret-up-min"></i></button>
+                                        <button type="button" name="minus"><i class="xi-caret-down-min"></i></button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="input_tt">
+                                    <input type="checkbox" id="chk_practice" class="inp_chk">
+                                    <label for="chk_practice" class="inp_lb">Trigger</label>
+                                </div>
+                                <div class="input_num_box">
+                                    <div class="num_box_inner tri">
+                                        <div class="inp_front">±</div>
+                                        <input type="number" id="inptext" value="0" placeholder="" readonly="readonly"
+                                            class="inp">
+                                        <div class="inp_back">Tic</div>
+                                    </div>
+                                    <div class="num_box_btn">
+                                        <button type="button" name="plus"><i class="xi-caret-up-min"></i></button>
+                                        <button type="button" name="minus"><i class="xi-caret-down-min"></i></button>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="input_tt">
+                                    <label class="inp_lb last">leverage</label>
+                                </div>
+                                <div class="input_num_box">
+                                    <div class="num_box_inner lev">
+                                        <div class="inp_front">×</div>
+                                        <input type="number" id="inptext" value="1" placeholder="" readonly="readonly"
+                                            class="inp">
+                                    </div>
+                                    <div class="num_box_btn">
+                                        <button type="button" name="plus"><i class="xi-caret-up-min"></i></button>
+                                        <button type="button" name="minus"><i class="xi-caret-down-min"></i></button>
+                                    </div>
+                                </div>
+                                <div class="range_box">
+                                    <input type="range" title="레버리지 선택" id="inp_leverage_slider" min="1" value="1"
+                                        max="100" oninput="maxLengthCheck(this)" maxlength="3" class="inp_range">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="mo_tab1" class="mo_tab_con tab_con08 box_book current">
+                    <div class="tgclr">
+                        <div class="boox_inner">
+                            <h4>Order Book</h4>
+                            <div class="mkpr_table">
+                                <ul class="table_th table_th_mo">
+                                    <li>Price</li>
+                                    <li>Amount</li>
+                                    <li>Price</li>
+                                </ul>
+                                <ul class="table_th">
+                                    <li>MIT</li>
+                                    <li>Total<span class="mo_none">(ETHm)</span></li>
+                                    <li>Amount<span class="mo_none">(ETHm)</span></li>
+                                    <li>Price<span class="mo_none">(USDd)</span></li>
+                                </ul>
+                                <div class="mkpr_box">
+                                    <ul class="table_tr_td">
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:100%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:90%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:80%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:70%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:60%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:50%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:40%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:30%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:20%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="td_up">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:10%;"></span>
+                                                <div class="txt">0.0666</div>
+                                            </div>
+                                            <div class="txt">0.0031</div>
+                                            <div class="txt up">1,330.99</div>
+                                        </li>
+                                        <li class="md_mkpr">
+                                            <div class="up">1,323.79</div>
+                                        </li>
+                                    </ul>
+                                    <ul class="table_tr_td">
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:10%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:20%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:30%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:40%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:50%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:60%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:70%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:80%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:90%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                        <li class="td_down">
+                                            <div class="txt">&nbsp;</div>
+                                            <div class="gr_bar">
+                                                <span style="width:100%;"></span>
+                                                <div class="txt">0.0065</div>
+                                            </div>
+                                            <div class="txt">0.0065</div>
+                                            <div class="txt down">1,323.2</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_rec tgclr">
+                    <div class="rec_inner">
+                        <h4>Recent Trades</h4>
+                        <div class="rec_table">
+                            <ul class="table_th">
+                                <li>Time</li>
+                                <li>Price(USDd)</li>
+                                <li>Amount(ETHm)</li>
+                            </ul>
+                            <ul class="table_td scroll-y_ct">
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                                <li>
+                                    <div class="">18:00:05</div>
+                                    <div class="up">1,323.85</div>
+                                    <div class="">0.0008</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ex_box_bottom">
+                <div class="his_box tgclr">
+                    <div class="ovrflow-x">
+                        <ul class="his_tabs all_tabs">
+                            <li class="tab-link all_tabs01 current" data-tab="his_tab1">Orders</li>
+                            <li class="tab-link all_tabs01" data-tab="his_tab2">Trade History</li>
+                            <li class="tab-link all_tabs01" data-tab="his_tab3">MIT Order</li>
+                            <li class="tab-link all_tabs01" data-tab="his_tab4">Margin Status</li>
+                            <li class="tab-link all_tabs01" data-tab="his_tab5">Conditional</li>
+                        </ul>
+                    </div>
+
+                    <div id="his_tab1" class="his_tab_con tab_con01 current">
+                        <div class="his_table his_table01">
+                            <ul class="his_table_th">
+                                <li>Date</li>
+                                <li>Pair</li>
+                                <li>Position</li>
+                                <li>Stop price</li>
+                                <li>Amount</li>
+                                <li>Price(USDd)</li>
+                                <li>Leverage</li>
+                                <li>Filled</li>
+                                <li>Unfilled</li>
+                                <li>MIT</li>
+                                <li>Loss</li>
+                                <li>Profit</li>
+                                <li>Trigger</li>
+                                <li>Cancel</li>
+                            </ul>
+                            <ul class="his_table_th_list he234 scroll-y_ct">
+                                <li class="his_table_th">
+                                    <div class="no_data he55">No data found</div>
+                                </li>
+                                <li class="his_table_th" style="display:none;">
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="his_tab2" class="his_tab_con tab_con01">
+                        <div class="his_table his_table02">
+                            <ul class="his_table_th">
+                                <li>Date</li>
+                                <li>Pair</li>
+                                <li>Position</li>
+                                <li>Amount</li>
+                                <li>Price(USDd)</li>
+                                <li>Leverage</li>
+                                <li>MIT</li>
+                                <li>Loss</li>
+                                <li>Profit</li>
+                                <li>Trigger</li>
+                            </ul>
+                            <ul class="his_table_th_list scroll-y_ct">
+                                <li class="his_table_th">
+                                    <div class="no_data">No data found</div>
+                                </li>
+                                <li class="his_table_th" style="display:none;">
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="his_tab3" class="his_tab_con tab_con01">
+                        <div class="his_table his_table02">
+                            <ul class="his_table_th">
+                                <li>Date</li>
+                                <li>Pair</li>
+                                <li>Position</li>
+                                <li>Amount</li>
+                                <li>Price(USDd)</li>
+                                <li>MIT</li>
+                                <li>Loss</li>
+                                <li>Profit</li>
+                                <li>Trigger</li>
+                                <li>Cancel</li>
+                            </ul>
+                            <ul class="his_table_th_list scroll-y_ct">
+                                <li class="his_table_th">
+                                    <div class="no_data">No data found</div>
+                                </li>
+                                <li class="his_table_th" style="display:none;">
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="his_tab4" class="his_tab_con tab_con01">
+                        <div class="his_table his_table03">
+                            <ul class="his_table_th">
+                                <li>Pair</li>
+                                <li>Long Margin</li>
+                                <li>Avg. Long Leverage</li>
+                                <li>Loan Price(USDd)</li>
+                                <li>Short Magin</li>
+                                <li>Avg. Short Leverage</li>
+                                <li>Loan Amount</li>
+                                <li>Loan Amount Value(USDd)</li>
+                            </ul>
+                            <ul class="his_table_th_list scroll-y_ct">
+                                <li class="his_table_th">
+                                    <div class="no_data">No data found</div>
+                                </li>
+                                <li class="his_table_th" style="display:none;">
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="his_tab5" class="his_tab_con tab_con01">
+                        <div class="his_table his_table04">
+                            <ul class="his_table_th">
+                                <li>Date</li>
+                                <li>Pair</li>
+                                <li>Order type</li>
+                                <li>Position</li>
+                                <li>Stop price</li>
+                                <li>Amount</li>
+                                <li>Price</li>
+                                <li>Leverage</li>
+                                <li>Status</li>
+                                <li>Cancel</li>
+                            </ul>
+                            <ul class="his_table_th_list he234 scroll-y_ct">
+                                <li class="his_table_th">
+                                    <div class="no_data he55">No data found</div>
+                                </li>
+                                <li class="his_table_th" style="display:none;">
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                    <div class="">0</div>
+                                    <div class="">1</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="or_box tgclr">
+                    <div class="pop_dark"></div>
+                    <div class="or_box_in mo_tgclr">
+                        <button type="button" onclick="hideOr()" class="close_btn"><i class="xi-close"></i></button>
+                        <ul class="or_tabs all_tabs">
+                            <li class="tab-link all_tabs02 current" data-tab="or_tab1">Limit</li>
+                            <li class="tab-link all_tabs02" data-tab="or_tab2">Market</li>
+                            <li class="tab-link all_tabs02" data-tab="or_tab3">Conditional</li>
+                        </ul>
+                        <div class="or_chk_box">
+                            <div class="input_tt">
+                                <input type="checkbox" id="FOK" class="inp_chk">
+                                <label for="FOK" class="inp_lb">FOK</label>
+                            </div>
+                            <div class="input_tt">
+                                <input type="checkbox" id="IOC" class="inp_chk">
+                                <label for="IOC" class="inp_lb">IOC</label>
+                            </div>
+                        </div>
+                        <div id="or_tab1" class="or_tab_con tab_con02 current">
+                            <div class="or_inner">
+                                <div class="or_sc">
+                                    <ul class="limit_tabs all_tabs or_in_tab">
+                                        <li class="tab-link all_tabs04 current" data-tab="limit_tab1">Buy</li>
+                                        <li class="tab-link all_tabs04" data-tab="limit_tab2">Sell</li>
+                                    </ul>
+                                    <div class="or_buy limit_con tab_con04 current" id="limit_tab1">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Price</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="limit_buy_price" value="0" title="가격입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="limit_buy_quantity" value="0" title="수량입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" title="레버리지 선택"
+                                                            id="limit_buy_leverage_slider" min="1" value="1" max="100"
+                                                            class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="limit_buy_leverage" value="1"
+                                                            title="레버리지 선택" class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Order Value</div>
+                                                <div class="txt_total rg_wid">
+                                                    <span class="buy_txt up">0</span>
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="limit_buy_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="limit_buy_btn" onclick="" class="btn btn_buy">Buy
+                                                (Long)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 USDd</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="or_buy limit_con tab_con04" id="limit_tab2">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Price</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="limit_sell_price" value="0" oninput=""
+                                                        title="가격입력" class="inp">
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="limit_sell_quantity" value="0" oninput=""
+                                                        title="수량입력" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" id="limit_sell_leverage_slider" min="1"
+                                                            title="레버리지선택" value="1" max="100" class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="limit_sell_leverage" value="1"
+                                                            title="레버리지선택" class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Order Value</div>
+                                                <div class="txt_total rg_wid">
+                                                    <span class="buy_txt down">0</span>
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="limit_sell_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="limit_sell_btn" onclick=""
+                                                class="btn btn_sell">Sell (Short)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 ETHm</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="or_tab2" class="or_tab_con tab_con02">
+                            <div class="or_inner">
+                                <div class="or_sc">
+                                    <ul class="all_tabs or_in_tab">
+                                        <li class="tab-link all_tabs03 current" data-tab="mk_tab1">Buy</li>
+                                        <li class="tab-link all_tabs03" data-tab="mk_tab2">Sell</li>
+                                    </ul>
+                                    <div class="or_buy tab_con03 current" id="mk_tab1">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="mk_buy_quantity" value="0" oninput=""
+                                                        title="수량입력" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" id="mk_buy_leverage_slider" min="1"
+                                                            title="레버리지선택" value="1" max="100" class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="mk_buy_leverage" title="수량 입력" value="1"
+                                                            class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="mk_buy_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="mk_buy_btn" onclick="" class="btn btn_buy">Buy
+                                                (Long)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 USDd</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="or_buy tab_con03" id="mk_tab2">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="mk_sell_quantity" value="0" title="수량 입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" id="mk_sell_leverage_slider" title="레버리지선택"
+                                                            min="1" value="1" max="100" class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="mk_sell_leverage" title="수량 입력" value="1"
+                                                            class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="mk_sell_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="mk_sell_btn" onclick="" class="btn btn_sell">Sell
+                                                (Short)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 ETHm</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="or_tab3" class="or_tab_con tab_con02">
+                            <div class="or_inner">
+                                <div class="or_sc">
+                                    <ul class="con_tabs all_tabs or_in_tab">
+                                        <li class="tab-link all_tabs05 current" data-tab="con_tab1">Buy</li>
+                                        <li class="tab-link all_tabs05" data-tab="con_tab2">Sell</li>
+                                    </ul>
+                                    <div class="or_buy con_con tab_con05 current" id="con_tab1">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Stop Price</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="con_buy_price" value="0" title="중지가격 입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">
+                                                    <ul class="lb_tabs all_tabs lb_in_tabs">
+                                                        <li class="tab-link all_tabs06 current" data-tab="buy_pr1">
+                                                            Market</li>
+                                                        <li class="tab-link all_tabs06" data-tab="buy_pr2">Limit</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="inp_group rg_wid">
+                                                    <div id="buy_pr1" class="buy_pr current tab_con06">
+                                                        <input type="text" value="Market Price" readonly="readonly"
+                                                            class="inp">
+                                                    </div>
+                                                    <div id="buy_pr2" class="buy_pr tab_con06">
+                                                        <input type="text" id="con_buy_pr" value="0" title="가격 입력"
+                                                            oninput="" class="inp">
+                                                        <span class="unit">USDd</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="con_buy_quantity" value="0" title="수량 입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" id="con_buy_leverage_slider" title="레버리지 선택"
+                                                            min="1" value="1" max="100" class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="con_buy_leverage" value="1" title="수량 입력"
+                                                            class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="con_buy_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="con_buy_btn" onclick="" class="btn btn_buy">Buy
+                                                (Long)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 USDd</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="or_buy con_con tab_con05" id="con_tab2">
+                                        <ul class="or_buy_list">
+                                            <li>
+                                                <div class="inp_lb">Stop Price</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="con_sell_price" value="0" title="중지가격 입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">USDd</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">
+                                                    <ul class="lb_tabs all_tabs lb_s_tabs">
+                                                        <li class="tab-link all_tabs07 current" data-tab="sell_pr1">
+                                                            Market</li>
+                                                        <li class="tab-link all_tabs07" data-tab="sell_pr2">Limit</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="inp_group rg_wid">
+                                                    <div id="sell_pr1" class="sell_pr tab_con07 urrent">
+                                                        <input type="text" value="Market Price" readonly="readonly"
+                                                            class="inp">
+                                                    </div>
+                                                    <div id="sell_pr2" class="sell_pr tab_con07">
+                                                        <input type="text" id="con_sell_pr" value="0" title="가격 입력"
+                                                            oninput="" class="inp">
+                                                        <span class="unit">USDd</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">Amount(ETHm)</div>
+                                                <div class="inp_group rg_wid">
+                                                    <input type="text" id="con_sell_quantity" value="0" title="수량 입력"
+                                                        oninput="" class="inp">
+                                                    <span class="unit">ETHm</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="inp_lb">leverage</div>
+                                                <div class="inp_ran rg_wid">
+                                                    <div class="range_box">
+                                                        <input type="range" id="con_sell_leverage_slider"
+                                                            title="레버리지 선택" min="1" value="1" max="100"
+                                                            class="inp_range">
+                                                        <ul class="range_mark_box">
+                                                            <li class="mark">x1</li>
+                                                            <li class="mark">x50</li>
+                                                            <li class="mark">x100</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="range_val_box">
+                                                        <input type="text" id="con_sell_leverage" title="수량 입력"
+                                                            value="1" class="inp range_val">
+                                                        <span class="unit">x</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                        <div class="or_btn_box">
+                                            <button type="button" id="con_sell_reset" onclick=""
+                                                class="btn btn_reset">Reset</button>
+                                            <button type="button" id="con_sell_btn" onclick="" class="btn btn_sell">Sell
+                                                (Short)</button>
+                                        </div>
+                                        <ul class="or_tip_box">
+                                            <li>
+                                                <span class="inp_lb">Balance</span>
+                                                <span class="txt rg_wid tfclr">0 ETHm</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" onclick="showOr()" class="order_btn">Order</button>
+        </div>
+    </div>
+
+    <script>
+
+        //탭
+        $('ul.all_tabs li').click(function () {
+            var tab_name = $(this).data("tab");
+            if ($(".all_tabs").length == 0) {
+                return false;
+            }
+            for (var i = 1; i <= $(".all_tabs").length; i++) {
+                if ($(this).hasClass("all_tabs0" + i)) {
+                    $(".tab_con0" + i).removeClass("current");
+                    break;
+                }
+            }
+
+            var parent_eq = $(this).parent();
+            parent_eq.children('li').removeClass('current');
+
+            $(this).addClass('current');
+            $("#" + tab_name).addClass("current");
+        });
+
+
+        function showOr() {
+            $('.or_box').addClass('open');
+        }
+        function hideOr() {
+            $('.or_box').removeClass('open');
+        }
+
+
+
+
+        //헤더 이더리움 호버뎁스
+        $(".ex_con .coin_top .coin_name_box").mouseover(function (e) {
+            e.preventDefault();
+            $('.ex_con .coin_top .coin_name_box .coin_info .coin_list_box').addClass('open');
+        });
+        $(".ex_con .coin_top .coin_name_box").mouseout(function (e) {
+            e.preventDefault();
+            $('.ex_con .coin_top .coin_name_box .coin_info .coin_list_box').removeClass('open');
+        });
+
+
+        $('.his_table .his_table_th_list .his_table_th').click(function (e) {
+            $('.coin_list_box').addClass('hide')
+        })
+
+
+
+        $(function () {
+            //인풋 넘버값 상승
+            $("button[name='plus']").click(function () {
+                var nummm1 = $(this).parents(".input_num_box").children().find('#inptext');
+                var number1 = nummm1.val();
+
+                number1 = parseInt(number1) + 1;
+                nummm1.val(number1);
+
+            });
+            $("button[name='minus']").click(function () {
+                var nummm2 = $(this).parents(".input_num_box").children().find('#inptext');
+                var number2 = nummm2.val();
+
+                if (number2 > 0) {
+                    number2 = parseInt(number2) - 1;
+                    nummm2.val(number2);
+                }
+            });
+        });
+
+
+
+        //로딩
+        setTimeout(function () {
+            $('.loading-box').addClass('hide')
+        }, 1000)
+
+
+
+    </script>
+
+    <div class="tgclr ft">
+        <div class="main_wrap">
+            <div class="ft_inner">
+                <div class="ft_con">
+                    <img src="./img/w-logo.png" alt="리코렌인프라">
+                    <p class="ft_copy">Copyright 2022. MLM-EXCHANGE. All rights reserved.</p>
+                </div>
+                <div class="ft_con ft_link">
+                    <ul class="ft_link_list">
+                        <li><a href="" class="tfclr">master@ricorean.com</a></li>
+                        <li><a href="" class="tfclr">Listing</a></li>
+                        <li><a href="" class="tfclr">Agent</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed_menu">
+        <ul class="tab_list">
+            <li>
+                <a href="" class="drop"><i class="fas fa-exchange-alt"></i><span>Trade <i
+                            class="fas fa-sort-up arrow"></i></span>
+                </a>
+                <div class="depth">
+                    <ul class="list">
+                        <li><a href="./spot.html">Spot</a></li>
+                        <li><a href="./perpetual_contract.html">Margin</a></li>
+                        <li><a href="#" onclick="openmodal();">Option</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="" class="drop"><i class="far fa-money-bill-alt"></i><span>Staking<i
+                            class="fas fa-sort-up arrow"></i></span>
+                </a>
+                <div class="depth">
+                    <ul class="list">
+                        <li><a href="./staking.html">Staking</a></li>
+                        <li><a href="./pool.html">Pool</a></li>
+
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#" onclick="location.href='./wallets.html'" class=""><i class="fas fa-wallet"></i><span>Wallet
+                    </span></a></li>
+            <li><a href="#" class="" onclick="openmodal();"><i class="fas fa-info-circle"></i><span>Support </span></a>
+        </ul>
+    </div>
+
+
+    <!-- 메뉴 준비중 The Modal -->
+    <div id="myModal2" class="head_modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">×</span>
+            <h4 class="not">Notice</h4>
+            <p class="desc">Comming soon!</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        $('.fixed_menu .tab_list > li > a.drop').click(function (e) {
+            e.preventDefault();
+            var Idx = $(this).index();
+            $('.fixed_menu .tab_list li .depth').removeClass('open');
+            $(this).siblings('.fixed_menu .tab_list li .depth').toggleClass('open');
+
+        });
+
+
+
+        //메뉴쥰비중 모달
+        // Get the modal
+        function openmodal() {
+            var modal2 = document.getElementById("myModal2");
+
+            modal2.style.display = "block";
+
+            var span2 = document.getElementsByClassName("close2")[0];
+            span2.onclick = function () {
+                modal2.style.display = "none";
+            }
+
+        }
+
+    </script>
+
+
+
+
+
+    <!-- end::Body -->
+
+</body>
+
+</html>

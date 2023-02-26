@@ -1,0 +1,99 @@
+
+/* 외래진료안내-------------------- */
+
+.en_ls{letter-spacing:0.03em;}
+
+.guide .call{border-radius: 12px;padding: 24px 28px;background: #fff;border: 1px solid #e6e6e6;}
+.guide .call .call_in{font-size: 16px;font-weight: 300;color: #212121;margin-bottom: 17px;  font-family: 'GmarketSansMedium';}
+.guide .call .call_in strong{font-weight: 500; font-size:17px ;color: #232323;display: block;margin-bottom: 4px;}
+.guide .call .call_in strong i{color:#333; font-size:19px; margin-right:8px; vertical-align: -2px;}
+.guide .call .notice{font-size: 16px;color: #ff5722;font-weight: 400;}
+.guide .call .notice i{color: #ff5722;  margin-right: 8px;}
+.guide .grade_box{margin-top: 47px;border-top: 1px solid #eee;border-right: 1px solid #eee;}
+.guide .grade_box .grade_flex.h_big{height: 701px;}
+.guide .grade_box .grade_flex.h_sm{height: 218px;}
+.guide .grade_box .grade_flex{border-bottom: 1px solid #eee;padding: 0;}
+.guide .grade_box .grade_flex .left_box{background: #f9f9f9;padding: 28px 26px;width: 22%;height: 100%;}
+.guide .grade_box .grade_flex .left_box .tit{font-size: 18px;color: #505050;font-weight: 500;}
+.guide .grade_box .grade_flex .right_box{width: 78%;padding: 24px 34px;}
+
+.guide .grade_box .grade_flex .right_box .lists li{float: left;width: 32%;margin-right: 2%;    margin-bottom: 4%;}
+.guide .grade_box .grade_flex .right_box .lists li:nth-child(3n){margin-right:0;}
+
+.guide .grade_box .grade_flex .right_box .lists li .content .gra_num{font-family: 'GmarketSans';font-size: 26px;color: #e6e6e6;font-weight: 600;margin-bottom: 10px;display: inline-block;letter-spacing: 0.03em;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit{padding: 9px 12px;text-align: center;border: 3px solid #ccc;border-radius: 43px;font-size: 18px;font-weight: 500;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col{color: #ff9800;border-color: #ff9800;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col2{color: #00bcd4;border-color: #00bcd4;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col3{color: #8bc34a; border-color:#8bc34a;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col4{color: #009688; border-color:#009688;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col5{color: #2196f3; border-color:#2196f3;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col6{color: #3f51b5; border-color:#3f51b5;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit.col7{color: #673ab7; border-color:#673ab7;}
+
+
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl{margin: 20px 0 5px;min-height: 82px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl dd{font-size: 16px;color: #666;font-weight: 300;line-height: 168%;} 
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl dd .em{color: #ff9800;font-weight: 500;} 
+
+.guide .grade_box .grade_flex .cont_box {margin-bottom: 18px;}
+.guide .grade_box .grade_flex .cont_box  dt{font-size: 16px;color: #222;font-weight: 600;margin-bottom: 6px;position: relative;}
+.guide .grade_box .grade_flex .cont_box  dt:before{content:'';position: absolute;background: #f29001;width: 3px;height: 14px;top: 50%;transform: translateY(-50%);left: -10px;border-radius: 4px;}
+.guide .grade_box .grade_flex .cont_box  dd{font-size: 16px;color: #666;font-weight: 300;}
+
+@media all and (max-width:1119px){
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl dd{font-size:14px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl{margin:15px 0 5px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit{padding:8px 0; font-size:16px;}
+.guide .grade_box .grade_flex .left_box .tit{font-size:16px;}
+.guide .grade_box .grade_flex .cont_box dt{font-size:15px; margin-bottom:4px;}
+.guide .grade_box .grade_flex .cont_box dd{font-size:14px;}
+.guide .grade_box .grade_flex .right_box{padding:22px 28px;}
+
+}
+@media all and (max-width:991px){
+.guide .grade_box .grade_flex .left_box{float:none;}
+.guide .grade_box .grade_flex.h_big {height: auto;}
+.guide .grade_box .grade_flex .right_box .lists li .content .tit{ border-width:2px}
+.guide .grade_box .grade_flex .right_box .lists li .content .gra_num{font-size:24px; margin-bottom:10px;}
+
+.guide .grade_box .grade_flex .left_box{width:100%;}
+.guide .grade_box .grade_flex .right_box{width:100%;}
+.guide .grade_box .grade_flex.h_sm{height:auto;}
+.guide .grade_box .grade_flex .left_box{padding:14px 24px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .gra_num{margin-bottom:17px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl dd{font-size:13px;}
+
+
+}
+@media all and (max-width:594px){
+.guide .call .call_in{margin-bottom:10px;font-size:14px;}
+.guide .call .call_in strong i{font-size:14px; margin-right:4px; vertical-align:0;}
+.guide .call .notice{font-size:14px;}
+
+.guide .call .call_in strong{display:block; margin-bottom:4px;}
+
+}
+@media all and (max-width:530px){
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl{min-height:105px}
+}
+@media all and (max-width:480px){
+.guide .grade_box .grade_flex .right_box .lists li { float: none;  width: 70%; margin: 0 auto 32px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl{min-height:auto}
+.guide .grade_box .grade_flex .right_box .lists li .content{text-align:center;}
+.guide .grade_box .grade_flex .right_box .lists li:nth-child(3n){margin-right:auto;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl dd{font-size:14px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .conts dl{margin:9px 0 5px;}
+.guide .grade_box .grade_flex .right_box .lists li .content .gra_num{margin-bottom:10px;font-size:20px; }
+.guide .grade_box .grade_flex .right_box .lists li .content .tit{padding:6px 0; font-size:15px;}
+.guide .call{padding:22px 20px;}
+
+}
+@media all and (max-width:360px){
+
+.guide .grade_box .grade_flex .right_box .lists li { float: none; width: 90%; margin: 0 auto 32px;}
+.guide .call .call_in{font-size:12px;}
+.guide .call .call_in strong{font-size:13px;}
+.guide .call .notice{font-size:12px;}
+.guide .call{padding:14px 16px;}
+
+}

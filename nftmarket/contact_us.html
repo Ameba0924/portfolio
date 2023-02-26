@@ -1,0 +1,648 @@
+<html lang="en">
+
+<head>
+    <base href="">
+    <meta charset="utf-8">
+    <meta property="og:type" content="IPKIN">
+    <meta property="og:image" content="/img/kakaometa.png">
+    <meta property="og:description" content="IPKIN">
+    <meta name="description" content="Updates and statistics">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>IPKIN</title>
+
+
+    <link rel="stylesheet" href="./css/default.css">
+
+    <!--begin::Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&amp;display=swap" rel="stylesheet">
+    <link href="./css/style.bundle.css" rel="stylesheet" type="text/css">
+
+    <!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
+    <link href="./css/common.css" rel="stylesheet" type="text/css">
+    <link href="./css/swiper.min.css" rel="stylesheet" type="text/css">
+    <link href="./css/explorer.css" rel="stylesheet" type="text/css">
+    <link href="./css/sub.css" rel="stylesheet" type="text/css">
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./js/common.js" defer></script>
+    <script src="./js/swiper.min.js" type="text/javascript"></script>
+
+    <script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="">
+
+    <style>
+        body.modal-open {
+            overflow: hidden !important;
+        }
+    </style>
+
+    <header class="header " id="top_menu">
+        <button class="menu_btn"><i class="fas fa-bars"></i></button>
+        <div id="backscreen"></div>
+        <div class="toggle_wrapper">
+            <div class="top_inner">
+                <div class="logo"><a href=""><img src="./img/white_logo.png" alt="ipkin"></a></div>
+
+
+                <button class="close"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="menu_wrap">
+                <ul class="list_menu">
+                    <li>
+                        <a href="./index.html" class="first_nav">홈 </a>
+                    </li>
+                    <li>
+                        <a href="./mynft.html" class="first_nav">NFT 찾기 <i class="xi-angle-down-min"></i></a>
+                        <ul class="depth_nav">
+                            <li><a href="./category.html">특허 </a></li>
+                            <li><a href="#">상표</a></li>
+                            <li><a href="#">음악</a></li>
+                            <li><a href="#">미술</a></li>
+                            <li><a href="#">출팔물</a></li>
+                            <li><a href="#">사진</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="first_nav" href="./mynft.html">
+
+                            NFT 만들기 <i class="xi-angle-down-min"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./author.html" class="first_nav">저자 <i class="xi-angle-down-min"></i></a>
+                        <ul class="depth_nav">
+                            <li><a href="#">전체</a></li>
+                            <li><a href="#">인증된 저자</a></li>
+                            <li><a href="#">미인증 저자</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./contact_us.html" class="first_nav">문의하기 <i class="xi-angle-down-min"></i></a>
+                        <ul class="depth_nav">
+                            <li><a href="./contact_us.html">문의하기</a></li>
+                            <li><a href="./faq.html">자주묻는 질문</a></li>
+                            <li><a href="#">서비스 이용 약관</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_con">
+
+            <h1 class="header_logo">
+                <a href="./index.html"><img src="./img/white_logo.png" class="logo" alt="ipkin"></a>
+                <a href="./index.html"><img src="./img/logo.png" class="hd" alt="ipkin"></a>
+            </h1>
+
+            <div class="header_menu">
+                <div class="header_menu_head d-lg-none">
+                    <div class="menu_flex">
+
+                    </div>
+
+                </div>
+                <ul class="nav ex_nav nexon">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./index.html">홈</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            NFT 찾기
+                            <i class="xi-plus-circle-o"></i>
+                        </a>
+                        <div class=" sub_nav">
+                            <a class="" href="./category.html">
+                                <div class="sub_nav_text">-특허</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-상표</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-음악</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-미술</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-출판물</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-사진</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-기타</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="./mynft.html">
+                            NFT 만들기
+                            <i class="xi-plus-circle-o"></i>
+                        </a>
+                        <div class=" sub_nav">
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            저자
+                            <i class="xi-plus-circle-o"></i>
+                        </a>
+                        <div class=" sub_nav">
+                            <a class="" href="./author.html">
+                                <div class="sub_nav_text">-전체</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-인증된 저자</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-미인증 저자</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="#">
+                            문의하기
+                            <i class="xi-plus-circle-o"></i>
+                        </a>
+                        <div class=" sub_nav">
+                            <a class="" href="./contact_us.html">
+                                <div class="sub_nav_text">-문의하기</div>
+                            </a>
+                            <a class="" href="./faq.html">
+                                <div class="sub_nav_text">-자주묻는질문</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-서비스 이용 약관</div>
+                            </a>
+                            <a class="" href="#">
+                                <div class="sub_nav_text">-개인정보 처리방침</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header_actions">
+
+                <div class="d-none d-lg-flex header_action header_actions_con">
+
+
+                    <div class="dropdown header_profile" id="divProfileAddressInfo" style="display:block;">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <div class="profile_con">
+
+                                <span class="svg-icon svg-icon-primary svg-icon-2x mr-2">
+                                    <img id="divCreateNFTImage2" style="border-radius: 50%; " src="./img/profile.svg"
+                                        alt="">
+                                </span>
+                                <div class="con_info nexon">
+                                    <div id="spanWalletName" class="text_style">
+                                        0x2302efdfa6215b56902c9df04fc7277127f592f0</div>
+                                    <div id="spanWalletBalance" class="text_style">0</div>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu sub_nav nexon">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">
+                                <i class="xi-wallet mr-2"></i>
+                                <div class="sub_nav_text">지갑 변경</div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="xi-user-address mr-2"></i>
+                                <div class="sub_nav_text">내 정보</div>
+                            </a>
+                            <a class="dropdown-item" href="./nft.html">
+                                <i class="xi-puzzle mr-2"></i>
+                                <div class="sub_nav_text">NFT 만들기</div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="xi-cog mr-2"></i>
+                                <div class="sub_nav_text">설정</div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="xi-shield-checked-o mr-2"></i>
+                                <div class="sub_nav_text">인증신청</div>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <i class="xi-wallet mr-2"></i>
+                                <div class="sub_nav_text">로그아웃</div>
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <button class="sch_btn"><i class="fas fa-search"></i></button>
+
+            </div>
+        </div>
+        <div class="search_box">
+            <button type="button" class="close_sch" id="btnNFTSearch">
+                <i class="fas fa-times"></i>
+            </button>
+            <form class="header_search" id="frmNFTSearch" action="./explorer.php?category=all">
+                <input type="text" value="" title="작품검색" placeholder="제목으로 작품 찾기" required="required"
+                    aria-required="true" class="form-control input_sch nexon" name="nftsearch" id="nftsearch">
+                <button type="submit" class="header_search_btn">
+                    <i class="flaticon2-search-1"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+
+
+
+
+
+    <script>
+        //헤더
+        var $head_nav = $('.header .ex_nav .nav-item');
+        $head_nav.mouseover(function (e) {
+            $(this).addClass('on');
+            $('.header_con').addClass('active');
+            $('.header').addClass('hd_hover');
+
+        });
+        $head_nav.mouseout(function (e) {
+            $(this).removeClass('on');
+            $('.header_con').removeClass('active');
+            $('.header').removeClass('hd_hover');
+        });
+        var $gnb = $(".header .ex_nav .nav-item");
+        $gnb.mouseover(function (e) {
+
+            $(this).addClass('on');
+            $('.header .ex_nav .sub_nav').show();
+        });
+
+        $gnb.mouseout(function (e) {
+            $(this).removeClass('on');
+            $('.header .ex_nav .sub_nav').hide();
+        });
+
+        //검색버튼 클릭시
+        $('.sch_btn').click(function () {
+            $('.header .search_box').slideToggle();
+        });
+
+
+        //닥기버튼 클릭시 토글창 닫음
+        $('.header .close').click(function (e) {
+            $('.header .toggle_wrapper').hide();
+            $("#backscreen").hide();
+        });
+
+
+        //토글버튼 클릭시 토글창 열림
+        $('.header .menu_btn').click(function (e) {
+            $('.header .toggle_wrapper').show();
+            $("#backscreen").show();
+        });
+
+
+        //toggle메뉴 아코디언
+        var $ac_nav = $('.header .toggle_wrapper .menu_wrap .list_menu > li .first_nav');
+        $ac_nav.click(function (e) {
+            e.preventDefault();
+            $(this).siblings().slideToggle('slow');
+            $(this).toggleClass('on');
+
+        });
+
+
+        $("#backscreen").click(function () {
+            $('.header .toggle_wrapper').hide();
+            $(this).hide();
+        });
+
+
+
+
+
+
+        //모달
+
+
+        window.addEventListener('DOMContentLoaded', async () => {
+            if (!window.ethereum && !window.klaytn) {
+                $('#exampleModal').modal('show');
+            }
+            else if (walletprovider == "") {
+                $('#exampleModal').modal('show');
+            }
+            else {
+                var walletaddress = await getWalletAddress();
+                showBalance(walletaddress);
+
+                if (getNetwork() != network) {
+                    alert(networkError);
+                }
+            }
+        });
+
+        async function showBalance(walletaddress) {
+            var web3;
+
+            if (walletprovider == "metamask") {
+                web3 = new Web3(window.ethereum);
+            }
+            else if (walletprovider == "klaytn") {
+                web3 = new Web3(window.klaytn);
+            }
+
+
+            var walletbalance = web3.utils.fromWei(await web3.eth.getBalance(walletaddress), "ether");
+
+            walletbalance = Math.floor(walletbalance * 1000) / 1000
+
+            $("#spanWalletBalance").html(walletbalance);
+        }
+
+        async function loginWallet(provider) {
+            setCookie("walletprovider", provider, 30);
+            walletprovider = provider;
+
+            var walletaddress = await getWalletAddress();
+            var params = "walletaddress=" + walletaddress;
+
+            $.ajax({
+                url: "login.php",
+                type: "post",
+                data: params,
+                success: function (response) {
+                    location.reload();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
+            });
+        }
+
+        $(function () {
+            //검색
+            $('.header_action_search').click(function () {
+                $('.header_search').addClass('active');
+            });
+            $('.header_search_close').click(function () {
+                $('.header_search').removeClass('active');
+            });
+
+
+            $('.header .search_box .close_sch').click(function () {
+                $('.header .search_box').slideUp();
+            });
+
+
+
+
+            //메뉴
+            $('.header_btn').click(function () {
+                $('.header_menu').addClass('active');
+            });
+            $('.header_menu_close').click(function () {
+                $('.header_menu').removeClass('active');
+            });
+        });
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            //console.log(scroll);
+            if (scroll >= 300) {
+                //console.log('a');
+                $("#top_menu").addClass("hd_bg");
+            } else {
+                //console.log('a');
+                $("#top_menu").removeClass("hd_bg");
+            }
+        });
+
+    </script>
+    <div class="main_box">
+        <div class="top_subwrap qa">
+            <div class="container  contact">
+
+                <div class="top_sub">
+                    <ul class="nav">
+                        <li class="home"><a href="">홈</a><i class="xi-angle-right-min"></i></li>
+                        <li class="on"><a href="">1:1문의</a></li>
+                    </ul>
+                    <h2 class="tit nexon">1:1문의</h2>
+                </div>
+            </div>
+        </div>
+        <div class="qa_content">
+            <div class="container  contact">
+                <div class="wrap_position">
+                    <div class="question_banner">
+                        <div class="img_banner">
+                            <img src="./img/banner.png" class=" pc_banner" alt="" />
+                            <img src="./img/banner_mo.png" class="mo_banner" alt="" />
+                            <div class="txt_ban">
+                                <h3 class="company">주(하이코더)</h3>
+                                <p class="desc">아액스NFT는 실물자산과 디지털자산의 NFT를 발행,거래할수있는 플렛폼입니다.</p>
+                                <dl>
+                                    <dd>1833-4263</dd>
+                                    <dd>aex0316@aex.co.kr</dd>
+                                    <dd>https://aex.co.kr/</dd>
+                                </dl>
+                            </div>
+                            <div class="btn_site"><a href=""><strong>BLOCKSDK</strong> 사이트 <i
+                                        class="xi-arrow-right"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="input_form">
+                        <form action="">
+                            <div class="input_flex">
+                                <div class="input_box">
+                                    <input type="" title="이름 입력" placeholder="이름을 입력해주세요." />
+                                </div>
+                                <div class="input_box">
+                                    <input type="" title="이메일 입력" placeholder="이메일을 입력해주세요." />
+                                </div>
+                            </div>
+                            <div class="input_box"><input type="" title="제목 입력" placeholder="제목을 입력해주세요." /></div>
+                            <div class="input_box"><textarea name="" title="내용 입력" id="" cols="30" rows="10"
+                                    placeholder="내용을 입력해주세요."></textarea></div>
+
+                            <div class="input_box" style="display:none">
+                                <div class="bo_w_flie write_div">
+                                    <div class="file_wr write_div">
+                                        <label for="bf_file" class="lb_icon"><i class="fa fa-folder-open"
+                                                aria-hidden="true"></i><span class="sound_only"> </span></label>
+                                        <input type="file" name="bf_file[]" id="bf_file" title="파일선택" class="frm_file ">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="btn_wrap">
+                                <div class="btn_box">
+                                    <button class="more" id="trans">보내기<img src="./img/spin.gif" id="loading"
+                                            class="load"> </button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+
+
+
+            $('.list dl dt').click(function (e) {
+                $(this).toggleClass('on');
+                $(this).siblings().toggleClass('on');
+
+
+
+            });
+
+
+
+
+
+        });
+    </script>
+    <div class="footer nexon">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-8 col-md-6 col-lg-6 col-xl-4 order-4 order-md-1 order-lg-4 order-xl-1">
+                    <div class="footer_logo">
+                        <img src="./img/ft_logo.png" alt="ipkin">
+                    </div>
+                    <p class="footer_info">상호 : IPKIN</p>
+                    <p class="footer_info mt-0">사업자 번호 : 411-81-91466</p>
+                    <p class="footer_info mt-0">연락처 : 1644-9856</p>
+                    <p class="footer_info mt-0">주소 : http://nftmarket.ricorean.kr/explorer</p>
+                    <p class="footer_info">IPKIN NFT는 실물자산과 디지털자산의 NFT를 발행,거래할수있는 플렛폼입니다.</p>
+                </div>
+                <div
+                    class="col-6 col-md-4 col-lg-3 col-xl-2 order-1 order-md-2 order-lg-1 order-xl-2 offset-md-2 offset-lg-0">
+                    <div class="footer_title">저자 찾기</div>
+                    <div class="footer_nav">
+                        <a href="./author.html" class="">전체</a>
+                        <a href="#" class="">인증된 저자</a>
+                        <a href="#" class="">미인증 저자</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-6 col-xl-4 order-3 order-lg-2 order-md-3 order-xl-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="footer_title">NFT 찾기</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="footer_nav">
+                                <a href="" class="">특허 NFT</a>
+                                <a href="" class="">상표 NFT</a>
+                                <a href="" class="">음악 NFT</a>
+                                <a href="" class="">미술 NFT</a>
+                                <a href="" class="">출판물 NFT</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="footer_nav">
+                                <a href="" class="">사진 NFT</a>
+                                <a href="" class="">기타 NFT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2 order-2 order-lg-3 order-md-4 order-xl-4">
+                    <div class="footer_title">문의하기</div>
+                    <div class="footer_nav">
+                        <a href="./contact_us.html" class="">문의하기</a>
+                        <a href="./faq.html" class="">자주묻는질문</a>
+                        <a href="#" class="">개인정보 처리방침</a>
+                        <a href="#" class="">서비스 이용 약관</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer_con">
+                        <div class="d-flex w-100">
+                            <small class="ml-0 footer_copyright"></small>
+                            <div class="d-flex align-items-center ml-auto">
+                                <div class="d-none d-sm-flex footer_social mr-3">
+                                    <a href="" target="_blank">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="" target="_blank">
+                                        <i class="fab fa-blogger"></i>
+                                    </a>
+                                </div>
+                                <div class="btn_group">
+                                    <button id="btnlang" type="button" class="btn dropdown-toggle btn_lang"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        한국어
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="btnlang">
+                                        <a class="dropdown-item" href="#">한국어</a>
+                                        <a class="dropdown-item" href="#">English</a>
+                                        <a class="dropdown-item" href="#">中文</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="go_top" id="top_btn2"><i class="fas fa-angle-up"></i></button>
+
+
+
+
+    <script>
+        $(function () {
+            $("#top_btn2").on("click", function () {
+                $("html, body").animate({ scrollTop: 0 }, '500');
+                return false;
+            });
+        });
+    </script>
+
+
+
+    <!-- end::Body -->
+
+</body>
+
+</html>

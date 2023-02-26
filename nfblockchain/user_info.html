@@ -1,0 +1,270 @@
+<html lang="en">
+
+<head>
+	<base href="">
+	<meta name="google" value="notranslate">
+	<meta charset="utf-8">
+	<meta property="og:type" content="">
+	<meta property="og:description" content="">
+	<meta name="description" content="Updates and statistics">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>nfblockchain</title>
+
+	<link rel="stylesheet" href="./css/default.css">
+
+	<!--begin::Fonts -->
+	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
+
+	<!--end::Fonts -->
+
+	<!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&amp;display=swap"
+		rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&amp;family=Noto+Sans+KR:wght@300;400;500&amp;display=swap"
+		rel="stylesheet">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link href="./css/swiper.min.css" rel="stylesheet" type="text/css">
+
+	<link href="./css/common.css" rel="stylesheet" type="text/css">
+	<link href="./css/theme.css" rel="stylesheet" type="text/css">
+	<link href="./css/app.css" rel="stylesheet" type="text/css">
+	<link href="./css/header.css" rel="stylesheet" type="text/css">
+	<script src="./js/common.js" type="text/javascript"></script>
+	<script src="./js/swiper.min.js" type="text/javascript"></script>
+	<script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+
+	<div class="mobile-wrap   ">
+
+
+		<div class="header">
+			<h1 class="logo"><a href="./index.html"><img src="./img/logo_app.png" alt="NF blockchain"></a></h1>
+		</div>
+
+		<script>
+			$(window).scroll(function () {
+				if ($(window).scrollTop() >= 80) {
+					$(".header").addClass("fixed");
+				} else {
+					$(".header").removeClass("fixed");
+				};
+			});
+
+
+
+			$("#backscreen").click(function () {
+				$('.toggle_wrap').removeClass('open');
+				$(this).hide();
+			});
+
+
+			$(".close").click(function () {
+				$('.toggle_wrap').removeClass('open');
+				$("#backscreen").hide();
+			});
+
+			$(".toggle").click(function () {
+
+				var rq = $(".toggle_wrap").hasClass("open");
+
+				if (rq == false) {
+					$("#backscreen").show();
+					$('.toggle_wrap').addClass('open');
+
+				} else {
+					$("#backscreen").hide();
+					$('.toggle_wrap').removeClass('open');
+				}
+			});
+
+
+			let anker = $('.toggle_wrap .menu > li ');
+			let body = $('.depth_menu');
+
+			anker.click(function (e) {
+				e.preventDefault();
+
+				anker.find('a').removeClass('active');
+				$(this).find('a').addClass('active');
+
+				body.hide();
+
+				let $targetIdx = $(this).index();
+				body.eq($targetIdx).show();
+			});
+			anker.eq(0).trigger('click')
+
+			function copy_url(text) {
+				var TempText = document.createElement("input");
+				TempText.value = text;
+				document.body.appendChild(TempText);
+				TempText.select();
+				document.execCommand("copy") //클립보드 복사 실행
+				alert("추천 링크가 복사 되었습니다.");
+				document.body.removeChild(TempText);
+			}
+		</script>
+
+
+		<style type="text/css">
+
+
+		</style>
+		<div class="mypage">
+
+			<div class="top_area" style="overflow:visible">
+				<div class="container lang">
+					<h2 class="asset_stit "><span class="mont">MY PAGE</span> <i class="xi-angle-down-min"></i></h2>
+
+				</div>
+			</div>
+			<div class="mypage_wrap">
+				<div class="container">
+					<div class="mypage_info">
+						<span class="svg-icon svg-icon-primary svg-icon-2x">
+							<!--begin::Svg Icon | path:/var/www/preview.keenthemes.com/metronic/releases/2021-05-14-112058/theme/html/demo1/dist/../src/media/svg/icons/Communication/Contact1.svg--><svg
+								xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+								width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
+								<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+									<rect x="0" y="0" width="24" height="24"></rect>
+									<circle fill="#000" opacity="0.1" cx="12" cy="12" r="10"></circle>
+									<path
+										d="M12,11 C10.8954305,11 10,10.1045695 10,9 C10,7.8954305 10.8954305,7 12,7 C13.1045695,7 14,7.8954305 14,9 C14,10.1045695 13.1045695,11 12,11 Z M7.00036205,16.4995035 C7.21569918,13.5165724 9.36772908,12 11.9907452,12 C14.6506758,12 16.8360465,13.4332455 16.9988413,16.5 C17.0053266,16.6221713 16.9988413,17 16.5815,17 L7.4041679,17 C7.26484009,17 6.98863236,16.6619875 7.00036205,16.4995035 Z"
+										fill="#000" opacity="0.3"></path>
+								</g>
+							</svg>
+						</span>
+						<div class="txt_box">
+							<strong class="name">최고관리자</strong>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<ul class="my_page_list">
+
+				<li><a href="./my_info.html">내 정보관리<i class="xi-angle-right-min"></i></a></li>
+				<li><a href="#">1:1 문의<i class="xi-angle-right-min"></i></a>
+				</li>
+				<li><a href="#">공지사항<i class="xi-angle-right-min"></i></a></li>
+				<li><a href="#">추천링크<i class="xi-angle-right-min"></i></a></li>
+				<li><a href="./deposit_password.html">보안비밀번호 변경<i class="xi-angle-right-min"></i></a></li>
+				<li><a href="#">로그아웃<i class="xi-angle-right-min"></i></a></li>
+			</ul>
+
+
+
+
+		</div>
+
+
+	</div>
+	</div>
+	</div>
+	</div>
+
+	<script>
+		function copy_url(text) {
+			var TempText = document.createElement("input");
+			TempText.value = text;
+			document.body.appendChild(TempText);
+			TempText.select();
+			document.execCommand("copy") //클립보드 복사 실행
+			alert("추천 링크가 복사 되었습니다.");
+			document.body.removeChild(TempText);
+
+		}
+	</script>
+
+
+
+	<div class="footer-menu ">
+		<nav class="menu-wrap">
+			<ul class="clearfix type1 dragscroll"
+				style=" cursor: grab; cursor : -o-grab; cursor : -moz-grab; cursor : -webkit-grab;">
+				<li class="">
+					<a href="./index.html" class="">
+						<i class="fas fa-home"></i>
+						<span class="material-icons-outlined"></span>
+						<p class="">홈</p>
+					</a>
+				</li>
+				<li class="">
+					<a href="./sales.html" class="">
+						<i class="fas fa-gift"></i>
+						<p class="">채굴패키지</p>
+					</a>
+				</li>
+				<li class="">
+					<a href="./point_history_usdt.html" class="">
+						<i class="fas fa-sticky-note"></i>
+						<p class="">내역</p>
+					</a>
+				</li>
+				<li class="">
+
+					<a href="./farming_staking.html" class="">
+						<i class="fas fa-coins"></i>
+						<p class="">스테이킹</p>
+					</a>
+				</li>
+				<li class="">
+					<a href="./staking_hash.html" class="">
+						<i class="fas fa-exchange-alt"></i>
+						<p class="">스테이킹 내역</p>
+					</a>
+				</li>
+				<li class="">
+					<a href="./withdraw_node.html" class="">
+						<i class="fas fa-credit-card"></i>
+						<p class="">출금</p>
+					</a>
+				</li>
+
+
+				<li class="on">
+					<a href="./user_info.html" class="">
+						<i class="fas fa-lock"></i>
+						<p class="">개인정보</p>
+					</a>
+				</li>
+				<li class="">
+					<a href="#" class="">
+						<i class="fas fa-map"></i>
+						<p class="">노드map</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</div>
+	<script type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js"></script>
+	<script>
+		/*1차탭*/
+		$('.dragscroll li').click(function () {
+
+			var _scrollX = $('.dragscroll').scrollLeft();
+			$('.dragscroll').scrollLeft(_scrollX);
+		});
+	</script>
+
+
+	<!-- end::Body -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,900 @@
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+	<meta property="og:type" content="주식회사 디알플러스">
+
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>주식회사 디알플러스</title>
+	<link rel="shortcut icon" href="./image/favicon.ico">
+
+	<link rel="stylesheet" href="./css_js/style1.css">
+	<link rel="stylesheet" href="./css_js/default.css">
+	<link rel="stylesheet" href="./css_js/new_style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+KR:wght@300,400,500,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css_js/swiper.min.css">
+	<link rel="stylesheet" href="./css_js/animate.css" type="text/css">
+	<link href="./css_js/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="./css_js/common.css?11111" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+		integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+	<script src="css_js/jquery-1.8.3.min.js"></script>
+	<script src="./css_js/jquery.menu.js"></script>
+	<script src="./css_js/common.js"></script>
+	<script language="javascript" type="text/javascript" src="./css_js/bootstrap.bundle.min.js"></script>
+	<script language="javascript" type="text/javascript" src="./css_js/gnb-megamenu.js"></script>
+	<script type="text/javascript" src="./css_js/swiper.js"></script>
+	<script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+
+	<script>
+		$(function () {
+			$(".hd_pops_reject").click(function () {
+				var id = $(this).attr('class').split(' ');
+				var ck_name = id[1];
+				var exp_time = parseInt(id[2]);
+				$("#" + id[1]).css("display", "none");
+				set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+			});
+			$('.hd_pops_close').click(function () {
+				var idb = $(this).attr('class').split(' ');
+				$('#' + idb[1]).css('display', 'none');
+			});
+			$("#hd").css("z-index", 1000);
+		});
+	</script>
+	<!-- } 팝업레이어 끝 -->
+	<div id="mobile_header">
+		<div class="inner">
+			<div class="mo_lg">
+				<a href="./index.html">
+					<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/top_logo1.png" alt="로고" title="로고">
+				</a>
+			</div>
+			<ul class="m_gnb">
+				<li class="category"><a href="#none" class="toggle qbt" title="전체메뉴열기"></a></li>
+				<li class="home">
+					<a href="tel:07088894904" title="전화하기"><i class="fas fa-phone"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="sideMenu">
+		<div class="side_title qbt">디알플러스 <span class="close"></span>
+		</div>
+
+		<div class="navi_bg">
+			<div class="nav">
+				<ul class="subnav1">
+					<li class="navi_set">
+						<div>회사소개<i class="gray fas fa-angle-down" aria-hidden="true"
+								style="float:right; margin-right:10px; margin-top:12px;"></i></div>
+						<ul class="subnav">
+							<li><a href="./company/01.html" target="_self">- 회사소개</a></li>
+							<li><a href="./company/02.html" target="_self">- 회사개요</a></li>
+							<li><a href="./company/03.html" target="_self">- 연혁</a></li>
+							<li><a href="./company/04.html" target="_self">- 가치와 이념</a></li>
+							<li><a href="./company/05.html" target="_self">- 조직도</a></li>
+						</ul>
+					</li>
+					<li class="navi_set">
+						<div>서비스<i class="gray fas fa-angle-down" aria-hidden="true"
+								style="float:right; margin-right:10px; margin-top:12px;"></i></div>
+						<ul class="subnav">
+							<li><a href="./service/01.html" target="_self">- 렌터카 결제대행 서비스</a></li>
+							<li><a href="./service/02.html" target="_self">- 간편결제 및 몰 연동 서비스</a></li>
+							<li><a href="./service/03.html" target="_self">- 결제 서비스 이용하기</a></li>
+						</ul>
+					</li>
+					<li class="navi_set">
+						<div>고객센터<i class="gray fas fa-angle-down" aria-hidden="true"
+								style="float:right; margin-right:10px; margin-top:12px;"></i></div>
+						<ul class="subnav">
+							<li><a href="./notice.html" target="_self">- 공지사항</a></li>
+							<li><a href="./qua.html" target="_self">- Q&amp;A</a></li>
+							<li><a href="./qualist.html" target="_self">- 온라인문의</a></li>
+						</ul>
+					</li>
+					<li class="navi_set">
+						<div><a href="http://drpay.ricorean.kr/bbs/login.php" target="_self">관리자페이지</a></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="back_cover" style="height: 4152px;"></div>
+
+
+
+
+	<section id="header_wrap">
+		<div id="header" class="jbMenu">
+			<div class="header_in">
+				<div class="wrap_box">
+					<h1><a href="/">
+							<img class="bl_logo" src="http://drpay.ricorean.kr/theme/ricorean/html/image/top_logo1.png"
+								alt="로고" title="로고">
+						</a></h1>
+					<div id="lnb">
+						<div class="lnb_wrap" style="position: relative; height: 60px; visibility: visible;">
+							<ul id="mainMenu">
+								<li class="">
+									<a href="./company/01.html" target="_self">회사소개<span></span></a>
+									<ul class="lnb_sub">
+										<li><a href="./company/01.html" target="_self">회사소개</a></li>
+										<li><a href="./company/02.html" target="_self">회사개요</a></li>
+										<li><a href="./company/03.html" target="_self">연혁</a></li>
+										<li><a href="./company/04.html" target="_self">가치와 이념</a></li>
+										<li><a href="./company/05.html" target="_self">조직도</a></li>
+									</ul>
+								</li>
+								<li class="">
+									<a href="./service/01.html" target="_self">서비스<span></span></a>
+									<ul class="lnb_sub">
+										<li><a href="./service/01.html" target="_self">렌터카 결제대행 서비스</a></li>
+										<li><a href="./service/02.html" target="_self">간편결제 및 몰 연동 서비스</a></li>
+										<li><a href="./service/03.html" target="_self">결제 서비스 이용하기</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="./notice.html" target="_self">고객센터<span></span></a>
+									<ul class="lnb_sub">
+										<li><a href="./notice.html" target="_self">공지사항</a></li>
+										<li><a href="./qua.html" target="_self">Q&amp;A</a></li>
+										<li><a href="./qualist.html" target="_self">온라인문의</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="http://drpay.ricorean.kr/bbs/login.php"
+										target="_self">관리자페이지<span></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+	<style type="text/css">
+
+	</style>
+	<div id="container">
+		<div class="main_slide">
+			<div class="swiper mySwiper1 ">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+						data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 1903px;">
+						<div class="slide2">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/main_b2.png" class="pcimg">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/mmain_b2.png" class="mimg">
+							<div class="main_ab">
+								<div class="text_u">
+									<div class="txt01 mont">Intergrated Car Rental Service</div>
+									<div class="txt02">렌터카 통합관리 서비스</div>
+									<div class="txt03">최근 3년간 연평균 <b>성장률 <span class="mont">20%</span></b></div>
+									<div class="graph ani-de12 sb-effect-displayed animated fadeInLeft"
+										data-sb="fadeInLeft" style="opacity: 1;"><img
+											src="http://drpay.ricorean.kr/theme/ricorean/html/image/s2_graph.png"
+											alt="성장률 그래프"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide ">
+						<div class="slide1">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/main_b1.png" class="pcimg"
+								alt=" ">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/mmain_b1.png" class="mimg"
+								alt="  ">
+							<div class="main_ab">
+								<div class="text_u">
+									<div class="txt01 mont">Rentar car ARS credit card payment service</div>
+									<div class="txt02">렌터카 <b>신용카드</b><br><b>결제대행</b> 서비스</div>
+								</div>
+								<div class="img_u">
+									<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/card.png"
+										class="uimg1 ani-de05 sb-effect-displayed animated fadeInDown"
+										data-sb="fadeInDown" style="opacity: 1;" alt="카드">
+									<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/car1.png"
+										class="uimg2 ani-de1 sb-effect-displayed animated fadeInRight"
+										data-sb="fadeInRight" style="opacity: 1;" alt="자동차">
+									<div class="utxt ani-de2 sb-effect-displayed animated fadeInLeft"
+										data-sb="fadeInLeft" style="opacity: 1;">
+										<div class="utxt1">결제 플랫폼</div>
+										<div class="utxt2">장소, 시간 관계없이 실시간으로 결제가 <br>가능한 신용카드 결제플랫폼 제공</div>
+									</div>
+								</div>
+							</div>
+							<ul class="main_in_s">
+								<li class="tran03 tran_li01">
+									<div class="opbox">
+										<div class="tt01 mont">01</div>
+										<div class="tt02">개인간 거래 및 <br>관련 결제시장확산</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li02">
+									<div class="opbox">
+										<div class="tt01 mont">02</div>
+										<div class="tt02">전문적인 카드결제 <br>시스템 제공</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li03 on">
+									<div class="opbox">
+										<div class="tt01 mont">03</div>
+										<div class="tt02">기존 할부금융인프라 <br>활용 서비스 확대</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li04">
+									<div class="opbox">
+										<div class="tt01 mont">04</div>
+										<div class="tt02">판매자, 구매자간 <br>P2P 거래 Tool 제공</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li05">
+									<div class="opbox">
+										<div class="tt01 mont">05</div>
+										<div class="tt02">신용카드 결제관련 <br>사업영역 확장 기획</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="slide2">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/main_b2.png" class="pcimg">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/mmain_b2.png" class="mimg">
+							<div class="main_ab">
+								<div class="text_u">
+									<div class="txt01 mont">Intergrated Car Rental Service</div>
+									<div class="txt02">렌터카 통합관리 서비스</div>
+									<div class="txt03">최근 3년간 연평균 <b>성장률 <span class="mont">20%</span></b></div>
+									<div class="graph ani-de12 sb-effect-displayed animated fadeInLeft"
+										data-sb="fadeInLeft" style="opacity: 1;"><img
+											src="http://drpay.ricorean.kr/theme/ricorean/html/image/s2_graph.png"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide ">
+						<div class="slide1">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/main_b1.png" class="pcimg">
+							<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/mmain_b1.png" class="mimg">
+							<div class="main_ab">
+								<div class="text_u">
+									<div class="txt01 mont">Rentar car ARS credit card payment service</div>
+									<div class="txt02">렌터카 <b>신용카드</b><br><b>결제대행</b> 서비스</div>
+								</div>
+								<div class="img_u">
+									<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/card.png"
+										class="uimg1 ani-de05 sb-effect-displayed animated fadeInDown"
+										data-sb="fadeInDown" style="opacity: 1;" alt="">
+									<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/car1.png"
+										class="uimg2 ani-de1 sb-effect-displayed animated fadeInRight"
+										data-sb="fadeInRight" style="opacity: 1;" alt="">
+									<div class="utxt ani-de2 sb-effect-displayed animated fadeInLeft"
+										data-sb="fadeInLeft" style="opacity: 1;">
+										<div class="utxt1">결제 플랫폼</div>
+										<div class="utxt2">장소, 시간 관계없이 실시간으로 결제가 <br>가능한 신용카드 결제플랫폼 제공</div>
+									</div>
+								</div>
+							</div>
+							<ul class="main_in_s">
+								<li class="tran03 tran_li01">
+									<div class="opbox">
+										<div class="tt01 mont">01</div>
+										<div class="tt02">개인간 거래 및 <br>관련 결제시장확산</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li02">
+									<div class="opbox">
+										<div class="tt01 mont">02</div>
+										<div class="tt02">전문적인 카드결제 <br>시스템 제공</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li03 on">
+									<div class="opbox">
+										<div class="tt01 mont">03</div>
+										<div class="tt02">기존 할부금융인프라 <br>활용 서비스 확대</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li04">
+									<div class="opbox">
+										<div class="tt01 mont">04</div>
+										<div class="tt02">판매자, 구매자간 <br>P2P 거래 Tool 제공</div>
+									</div>
+								</li>
+								<li class="tran03 tran_li05">
+									<div class="opbox">
+										<div class="tt01 mont">05</div>
+										<div class="tt02">신용카드 결제관련 <br>사업영역 확장 기획</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="m14_box">
+			<div class="swiper mySwiper4 swiper-initialized swiper-horizontal swiper-pointer-events">
+				<ul class="swiper-wrapper" id="swiper-wrapper-d8d109d8f7bdaf83" aria-live="off"
+					style="transition-duration: 300ms;">
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1">
+						<div class="opbox">
+							<div class="tt01 mont">02</div>
+							<div class="tt02">전문적인 카드결제 <br>시스템 제공</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2">
+						<div class="opbox">
+							<div class="tt01 mont">03</div>
+							<div class="tt02">기존 할부금융인프라 <br>활용 서비스 확대</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+						<div class="opbox">
+							<div class="tt01 mont">04</div>
+							<div class="tt02">판매자, 구매자간 <br>P2P 거래 Tool 제공</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+						data-swiper-slide-index="4">
+						<div class="opbox">
+							<div class="tt01 mont">05</div>
+							<div class="tt02">신용카드 결제관련 <br>사업영역 확장 기획</div>
+						</div>
+					</li>
+					<li class="swiper-slide" data-swiper-slide-index="0">
+						<div class="opbox">
+							<div class="tt01 mont">01</div>
+							<div class="tt02">개인간 거래 및 <br>관련 결제시장확산</div>
+						</div>
+					</li>
+					<li class="swiper-slide" data-swiper-slide-index="1">
+						<div class="opbox">
+							<div class="tt01 mont">02</div>
+							<div class="tt02">전문적인 카드결제 <br>시스템 제공</div>
+						</div>
+					</li>
+					<li class="swiper-slide" data-swiper-slide-index="2">
+						<div class="opbox">
+							<div class="tt01 mont">03</div>
+							<div class="tt02">기존 할부금융인프라 <br>활용 서비스 확대</div>
+						</div>
+					</li>
+					<li class="swiper-slide" data-swiper-slide-index="3">
+						<div class="opbox">
+							<div class="tt01 mont">04</div>
+							<div class="tt02">판매자, 구매자간 <br>P2P 거래 Tool 제공</div>
+						</div>
+					</li>
+					<li class="swiper-slide" data-swiper-slide-index="4">
+						<div class="opbox">
+							<div class="tt01 mont">05</div>
+							<div class="tt02">신용카드 결제관련 <br>사업영역 확장 기획</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+						<div class="opbox">
+							<div class="tt01 mont">01</div>
+							<div class="tt02">개인간 거래 및 <br>관련 결제시장확산</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1">
+						<div class="opbox">
+							<div class="tt01 mont">02</div>
+							<div class="tt02">전문적인 카드결제 <br>시스템 제공</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2">
+						<div class="opbox">
+							<div class="tt01 mont">03</div>
+							<div class="tt02">기존 할부금융인프라 <br>활용 서비스 확대</div>
+						</div>
+					</li>
+					<li class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="3">
+						<div class="opbox">
+							<div class="tt01 mont">04</div>
+							<div class="tt02">판매자, 구매자간 <br>P2P 거래 Tool 제공</div>
+						</div>
+					</li>
+				</ul>
+				<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+			</div>
+		</div>
+		<div class="main_bn">
+			<div class="bn_wrap">
+				<div class="top_tit">
+					<div class="text01 mont">Platform &amp; Solution</div>
+					<div class="text02">통합 관리 솔루션</div>
+					<div class="text03">단순한 결제를 넘어 신용카드 결제를 필요로 하는 모든 사업자 및 개인에게맞춤형 플랫폼을 제공 합니다. <br>통합 관리 솔루션&amp;다양한
+						간편결제 플랫폼</div>
+				</div>
+				<div class="bn_slide">
+					<div class="swiper mySwiper2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn1.png"
+											class="tran03" alt="">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Platform</h2>
+										<p><span>사용자가 원하는</span><span>기능들을 선택하여 맞춤형</span><span>플랫폼 제공</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn2.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">PG</h2>
+										<p><span>온라인/오프라인/모바일</span><span>언제 어디서든 사용가능한</span><span>전자상거래용 지불 서비스</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn3.png"
+											class="tran03" alt="">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Marketing</h2>
+										<p><span>당사 협력업체를 통하여</span><span>필요한 광고 및 마케팅 병행</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn1.png"
+											class="tran03" alt="">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Platform</h2>
+										<p><span>사용자가 원하는</span><span>기능들을 선택하여 맞춤형</span><span>플랫폼 제공</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn2.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">PG</h2>
+										<p><span>온라인/오프라인/모바일</span><span>언제 어디서든 사용가능한</span><span>전자상거래용 지불 서비스</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn3.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Marketing</h2>
+										<p><span>당사 협력업체를 통하여</span><span>필요한 광고 및 마케팅 병행</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn1.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Platform</h2>
+										<p><span>사용자가 원하는</span><span>기능들을 선택하여 맞춤형</span><span>플랫폼 제공</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn2.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">PG</h2>
+										<p><span>온라인/오프라인/모바일</span><span>언제 어디서든 사용가능한</span><span>전자상거래용 지불 서비스</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide ">
+								<div class="re_area">
+									<div class="img_w">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/bn3.png"
+											class="tran03" alt=" ">
+									</div>
+									<div class="ps_text">
+										<h2 class="mont">Marketing</h2>
+										<p><span>당사 협력업체를 통하여</span><span>필요한 광고 및 마케팅 병행</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="main_flat">
+			<div class="main_flat_wrap">
+				<div class="top_tit row">
+					<div class="text01 mont">Flatform</div>
+					<div class="col-lg-3">
+						<div class="text02 mont">DR PAY</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="text03">DR PAY는 진보하는 커머스시장에 적합한 결제플랫폼을 개발하여 서비스 하고 있습니다. 결제 플랫폼은 ARS를 통한 결제와
+							<br>스마트폰을 통한 스마트 결제 기반으로,판매처의 판매 증진을 위한 각종 부가서비스를 제공하고 있습니다.
+						</div>
+					</div>
+				</div>
+				<div class="tab_slide">
+					<div
+						class="swiper-pagination3 swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+						<div class="swiper-pagination-bullet" tabindex="0"><span>Application</span><i
+								class="xi-angle-right-thin ac_icon tran03"></i></div>
+						<div class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0">
+							<span>관리사이트</span><i class="xi-angle-right-thin ac_icon tran03"></i>
+						</div>
+						<div class="swiper-pagination-bullet" tabindex="0"><span>결제플랫폼</span><i
+								class="xi-angle-right-thin ac_icon tran03"></i></div>
+					</div>
+					<div class="img_wrap">
+						<div
+							class="swiper-container mySwiper3 swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events">
+							<div class="swiper-wrapper" id="swiper-wrapper-9a8e1ce5f106cb7d3" aria-live="off"
+								style="transition-duration: 0ms;">
+								<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+									data-swiper-slide-index="2" role="group" aria-label="3 / 3"
+									style="width: 840px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+									<div class="img_slid_wrap ">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/flat3.png" alt="결제플랫폼
+										">
+										<div class="add_text">체계적인 관리가 가능한 관리사이트를 무료로 제공하여, 보다 효율적으로 차량을 관리 할 수 있도록
+											도와줍니다.<br>
+											차량의 배차, 미납, 소모품관리 등 간편한 인터페이스로 구성된 차량관리 서비스를 제공합니다.
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" role="group"
+									aria-label="1 / 3"
+									style="width: 840px; opacity: 1; transform: translate3d(-840px, 0px, 0px); transition-duration: 0ms;">
+									<div class="img_slid_wrap">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/flat1.png"
+											alt="Application ">
+										<div class="add_text">관리사이트와 연동 된 App (관리, 영업, 결제)을 제공하고 있습니다.</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-visible swiper-slide-active"
+									data-swiper-slide-index="1" role="group" aria-label="2 / 3"
+									style="width: 840px; opacity: 1; transform: translate3d(-1680px, 0px, 0px); transition-duration: 0ms;">
+									<div class="img_slid_wrap ">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/flat2.png"
+											alt="관리사이트 ">
+										<div class="add_text">업무의 특성상 외부에서 차량의 계약 및 배차가 이루어 질때가 많습니다. <br>
+											장소, 시간 관계 없이 실시간으로 결제가 가능한 신용카드 결제 플랫폼을 제공합니다.
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" role="group"
+									aria-label="3 / 3"
+									style="width: 840px; opacity: 0; transform: translate3d(-2520px, 0px, 0px); transition-duration: 0ms;">
+									<div class="img_slid_wrap ">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/flat3.png"
+											alt="결제플랫폼 ">
+										<div class="add_text">체계적인 관리가 가능한 관리사이트를 무료로 제공하여, 보다 효율적으로 차량을 관리 할 수 있도록
+											도와줍니다.<br>
+											차량의 배차, 미납, 소모품관리 등 간편한 인터페이스로 구성된 차량관리 서비스를 제공합니다.
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+									data-swiper-slide-index="0" role="group" aria-label="1 / 3"
+									style="width: 840px; opacity: 0; transform: translate3d(-3360px, 0px, 0px); transition-duration: 0ms;">
+									<div class="img_slid_wrap">
+										<img src="http://drpay.ricorean.kr/theme/ricorean/html/image/flat1.png"
+											alt="Application ">
+										<div class="add_text">관리사이트와 연동 된 App (관리, 영업, 결제)을 제공하고 있습니다.</div>
+									</div>
+								</div>
+							</div>
+							<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="car2_op1">
+			<div class="cus_wrap">
+				<div class="row">
+					<div class="col-md-7 col-lg-8">
+						<div class="top_tit">
+							<div class="text01 mont">Notice</div>
+							<div class="text02">공지사항</div>
+						</div>
+						<div class="lat_notice">
+
+							<div class="lat">
+								<ul>
+									<li>
+										<div class="lat_con">
+											<span class="new_icon">공지<span class="sound_only">새글</span></span><a
+												href="#" class="subj_txt"> 테스트`11111`</a>
+											<span class="lt_date">2021-10-18 10-18</span>
+										</div>
+										<div class="right-btn"><a href="#"><i class="fas fa-angle-right"></i></a></div>
+									</li>
+									<li>
+										<div class="lat_con">
+											<span class="new_icon">공지<span class="sound_only">새글</span></span><a
+												href="#" class="subj_txt"> 테스트11</a>
+											<span class="lt_date">2021-10-18 10-18</span>
+										</div>
+										<div class="right-btn"><a href="#" class="tran02"><i
+													class="fas fa-angle-right"></i></a></div>
+									</li>
+									<li>
+										<div class="lat_con">
+											<span class="new_icon">공지<span class="sound_only">새글</span></span><a
+												href="#" class="subj_txt"> 2019년 9월 무이자 행사 안내</a>
+											<span class="lt_date">2021-10-12 10-12</span>
+										</div>
+										<div class="right-btn"><a href="#" class="tran02"><i
+													class="fas fa-angle-right"></i></a></div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-5 col-lg-4">
+						<div class="dr_tit"><span class="mont">DR</span> 고객센터</div>
+						<div class="dr_box tran03">
+							<div class="dr_box_con">
+								<div class="tm_nb mont">1566-9517</div>
+								<div class="tm_tit">상담가능시간</div>
+								<div class="tm_text">
+									<div class="tm_border">
+										<p><b>평일 :</b><span class="mont">09:30 ~ 20:00</span></p>
+										<p><b>주말 및 공휴일 :</b><span class="mont">11:00 ~ 19:00</span></p>
+										<p><b>점심시간 :</b><span class="mont">12:00 ~ 1:00</span></p>
+									</div>
+								</div>
+								<div class="tm_button">
+									<button type="button" class="tm_btn">문의하기</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cont_us">
+				<div class="us_wrap">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="cont_tit">
+								<div class="txt01 mont">Contact Us</div>
+								<div class="txt02"><span class="mont">DR PAY</span>는 여러분들의 <br>다양한 의견을 기다립니다.</div>
+							</div>
+							<ul class="info_dr" data-sb="fadeInLeft" style="opacity: 1;">
+								<li><i class="xi-maker"></i>경기도 성남시 분당구 대왕판교로 670, B동 404호(유스페이스2)</li>
+								<li class="en"><i class="xi-mail-o"></i>drcom0813@naver.com</li>
+								<li><i class="xi-call"></i> 대표번호 : <span class="en">1566-9517</span> </li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<form id="" name="" action="" method="POST" class="dr_wr">
+								<input type="text" class="form-control" id="dr_name" name="dr_name" placeholder="이름"
+									title="이름" required="">
+								<input type="text" class="form-control" id="dr_email" name="dr_email" placeholder="이메일"
+									title="이메일" required="">
+								<textarea name="dr_wr_con" id="dr_wr_con" placeholder="문의내용"></textarea>
+								<button type="submit" id="dr_submit" class="dr_submit">문의하기 <i
+										class="xi-angle-right-thin"></i></button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+		setInterval(function () {
+			if ($(".tran_li01").hasClass("on")) {
+				$(".tran_li01").removeClass('on');
+				$(".tran_li02").addClass('on');
+			} else if ($(".tran_li02").hasClass("on")) {
+				$(".tran_li02").removeClass('on');
+				$(".tran_li03").addClass('on');
+			} else if ($(".tran_li03").hasClass("on")) {
+				$(".tran_li03").removeClass('on');
+				$(".tran_li04").addClass('on');
+			} else if ($(".tran_li04").hasClass("on")) {
+				$(".tran_li04").removeClass('on');
+				$(".tran_li05").addClass('on');
+			} else if ($(".tran_li05").hasClass("on")) {
+				$(".tran_li05").removeClass('on');
+				$(".tran_li01").addClass('on');
+			} else {
+				$(".tran_li01").addClass('on');
+			}
+
+
+		}, 2000);
+
+
+
+		var swiper = new Swiper(".mySwiper1", {
+			autoplay: {
+				delay: 12000,
+				disableOnInteraction: false,
+			},
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+			},
+		});
+
+		var swiper = new Swiper(".mySwiper2", {
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			slidesPerView: 1,
+			spaceBetween: 10,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+			},
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 10
+				},
+				// when window width is >= 480px
+				480: {
+					slidesPerView: 2,
+					spaceBetween: 20
+				},
+				// when window width is >= 640px
+				640: {
+					slidesPerView: 3,
+					spaceBetween: 30
+				}
+			}
+		});
+
+		var bullet = ['Application', '관리사이트', '결제플랫폼'];
+		var swiper = new Swiper(".mySwiper3", {
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			effect: 'fade',
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination3',
+				clickable: true,
+				renderBullet: function (index, className) {
+					return '<div class="' + className + '"><span>' + (bullet[index]) + '</span><i class="xi-angle-right-thin ac_icon tran03"></i></div>';
+				}
+			},
+		});
+
+		var swiper = new Swiper(".mySwiper4", {
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			slidesPerView: 1,
+			spaceBetween: 0,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+			},
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 2,
+					spaceBetween: 5
+				},
+				// when window width is >= 480px
+				480: {
+					slidesPerView: 3,
+					spaceBetween: 10
+				},
+				// when window width is >= 640px
+				640: {
+					slidesPerView: 4,
+					spaceBetween: 30
+				}
+			}
+		});
+	</script>
+
+	<div class="footer">
+		<div class="foo_wrap">
+			<div><img src="http://drpay.ricorean.kr/theme/ricorean/html/image/ft_logo1.png" alt="하단로고" title="하단로고">
+			</div>
+			<div class="ft_info">
+				<p>
+					<span>주식회사 디알플러스</span>
+					<span>사업자등록번호 <em class="en">144-81-20339</em></span>
+					<span>대표 : 정성채</span>
+				</p>
+				<p>
+					<span>경기도 성남시 분당구 대왕판교로 670, B동 404호(유스페이스2)</span>
+				</p>
+				<p>
+					<span class="en">T. 1566-9517</span>
+					<span class="en ">F. 0303-3440-0403</span>
+					<span>관리자<em class="en">Email : drcom0813@naver.com</em></span>
+				</p>
+				<div class="copy mont en">Copyright ⓒ DRPAY. All rights reserved.</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./css_js/common.js"></script>
+	<button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span
+			class="sound_only">상단으로</span></button>
+	<script>
+
+		$(function () {
+			$("#top_btn").on("click", function () {
+				$("html, body").animate({ scrollTop: 0 }, '500');
+				return false;
+			});
+		});
+	</script>
+
+
+	<!-- } 하단 끝 -->
+
+
+
+</body>
+
+</html>

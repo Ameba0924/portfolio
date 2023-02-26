@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>고려대학교의로원 장례식장</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="고려대학교의료원 장례식장"></a></h1>
+            <p class="name">홍길동장례식장</p>
+            <p class="day">01월 10일 화요일 <span class="time">03:30 PM</span></p>
+            <div class="link-btn_box">
+                <a href="./info.html">기본정보</a>
+                <a href="#">로그아웃</a>
+            </div>
+        </div>
+        <div class="header_bot">
+            <ul class="menu_list">
+                <li><a href="./reserve.html"><img src="./img/ico_mn-off.png" alt=""> 예약상담 관리</a></li>
+                <li class=""><a href="./index.html"><img src="./img/ico_mn1.png" alt="">부고등록 관리</a></li>
+                <li class="on"><a href="#"><img src="./img/ico_mn1_on.png" alt="">부고정보 보기</a></li>
+                <li><a href="./media.html"><img src="./img/ico_mn2.png" alt="">미디어 서비스</a></li>
+                <li><a href="./form.html"><img src="./img/ico_mn3.png" alt="">서식 관리</a></li>
+                <li><a href="#"><img src="./img/ico_mn5.png" alt="">공지사항</a></li>
+                <li><a href="#"><img src="./img/ico_mn6.png" alt="">자주 찾는 질문</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2 class="cont-tit sct_3">부고관리</h2>
+            <div class="sct info_wrap">
+                <h3 class="sct_tit">부고 정보</h3>
+                <div class="btn_pos"><button href="" id="md_btn" class="btn_big">기타정보</button></div>
+                <div class="table_box">
+                    <table class="list_info">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    고인정보
+                                </th>
+                                <td>
+                                    <div class="form_cont_box">
+                                        <div class="cont_inner">
+                                            홍길동/60세/여
+                                        </div>
+                                        <div class="cont_inner">
+                                            <button type="button">영정사진보기</button>
+                                        </div>
+                                        <div class="cont_inner">
+                                            <div class="ui-checkbox-block">
+
+                                                <input type="checkbox" id="pho_hidden" title="부고장 영정사진 미노출 선택" checked
+                                                    class="ui-checkbox">
+                                                <label for="pho_hidden" class="ui-checkbox-label">
+                                                    <span class="ui-checkbox-obj"></span>
+                                                    <span class="ui-checkbox-text">부고장 영정사진 미노출</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cont_inner">
+                                            <div class="ui-checkbox-block">
+
+                                                <input type="checkbox" id="hompage_hidden" title="홈페이지 노출 제외 선택" checked
+                                                    class="ui-checkbox">
+                                                <label for="hompage_hidden" class="ui-checkbox-label">
+                                                    <span class="ui-checkbox-obj"></span>
+                                                    <span class="ui-checkbox-text">홈페이지 노출 제외</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    사망구분
+                                </th>
+                                <td>
+                                    <div class="form_cont_box">
+                                        <div class="cont_inner">
+                                            병사
+                                        </div>
+
+                                        <div class="cont_inner">
+                                            <div class="ui-checkbox-block">
+
+                                                <input type="checkbox" id="diagnosis" title="사망진단서 선택" checked
+                                                    class="ui-checkbox">
+                                                <label for="diagnosis" class="ui-checkbox-label">
+                                                    <span class="ui-checkbox-obj"></span>
+                                                    <span class="ui-checkbox-text">사망진단서</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cont_inner">
+                                            <div class="ui-checkbox-block">
+
+                                                <input type="checkbox" id="certificate" title="검시필증 선택" disabled
+                                                    class="ui-checkbox">
+                                                <label for="certificate" class="ui-checkbox-label">
+                                                    <span class="ui-checkbox-obj"></span>
+                                                    <span class="ui-checkbox-text">검시필증</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="cont_inner">
+                                            <div class="ui-checkbox-block">
+
+                                                <input type="checkbox" id="hospital" title="병원비수납 선택" disabled
+                                                    class="ui-checkbox">
+                                                <label for="hospital" class="ui-checkbox-label">
+                                                    <span class="ui-checkbox-obj"></span>
+                                                    <span class="ui-checkbox-text">병원비수납</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    빈소
+                                </th>
+                                <td>
+                                    <div class="form_cont_box">
+                                        <div class="cont_inner">
+                                            B101호 (입실: 2023-01-13 09:00)
+                                        </div>
+
+
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    별세일
+                                </th>
+                                <td>
+                                    <div class="form_cont_box">
+                                        <div class="cont_inner">
+                                            2023-01-12 (별세)
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <th>
+                                    안치일시
+                                </th>
+                                <td>
+                                    <div class="form_cont_box">
+                                        <div class="cont_inner">
+                                            2023-01-12 07:00 / 안치경로 : 111병동
+                                        </div>
+
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="cont_area sct">
+                <h3 class="sct_tit">상주 정보</h3>
+                <div class="btn_pos"><button href="" id="md_btn" class="btn_big">상주 외 부고정보</button></div>
+                <div class="table-wrap">
+
+                    <table>
+                        <colgroup>
+                            <col width="28%">
+                            <col width="36%">
+                            <col width="36%">
+
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">상주(4)</th>
+                                <th scope="col">휴대폰번호</th>
+                                <th scope="col">부의금 계좌 <span>(계좌번호 마스킹 해제)</span></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="">
+                                    <p>(배우자) 김주열</p>
+                                </td>
+                                <td>
+                                    <div class="flex-inner">
+                                        <span>
+                                            010-0000-0000
+                                        </span>
+                                        <p class="btn_box">
+
+                                            <a href="" class="btn_send">부고재전송</a>
+                                            <a href="" class="btn_send">답례글전송</a>
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="name">새마을금고 012345678910</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <p>(배우자) 김주열</p>
+                                </td>
+                                <td>
+                                    <div class="flex-inner">
+                                        <span>
+                                            010-0000-0000
+                                        </span>
+                                        <p class="btn_box">
+
+                                            <a href="" class="btn_send">부고재전송</a>
+                                            <a href="" class="btn_send">답례글전송</a>
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="name">새마을금고 012345678910</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="">
+                                    <p>(배우자) 김주열</p>
+                                </td>
+                                <td>
+                                    <div class="flex-inner">
+                                        <span>
+                                            010-0000-0000
+                                        </span>
+                                        <p class="btn_box">
+
+                                            <a href="" class="btn_send">부고재전송</a>
+                                            <a href="" class="btn_send">답례글전송</a>
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="name">새마을금고 012345678910</p>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="btn-wrap">
+                        <a href="" class="btn_default">목록</a>
+                        <a href="" class="btn_default">부고보기</a>
+                        <a href="" class="btn_big">수정</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+
+    <div class="md_wrap" id="md_box">
+        <div class="modal_inner">
+
+            <h3 class="modal-tit"><img src="./img/ico_mn3_on.png" alt="">기타정보</h3>
+
+            <div class="modal_body">
+                <div class="box_inner">
+                    <h4>주의</h4>
+                    <p class="desc">
+                        근조화환 “받지 않음”을 선택할 때 <br> 상주님이 요청한 경우에만 선택 하세요. <br>
+                        상주님의 요청없이 임의로 “받지 않음”으로 변경할 경우 <br><strong> 민원이 발생</strong> 할 수 있습니다.
+                    </p>
+                </div>
+                <table class="modal_tb">
+                    <tbody>
+                        <tr>
+                            <th>근조화환</th>
+                            <td>
+                                <div class="input_wrap">
+                                    <div class="input_box">
+                                        <input type="checkbox" id="send" title="받음 선택" class="ui-input">
+                                        <label for="send">
+                                            <span class="check_box-obj"></span>
+                                            <p class="check-text">
+                                                받음
+                                            </p>
+                                        </label>
+                                    </div>
+                                    <div class="input_box">
+                                        <input type="checkbox" id="unsend" title="받지않음 선택" class="ui-input">
+                                        <label for="unsend">
+                                            <span class="check_box-obj"></span>
+                                            <p class="check-text">
+                                                받지않음
+                                            </p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>부의금</th>
+                            <td>
+                                <div class="input_wrap">
+                                    <div class="input_box">
+                                        <input type="checkbox" id="send_mo" title="받음 선택" class="ui-input">
+                                        <label for="send_mo">
+                                            <span class="check_box-obj"></span>
+                                            <p class="check-text">
+                                                받음
+                                            </p>
+                                        </label>
+                                    </div>
+                                    <div class="input_box">
+                                        <input type="checkbox" id="unsend_mo" title="받지않음 선택" class="ui-input">
+                                        <label for="unsend_mo">
+                                            <span class="check_box-obj"></span>
+                                            <p class="check-text">
+                                                받지않음
+                                            </p>
+                                        </label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <button type="button" id="btn_cancel" class="btn_close"></button>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+
+
+
+
+        $(document).ready(function ($) {
+            $("#md_btn").on("click", function (event) {
+                $("#md_box").show();
+
+                $("body").append('<div class="modal_overlay"></div>');
+            });
+
+            $("body").on("click", function (event) {
+                if (event.target.className == 'btn_close' || event.target.className == 'modal_overlay') {
+                    $("#md_box").hide();
+                    $(".modal_overlay").hide();
+                }
+            });
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>

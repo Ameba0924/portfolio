@@ -1,0 +1,306 @@
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="http://boogoz.com/common/img/kakaometa.png">
+	<meta property="og:description" content="">
+
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>로그인 | (주)리코렌인프라</title>
+	<link rel="stylesheet" href="./css_js/bootstrap.min.css" type="text/css" media="screen">
+
+	<link rel="stylesheet" href="./css_js/member/basic/style.css">
+
+	<link rel="stylesheet" href="./css_js/jquery.bxslider.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./css_js/animate.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./css_js/index.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css_js/swiper.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css_js/default.css">
+
+
+	<script src="http://boogoz.com/js/jquery-1.12.4.min.js?ver=191202"></script>
+
+	<script src="./css_js/jquery.menu.js"></script>
+	<script src="./css_js/common.js"></script>
+	<script src="./css_js/popper.min.js"></script>
+	<script src="./css_js/bootstrap.bundle.min.js"></script>
+	<script src="./css_js/swiper.js"></script>
+	<script src="./css_js/jquery.bxslider.js"></script>
+</head>
+
+<body>
+
+
+	<!-- 상단 시작 { -->
+	<section id="header_wrap">
+		<div id="header_sub" class="jbMenu login_head">
+			<div class="header_in">
+				<div class="home"><a href="/"><img src="http://boogoz.com/img/main/home.png" alt="홈"></a></div>
+				<div class="togg_btn"><button class="tog_bt"> </button></div>
+				<div class="wrap_box">
+					<h1>
+						<a href="./index.html">
+							<img class="bl_logo" src="http://boogoz.com/img/main/top_logo2.png" alt="리코렌인프라" title="로고">
+
+							<img class="login_lg" src="http://boogoz.com/img/main/login_lg.png" alt="리코렌인프라" title="로고">
+						</a>
+					</h1>
+					<div id="lnb">
+						<div class="lnb_wrap" style="position:relative;">
+							<ul id="mainMenu">
+								<li>
+									<a href="#">부고장만들기<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_2.html">부고장조회<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_3.html">장례식장등록<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_4.html">고객센터<span></span></a>
+								</li>
+								<li>
+									<a href="./login.html">로그인<span></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="mo_toggle">
+		<div class="close"><button></button></div>
+		<div class="mo_log">
+			<ul>
+
+				<li class="log_nav"><a href="./login.html" class="log_border">로그인</a></li>
+			</ul>
+		</div>
+		<div class="toggle_inner">
+			<ul class="nav_mo_gnb">
+				<li class="nav"><a href="./mobile_boogo/index.html">모바일 부고장보기<i class="fa fa-chevron-right"></i></a>
+				</li>
+				<li class="nav"><a href="./sub_2.html">부고장조회<i class="fa fa-chevron-right"></i></a></li>
+				<li class="nav">
+					<a href="./sub_3.html">장례식장등록<i class="fa fa-chevron-right"></i></a>
+				</li>
+				<li class="nav pos_re">
+					<a href="./sub_4.html" id="depth_btn">고객센터<i class="fa fa-chevron-right"></i></a>
+					<div class="depth_menus">
+						<ul>
+							<li class="depth_menu"><a href="./sub_4.html">자주하는질문</a></li>
+							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">광고/제휴 문의</a></li>
+							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">1:1 문의</a></li>
+						</ul>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	s
+
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			var position = $(window).scrollTop();
+			if (position > 80) {
+				$(".jbMenu").addClass("hd_black");
+			}
+			else if (position < 80) {
+				$(".jbMenu").removeClass("hd_black");
+			}
+		});
+		//모바일 뎁스메뉴
+		$('#depth_btn').click(function (e) {
+			e.preventDefault();
+			$('.depth_menus ').slideToggle();
+			$(this).toggleClass('on');
+		});
+
+		//모바일 토글
+
+
+		$('.header_in .togg_btn').click(function (e) {
+			e.preventDefault();
+			$('.mo_toggle').addClass('on');
+			$('.jbMenu').addClass('open');
+
+
+
+		});
+		$('.close').click(function (e) {
+			e.preventDefault();
+			$('.mo_toggle').removeClass('on');
+			$('.jbMenu').removeClass('open');
+
+
+		});
+
+
+	</script>
+
+
+	<div id="mb_login" class="mbskin">
+		<div class="mbskin_box">
+
+			<div class="mb_log_cate">
+				<h2><span class="sound_only">회원</span>로그인</h2>
+
+			</div>
+			<form name="flogin" action="http://boogoz.com/bbs/login_check.php" onsubmit="return flogin_submit(this);"
+				method="post">
+				<input type="hidden" name="url" value="http%3A%2F%2Fboogoz.com%2Fbbs%2Fqalist.php">
+
+				<fieldset id="login_fs">
+					<legend>회원로그인</legend>
+					<label for="login_id" class="log_tit">아이디<strong class="sound_only"> 필수</strong></label>
+					<input type="text" name="mb_id" id="login_id" required="" title="아이디 입력" class="frm_input required"
+						size="20" maxlength="20" placeholder="아이디">
+					<label for="login_pw" class="log_tit">비밀번호<strong class="sound_only"> 필수</strong></label>
+					<input type="password" name="mb_password" id="login_pw" title="비밀번호 입력" required=""
+						class="frm_input required" size="20" maxlength="20" placeholder="비밀번호">
+					<div id="login_info">
+						<div class="login_if_auto chk_box">
+							<input type="checkbox" name="auto_login" id="login_auto_login" title="자동로그인 체크"
+								class="selec_chk">
+							<label for="login_auto_login"><span></span> 자동로그인</label>
+						</div>
+
+					</div>
+					<button type="submit" class="btn_submit">로그인</button>
+
+					<div class="login_if_lpl">
+						<a href="http://boogoz.com/bbs/password_lost.php" target="_blank" id="login_password_lost">회원정보를
+							잊으셨나요? 여기를 클릭해주세요</a>
+					</div>
+					<div class="register_Box">
+						<div class="flex_wrap">
+							<p class="desc">장례식장을 등록하여<br>리코렌인프라의 회원이 되어보세요.</p>
+							<a href="http://boogoz.com/bbs/register_form.php" class="regis_btn">장례식장등록</a>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+
+
+		<!-- 주문하기, 신청하기 -->
+
+
+	</div>
+
+	<script>
+		jQuery(function ($) {
+			$("#login_auto_login").click(function () {
+				if (this.checked) {
+					this.checked = confirm("자동로그인을 사용하시면 다음부터 회원아이디와 비밀번호를 입력하실 필요가 없습니다.\n\n공공장소에서는 개인정보가 유출될 수 있으니 사용을 자제하여 주십시오.\n\n자동로그인을 사용하시겠습니까?");
+				}
+			});
+		});
+
+		function flogin_submit(f) {
+			if ($(document.body).triggerHandler('login_sumit', [f, 'flogin']) !== false) {
+				return true;
+			}
+			return false;
+		}
+	</script>
+	<!-- } 로그인 끝 -->
+
+	<!-- } 콘텐츠 끝 -->
+
+	<hr>
+
+	<!-- 하단 시작 { -->
+	<div id="ft" class="footer">
+		<div class="containers">
+			<div class="foot_top">
+				<div class="ft_logo"><a href=""><img src="http://boogoz.com/img/main/ft_lg.png" alt="리코렌인프라"></a></div>
+			</div>
+			<div class="foot_bot">
+				<div class="foot_top_inner ">
+					<ul class="nav_wrap">
+						<li><a href="http://boogoz.com/bbs/content.php?co_id=privacy">개인정보처리방침</a></li>
+						<li><a href="http://boogoz.com/bbs/faq.php?fm_id=1">고객센터</a></li>
+					</ul>
+				</div>
+				<div class="foot_bot_inn ">
+
+					<dl class="info">
+						<dd>상호명 : (주)리코렌인프라 | 대표이사 : 김광현 | 사업자등록번호 411-81-91466</dd>
+						<dd>주소 : 서울 금천구 가산디지털2로 11, 에스비지니스센터 9층</dd>
+						<dd>T. 1644-9856 | E-mail. master@ricorean.com</dd>
+						<small class="copy">Copyright © Ri Corean Infra All rights reserved.</small>
+					</dl>
+					<div class="right_info">
+						<a href="http://boogoz.com/bbs/faq.php">
+							<div class="round_box">
+								<div class="left_box">
+									<p class="cust_tit">리코렌인프라 고객센터</p>
+									<h4 class="tel">1644-9856</h4>
+								</div>
+								<div class="right_box">
+									<dl class="time-info">
+										<dd>평일 10:00~ 18:00</dd>
+										<dd>점심시간 12:30 ~ 13:30</dd>
+										<dd>토요일 공휴일은 휴무입니다</dd>
+										<dd class="pcnone"><strong>E-mail. master@ricorean.com</strong></dd>
+									</dl>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$(function () {
+				$("#top_btn").on("click", function () {
+					$("html, body").animate({ scrollTop: 0 }, '500');
+					return false;
+				});
+			});
+		</script>
+	</div>
+
+
+	<!-- } 하단 끝 -->
+
+	<!--------- 상단으로 ---------->
+	<button type="button" id="ma_top_btn">
+		<i class="xi-angle-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+	</button>
+
+	<script>
+
+		$(function () {
+			$("#ma_top_btn").on("click", function () {
+				$("html, body").animate({ scrollTop: 0 }, '500');
+				return false;
+			});
+		});
+
+
+		$(function () {
+			// 폰트 리사이즈 쿠키있으면 실행
+			font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+		});
+	</script>
+
+
+</body>
+
+</html>

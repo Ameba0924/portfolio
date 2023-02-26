@@ -1,0 +1,373 @@
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta property="og:type" content="">
+	<meta property="og:image" content="http://boogoz.com/common/img/kakaometa.png">
+	<meta property="og:description" content="">
+
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>자주하시는 질문 | (주)리코렌인프라</title>
+	<link rel="stylesheet" href="./css_js/bootstrap.min.css" type="text/css" media="screen">
+
+	<link rel="stylesheet" href="./css_js/faq/style.css">
+
+	<link rel="stylesheet" href="./css/jquery.bxslider.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./css/animate.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="./css_js/index.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./css_js/swiper.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css_js/default.css">
+
+
+	<script src="http://boogoz.com/js/jquery-1.12.4.min.js?ver=191202"></script>
+
+	<script src="./css_js/jquery.menu.js"></script>
+	<script src="./css_js/common.js"></script>
+	<script src="./css_js/popper.min.js"></script>
+	<script src="./css_js/bootstrap.bundle.min.js"></script>
+	<script src="./css_js/swiper.js"></script>
+	<script src="./css_js/jquery.bxslider.js"></script>
+
+</head>
+
+<body>
+
+
+	<!-- 상단 시작 { -->
+	<section id="header_wrap">
+		<div id="header_sub" class="jbMenu ">
+			<div class="header_in">
+				<div class="home"><a href="/"><img src="./img/main/home.png" alt="홈아이콘"></a></div>
+				<div class="togg_btn"><button type="button" class="tog_bt"> </button></div>
+				<div class="wrap_box">
+					<h1>
+						<a href="./index.html">
+							<img class="bl_logo" src="./img/main/top_logo2.png" alt="리코렌인프라" title="로고">
+							<img class="wh_logo" src="./img/main/top_logo_w.png" alt="리코렌인프라" title="로고">
+							<img class="login_lg" src="./img/main/login_lg.png" alt="리코렌인프라" title="로고">
+						</a>
+					</h1>
+					<div id="lnb">
+						<div class="lnb_wrap" style="position:relative;">
+							<ul id="mainMenu">
+								<li>
+									<a href="./mobile_boogo/index.html" target="_blank">모바일 부고장보기<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_2.html">부고장조회<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_3.html">장례식장등록<span></span></a>
+								</li>
+								<li>
+									<a href="./sub_4.html">고객센터<span></span></a>
+								</li>
+								<li>
+									<a href="./login.html">로그인<span></span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="mo_toggle">
+		<div class="close"><button type="button"></button></div>
+		<div class="mo_log">
+			<ul>
+
+				<li class="log_nav"><a href="./login.html" class="log_border">로그인</a></li>
+			</ul>
+		</div>
+		<div class="toggle_inner">
+			<ul class="nav_mo_gnb">
+				<li class="nav"><a href="./mobile_boogo/index.html">모바일 부고장보기<i class="fa fa-chevron-right"></i></a>
+				</li>
+				<li class="nav"><a href="./sub_2.html">부고장조회<i class="fa fa-chevron-right"></i></a></li>
+				<li class="nav">
+					<a href="./sub_3.html">장례식장등록<i class="fa fa-chevron-right"></i></a>
+				</li>
+				<li class="nav pos_re">
+					<a href="./sub_4.html" id="depth_btn">고객센터<i class="fa fa-chevron-right"></i></a>
+					<div class="depth_menus">
+						<ul>
+							<li class="depth_menu"><a href="./sub_4.html">자주하는질문</a></li>
+							<li class="depth_menu"><a href="#">광고/제휴 문의</a></li>
+							<li class="depth_menu"><a href="#">1:1 문의</a></li>
+						</ul>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+	<!-- } 상단 끝 -->
+
+	<div class="sub_bn">
+		<div class="content">
+			<h4 class="nav_title">고객센터</h4>
+			<p class="desc_sub">쉽고 간편한 모바일 부고장</p>
+			<h3 class="sub_tit">예법에 맞춘 격식있는 부고장을 무료로 만들어 드립니다</h3>
+		</div>
+	</div>
+
+
+
+
+
+	<script type="text/javascript">
+		$(window).scroll(function () {
+			var position = $(window).scrollTop();
+			if (position > 80) {
+				$(".jbMenu").addClass("hd_black");
+			}
+			else if (position < 80) {
+				$(".jbMenu").removeClass("hd_black");
+			}
+		});
+		//모바일 뎁스메뉴
+		$('#depth_btn').click(function (e) {
+			e.preventDefault();
+			$('.depth_menus ').slideToggle();
+			$(this).toggleClass('on');
+		});
+
+		//모바일 토글
+
+
+		$('.header_in .togg_btn').click(function (e) {
+			e.preventDefault();
+			$('.mo_toggle').addClass('on');
+			$('.jbMenu').addClass('open');
+
+
+
+		});
+		$('.close').click(function (e) {
+			e.preventDefault();
+			$('.mo_toggle').removeClass('on');
+			$('.jbMenu').removeClass('open');
+
+
+		});
+
+
+	</script>
+
+
+	<div class="menu_tabs">
+		<ul class="tabs">
+			<li><a href="#" class="active">자주하는질문</a></li>
+			<li><a href="#">광고/제휴 문의</a></li>
+			<li><a href="#">1:1 문의</a></li>
+		</ul>
+	</div>
+	<div class="faq_wrap">
+		<!-- FAQ 시작 { -->
+		<div id="faq_hhtml"></div>
+		<fieldset id="faq_sch">
+			<legend>FAQ 검색</legend>
+			<form name="faq_search_form" method="get">
+				<span class="sch_tit">FAQ 검색</span>
+				<input type="hidden" name="fm_id" value="1">
+				<label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+				<input type="text" name="stx" value="" required="" id="stx" title="검색어 입력" class="frm_input" size="15"
+					maxlength="15">
+				<button type="submit" value="검색" class="btn_submit"><i class="fa fa-search" aria-hidden="true"></i>
+					검색</button>
+			</form>
+		</fieldset>
+
+		<nav id="bo_cate">
+			<h2>자주하시는질문 분류</h2>
+			<ul id="bo_cate_ul">
+			</ul>
+		</nav>
+
+		<div id="faq_wrap" class="faq_1">
+			<section id="faq_con">
+				<h2>자주하시는 질문 목록</h2>
+				<ol>
+					<li>
+						<h3>
+							<span class="tit_bg">Q</span><a href="#none" onclick="return faq_open(this);">
+								<p>대표상주를 변경하고 싶은데 어떻게 하나요?</p>
+							</a>
+							<button type="button" class="tit_btn" onclick="return faq_open(this);"><i class="fa fa-plus"
+									aria-hidden="true"></i><span class="sound_only">열기</span></button>
+						</h3>
+						<div class="con_inner">
+							<p>대표상주란? 장례식장을 방문하여 빈소를 계약하고 삼가부고를 이용신청한 상주님을 의미합니다.</p>
+							<p>직접 수정방법 : 앱을 설치하신 상주님은 부고관리에서 직접 정보를 수정 변경할 수 있습니다.</p>
+							<p>요청 수정방법 : 장례식장 상담실에 변경내용을 요청하시면 즉시 수정 가능합니다.</p>
+							<p>앱설치 : 구글스토어/앱스토어에서 설치 가능합니다.</p> <button type="button" class="closer_btn"><i
+									class="fa fa-minus" aria-hidden="true"></i><span
+									class="sound_only">닫기</span></button>
+						</div>
+					</li>
+					<li>
+						<h3>
+							<span class="tit_bg">Q</span><a href="#none" onclick="return faq_open(this);">
+								<p>대표상주와 상주 차이는 뭐죠?</p>
+							</a>
+							<button type="button" class="tit_btn" onclick="return faq_open(this);"><i class="fa fa-plus"
+									aria-hidden="true"></i><span class="sound_only">열기</span></button>
+						</h3>
+						<div class="con_inner">
+							<p>대표상주란? 장례식장에서 삼가부고를 신청한 상주이며, 정보이용동의서에 동의 서명한 상주를 의미합니다.</p>
+							<p>대표상주는 상주님중 한명만 등록됩니다. 이용 중 문의사항은 1:1 문의에 문의하시면 안내해 드리겠습니다.</p> <button type="button"
+								class="closer_btn"><i class="fa fa-minus" aria-hidden="true"></i><span
+									class="sound_only">닫기</span></button>
+						</div>
+					</li>
+				</ol>
+			</section>
+		</div>
+
+
+		<div id="faq_thtml"></div>
+
+		<!-- } FAQ 끝 -->
+	</div>
+
+
+	<script src="http://boogoz.com/js/viewimageresize.js"></script>
+	<script>
+		jQuery(function () {
+			$(".closer_btn").on("click", function () {
+				$(this).closest(".con_inner").slideToggle('slow', function () {
+					var $h3 = $(this).closest("li").find("h3");
+
+					$("#faq_con li h3").removeClass("faq_li_open");
+					if ($(this).is(":visible")) {
+						$h3.addClass("faq_li_open");
+					}
+				});
+			});
+		});
+
+		function faq_open(el) {
+			var $con = $(el).closest("li").find(".con_inner"),
+				$h3 = $(el).closest("li").find("h3");
+
+			if ($con.is(":visible")) {
+				$con.slideUp();
+				$h3.removeClass("faq_li_open");
+			} else {
+				$("#faq_con .con_inner:visible").css("display", "none");
+
+				$con.slideDown(
+					function () {
+						// 이미지 리사이즈
+						$con.viewimageresize2();
+						$("#faq_con li h3").removeClass("faq_li_open");
+
+						$h3.addClass("faq_li_open");
+					}
+				);
+			}
+
+			return false;
+		}
+	</script>
+
+
+
+
+
+	<!-- } 콘텐츠 끝 -->
+
+	<hr>
+
+	<!-- 하단 시작 { -->
+	<div id="ft" class="footer">
+		<div class="containers">
+			<div class="foot_top">
+				<div class="ft_logo"><a href=""><img src="http://boogoz.com/img/main/ft_lg.png" alt="리코렌인프라"></a></div>
+			</div>
+			<div class="foot_bot">
+				<div class="foot_top_inner ">
+					<ul class="nav_wrap">
+						<li><a href="http://boogoz.com/bbs/content.php?co_id=privacy">개인정보처리방침</a></li>
+						<li><a href="http://boogoz.com/bbs/faq.php?fm_id=1">고객센터</a></li>
+					</ul>
+				</div>
+				<div class="foot_bot_inn ">
+
+					<dl class="info">
+						<dd>상호명 : (주)리코렌인프라 | 대표이사 : 김광현 | 사업자등록번호 411-81-91466</dd>
+						<dd>주소 : 서울 금천구 가산디지털2로 11, 에스비지니스센터 9층</dd>
+						<dd>T. 1644-9856 | E-mail. master@ricorean.com</dd>
+						<small class="copy">Copyright © Ri Corean Infra All rights reserved.</small>
+					</dl>
+					<div class="right_info">
+						<a href="http://boogoz.com/bbs/faq.php">
+							<div class="round_box">
+								<div class="left_box">
+									<p class="cust_tit">리코렌인프라 고객센터</p>
+									<h4 class="tel">1644-9856</h4>
+								</div>
+								<div class="right_box">
+									<dl class="time-info">
+										<dd>평일 10:00~ 18:00</dd>
+										<dd>점심시간 12:30 ~ 13:30</dd>
+										<dd>토요일 공휴일은 휴무입니다</dd>
+										<dd class="pcnone"><strong>E-mail. master@ricorean.com</strong></dd>
+									</dl>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$(function () {
+				$("#top_btn").on("click", function () {
+					$("html, body").animate({ scrollTop: 0 }, '500');
+					return false;
+				});
+			});
+		</script>
+	</div>
+
+
+	<!-- } 하단 끝 -->
+
+	<!--------- 상단으로 ---------->
+	<button type="button" id="ma_top_btn">
+		<i class="fas fa-chevron-up"></i><span class="sound_only">상단으로</span>
+	</button>
+
+	<script>
+
+		$(function () {
+			$("#ma_top_btn").on("click", function () {
+				$("html, body").animate({ scrollTop: 0 }, '500');
+				return false;
+			});
+		});
+
+
+		$(function () {
+			// 폰트 리사이즈 쿠키있으면 실행
+			font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+		});
+	</script>
+
+
+
+</body>
+
+</html>
