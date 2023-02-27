@@ -1,7 +1,7 @@
 @charset "utf-8";
 #bo_cate {margin:15px 0 10px}
 #bo_cate h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
-#bo_cate ul {;zoom:1}
+#bo_cate ul {zoom:1}
 #bo_cate ul:after {display:block;visibility:hidden;clear:both;content:""}
 #bo_cate li {display:inline-block;}
 #bo_cate a {display:block;border:1px solid #dadada;background:#fff;margin:0 0 5px 0;line-height:30px;padding:0 10px;border-radius:3px}
@@ -43,13 +43,13 @@
 }
 @media all and (max-width:480px){
 #faq_sch form{width:90%; margin: 0 auto;}
-#faq_sch{padding:28px 0 !imporatant;}
+#faq_sch{padding:28px 0 !important;}
 #faq_sch .sch_tit{font-size:18px;}
 #faq_wrap li h3 p{font-size:14px;}
-#faq_wrap li h3{min-height:54px} line-height:26px;}
+#faq_wrap li h3{min-height:54px;line-height:26px;}
 #faq_wrap li h3 .tit_bg{width:26px; height:26px; font-size:12px; line-height:26px;}
 #faq_wrap li h3{padding-left:46px;}
-#bo_cate a{width:110px; font-size:13px;}
+#bo_cate a{width:124x; font-size:13px;}
 
 }
 @media all and (max-width:360px){

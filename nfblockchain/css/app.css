@@ -494,7 +494,7 @@ a:hover {color:#000;}
 .input_style input:focus{border: 1px solid #06fcf9 !important; box-shadow: 0 1px 6px rgb(83 144 255 / 40%) !important; background:none !important;}
 .input_style .input-group-text{background: #ecedef; color: #a4a4a5;font-size:0.9rem;font-weight:500; letter-spacing:0.03em;border:1px solid #ccc ;border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;    }
 .input_style .button_style {color: #fff;background: #674fff;line-height: 0; position: absolute;right: 8px;top: 50%;transform: translateY(-50%); padding: 20px 18px;display: inline-block; border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;border-radius: 0.25rem !important;}
-.btn-complete {background: #f50666;color: #fff !important;font-size: 1.1rem;font-weight: 400;width: 100%;margin-top: 2rem;height: 48px;border-radius: 4px;line-height: 48px;display: inline-block;}
+.btn-complete {background: #f50666;color: #fff !important;font-size: 1.1rem;font-weight: 400;width: 100%;margin-top: 2rem;padding:0;height: 48px;border-radius: 4px;line-height: 48px;display: inline-block;}
 .flex_btn{display: flex;justify-content: space-between; margin-top:1.5rem;}
 .btn-complete.yel{background:yellow;color:#111 !important;width: 48%;font-weight: 500;font-size: 1.1rem;}
 .modal_node .modal-content{background:#00091b;box-shadow: 0px 0px 16px 4px rgba(255,255,255,.15);}
