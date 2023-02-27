@@ -401,6 +401,7 @@ body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
     .mo_toggle .toggle_inner .nav_mo_gnb .nav.pos_re .depth_menus ul .depth_menu a{display: inline-block;padding: 12px 0;font-size: 16px;color: #777;border-bottom: 1px solid #eee;width: 100%;}
     .mo_toggle .toggle_inner .nav_mo_gnb .nav a{color: #333;font-size: 20px;padding: 20px 0;font-weight: 500;display: block;}
     .mo_toggle .toggle_inner .nav_mo_gnb .nav a i{font-size:16px;color:#ddd;position:absolute;right:0;top: 27px;}
+    .mo_toggle .toggle_inner .nav_mo_gnb .nav a svg{font-size:16px;color:#ddd;position:absolute;right:0;top: 27px;}
     .mo_toggle .toggle_inner .nav_mo_gnb .nav a.on i {transform:rotate(90deg);}
     .mo_toggle .close{position: absolute;right: 42px;top: 33px;}
     .mo_toggle .close button{width: 26px;height: 26px;display:inline-block;background: url('../img/main/close.png')no-repeat center center/24px auto;}
@@ -480,7 +481,7 @@ body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
     .container_mo .main_ban .bn_bg .top_side .txt_box .desc{font-size:16px; line-height: 152%;}
     .container_mo .main_ban .bn_bg .top_side .txt_box .desc .blue{font-size:20px;}
     .container_mo .main_ban{padding:30px 20px;}
-    .container_mo .button_boxs .btn_wraps .main_btn a .box_btn .icon{width: 46px;height: 46px;line-height:46px;}
+    .container_mo .button_boxs .btn_wraps .main_btn a .box_btn .icon{width: 46px;height: 46px;    display: flex;justify-content: center;align-items: center;}
     .main_ban{padding: 20px 16px;}
     .footer .foot_bot .foot_bot_inn .info dd{font-size:13px;padding: 1px 0;line-height: 20px;}
     .footer .foot_bot .foot_bot_inn .info{padding-top:15px;}
@@ -498,7 +499,7 @@ body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
     .sub_bn .sub_tit{font-size:15px;}
     .sub_bn .desc_sub{font-size:13px;}
     .bot_side .flex li{padding:14px 0;}
-    .bot_side .flex li .box .right_ico{width:48px; height:48px; line-height:48px;}
+    .bot_side .flex li .box .right_ico{width:48px; height:48px; line-height:48px;   display: flex;justify-content: center;align-items: center;}
     .bot_side .flex li .box .right_ico img{width:24px;}
     .bot_side .flex li .box .num_box .num_value{font-size:18px;}
     #header h1, #header_sub h1{width:106px;}

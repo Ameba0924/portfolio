@@ -3,8 +3,6 @@
 /* ### 기본 스타일 커스터마이징 시작 ### */
 
 
-
-
 /* 기본박스 */
 .mbskin {position:relative;margin: 100px auto 7px;max-width: 396px;text-align:center;width: 100%;}
 .mbskin:after {right:10px;left:auto;
@@ -18,8 +16,6 @@
 .mbskin .btn_submit {width:100%;margin: 31px 0 0;height:45px;font-weight:bold;font-size:1.25em;background: #19283a;}
 .mbskin .btn_submit:hover{background: #19283a;}
 .mbskin h1 {margin:60px 0 30px;font-size:2em}
-
-
 
 
 /* 폼 테이블 */
@@ -269,9 +265,7 @@
 
 /* 회원 비밀번호 확인 */
 #mb_confirm h1 {margin: 0 0 43px;font-size: 2.4em;}
-.pw_title_box{
-    text-align: center;
-}
+.pw_title_box{text-align: center;}
 .pw_title_box p {padding: 30px 40px;font-size: 16px;line-height:1.4em;color:#656565;word-break: keep-all;background: #f6f7f9;border-radius: 12px;max-width: 650px;width: 100%;margin: 90px auto 0;text-align: center;}
 .pw_title_box p span {display:block;}
 .pw_title_box p i {font-size: 32px;color:#19283a;width: 70px;height: 70px;border: 2px solid #19283a;border-radius: 50%;line-height: 68px;margin-bottom: 20px;}
@@ -281,35 +275,11 @@
 #mb_confirm fieldset .frm_input:focus{outline:none !important ; border:none !important;box-shadow:none !important; border-bottom:2px solid #19283a !important;}
 #mb_confirm fieldset .frm_input::placeholder{font-size:13px; color:#ccc; }
 #mb_confirm label {letter-spacing:-0.1em}
-#mb_confirm .input_box_pw .ps_wrap{
-    width: 78%;
-    position: relative;
-}
-#mb_confirm .input_box_pw .id_wrap i{
-    position: absolute;
-    right: 20px;
-    font-size: 18px;
-    color: #ccc;
-    top: 50%;
-    transform: translateY(-50%);
-}
-#mb_confirm .input_box_pw .id_wrap{
-    width: 78%;
-}
-#mb_confirm .input_box_pw{
-    position: relative;
-    display: flex;
-    align-items: center;
-    margin-top: 8px;
-}
-#mb_confirm .input_box_pw .ico{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 18px;
-    color: #ccc;
-}
+#mb_confirm .input_box_pw .ps_wrap{width: 78%;position: relative;}
+#mb_confirm .input_box_pw .id_wrap i{position: absolute;right: 20px;font-size: 18px;color: #ccc;top: 50%;transform: translateY(-50%);}
+#mb_confirm .input_box_pw .id_wrap{width: 78%;}
+#mb_confirm .input_box_pw{position: relative;display: flex;align-items: center;margin-top: 8px;}
+#mb_confirm .input_box_pw .ico{position: absolute;right: 20px;top: 50%;transform: translateY(-50%);font-size: 18px;color: #ccc;}
 #mb_confirm_id {margin: 5px 0 10px;font-weight:bold;font-size: 17px;}
 #mb_confirm .confirm_id {font-size: 1.3em;color:#666;width: 22%;}
 
@@ -321,15 +291,7 @@
 #pw_confirm fieldset .frm_input {background-color:#fff !important}
 #pw_confirm label {letter-spacing:-0.1em}
 #pw_confirm_id {display:inline-block;margin-right:20px;font-weight:bold}
-#mb_confirm_id {
-    border: 1px solid #ddd;
-    height: 42px;
-    line-height: 42px;
-    padding-left: 10px;
-    width: 100%;
-    display: block;
-    margin: 0;
-}
+#mb_confirm_id {border: 1px solid #ddd;height: 42px;line-height: 42px;padding-left: 10px;width: 100%;display: block;margin: 0;}
 
 /* 폼메일 */
 #formmail textarea {height:100px}
@@ -369,10 +331,10 @@
 .register_form_block .register_form_head {overflow:hidden;}
 .register_form_block .register_form_head h3 {font-size: 18px;margin-bottom: 15px;letter-spacing: -0.06em;font-weight: 400;display:inline-block;color: #272727;}
 .register_form_block .register_form_head .add {float:right;letter-spacing: -0.04em;font-size: 14px;font-weight: 300;}
-.register_form_block .register_form_body {border-top: 2px solid #777;padding: 0 12px;}
-.register_form_block .register_form_body .input_group {border-bottom: 1px solid #ececec;}
+.register_form_block .register_form_body {border-top: 2px solid #777;}
+.register_form_block .register_form_body .input_group {border-bottom: 1px solid #ececec;display: flex;justify-content: space-between;align-items: stretch;}
 .register_form_block .register_form_body .input_group label {position:relative;font-size: 16px;font-weight: 500;line-height: 45px;letter-spacing: -0.04em;color: #333;padding:10px 20px;}
-.register_form_block .register_form_body .input_group input[type="text"] {width:100%;border:1px solid #d0d3db;height:45px;line-height: 45px;border-radius: 0 !important;box-shadow: none;font-size: 15px;font-weight: 300;letter-spacing: -0.04em;padding:5px;}
+.register_form_block .register_form_body .input_group input[type="text"] {width:100%;border:1px solid #d0d3db;height:45px;line-height: 45px;border-radius: 0 !important;box-shadow: none;font-size: 14px;font-weight: 300;letter-spacing: -0.04em;padding:5px;}
 .register_form_block .register_form_body .input_group input[type="password"] {width:100%;border:1px solid #d0d3db;height:45px;line-height: 45px;border-radius: 0 !important;box-shadow: none;font-size: 15px;font-weight: 300;letter-spacing: -0.04em;padding:5px;}
 .register_form_block .register_form_body .input_group select {width: 100%;padding:5px;border: 1px solid #d0d3db;height:45px;line-height: 45px;border-radius: 0px;font-size: 15px;font-weight: 300;letter-spacing: -0.04em;}
 .register_form_block .register_form_body .input_group .padding2 {padding:0 2px;}
@@ -387,10 +349,14 @@
 .register_form_block .register_form_body .input_group .blank_btn {position: absolute;left: 0;width: 100%;height: 45px;}
 .register_form_block .register_form_body .input_group .blank_btn:focus {box-shadow:none}
 .register_form_block .register_form_body .input_group .plus_btn {border:1px solid #ddd;color:#444;font-size:15px;padding: 0 14px;line-height: 43px;cursor:pointer;}
-.register_form_block .register_form_body .input_group .thead {background: #f6f7f8;}
-.register_form_block .register_form_body .input_group .tbody {padding-top:10px;padding-bottom:10px;padding-left: 12px;}
+.register_form_block .register_form_body .input_group .thead {background: #f6f7f8;width: 25%;display: flex;align-items: center;}
+.register_form_block .register_form_body .input_group .tbody {padding: 10px 12px;width: 75%;}
+.register_form_block .register_form_body .input_group .tbody .address-cell{display: flex;align-items: stretch;justify-content: space-between;}
+.register_form_block .register_form_body .input_group .tbody .input-box{width: 75%;}
+.register_form_block .register_form_body .input_group .tbody .btn-box{width: 23%;}
+.register_form_block .register_form_body .input_group .tbody .btn-box button{width: 100%;}
 .register_form_block .register_form_body .input_group .tbody.lh-73 {line-height:73px;}
-.register_form_block .register_form_body .input_group .add_text1 {display:block;line-height: 45px;font-size: 14px;letter-spacing: -0.04em;}
+.register_form_block .register_form_body .input_group .add_text1 {display:block;line-height: 25px;font-size: 14px;letter-spacing: -0.04em;}
 .register_form_block .register_form_body .input_group .add_text2 {display:block;margin-top:5px;font-size: 13.5px;letter-spacing: -0.08em;}
 .register_form_block .register_form_body .input_group .requ_icon:before {content:'';background:url('/img/require.png')no-repeat;width:15px;height:15px;position: absolute;right: 5px;top: 20px;opacity:0.7;}
 .register_Box{margin-top: 51px;padding-top: 12px;border-top: 1px solid #eee;}
@@ -416,8 +382,8 @@ button.btn_frmline {font-size: 14.5px !important;height: 45px !important;font-we
 @media (max-width:767px){
 	#register_form {margin-bottom:0;}
 	.register_form_block .register_form_body .input_group .mmar-b5 {margin-bottom:5px;}
-	.register_form_block .register_form_body .input_group label {padding:5px 0;font-size:15px;line-height:35px;}
-	.register_form_block .register_form_body .input_group .tbody {padding:10px 0 15px;}
+	.register_form_block .register_form_body .input_group label {padding: 5px 10px;font-size: 14px;line-height:35px;}
+	.register_form_block .register_form_body .input_group .tbody {padding: 8px 10px;}
 	.register_form_block .register_form_body .input_group .tbody.hr-line {border-bottom:1px dotted #ccc;margin-bottom:10px;}
 	.register_form_block .register_form_body .input_group .requ_icon:before {right:-15px;top:9px;}
 
@@ -446,15 +412,20 @@ button.btn_frmline {font-size: 14.5px !important;height: 45px !important;font-we
 	.pw_title_box p strong{margin:0 0 14px;font-size:18px;}
 	.pw_title_box p{font-size:14px;padding:20px 14px;margin: 50px auto 0;}
 	#mb_confirm fieldset{padding:32px 0 50px;}
+	.register_form_block .register_form_body .input_group{flex-wrap: wrap;margin-bottom: 8px;border: none;}
+	.register_form_block .register_form_body .input_group .thead{width: 100%;background: none;}
+	.register_form_block .register_form_body .input_group .tbody{width: 100%;padding: 0;}
+	.register_form_block .register_form_body .input_group label{padding: 0;}
+
 
 
 } 
 @media (max-width:375px){
-#mb_confirm .input_box_pw .id_wrap{width:100%; position:relative;}
-#mb_confirm .confirm_id{font-size:1.2em;width:100%;margin-bottom: 8px;}
-#mb_confirm_id{width:100%;}
-.mbskin {margin:10px auto;}
-#mb_confirm .input_box_pw{flex-wrap:wrap;margin: 17px 0;}
-#mb_confirm .input_box_pw .ps_wrap{width:100%;}
+	#mb_confirm .input_box_pw .id_wrap{width:100%; position:relative;}
+	#mb_confirm .confirm_id{font-size:1.2em;width:100%;margin-bottom: 8px;}
+	#mb_confirm_id{width:100%;}
+	.mbskin {margin:10px auto;}
+	#mb_confirm .input_box_pw{flex-wrap:wrap;margin: 17px 0;}
+	#mb_confirm .input_box_pw .ps_wrap{width:100%;}
 
 }

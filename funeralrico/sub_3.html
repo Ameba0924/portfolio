@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta property="og:type" content="">
-	<meta property="og:image" content="http://boogoz.com/common/img/kakaometa.png">
 	<meta property="og:description" content="">
 
 
@@ -48,7 +47,7 @@
 	<section id="header_wrap">
 		<div id="header_sub" class="jbMenu ">
 			<div class="header_in">
-				<div class="home"><a href="/"><img src="./img/main/home.png" alt="홈아이콘"></a></div>
+				<div class="home"><a href="./index.html"><img src="./img/main/home.png" alt="홈아이콘"></a></div>
 				<div class="togg_btn"><button type="button" class="tog_bt"> </button></div>
 				<div class="wrap_box">
 					<h1>
@@ -105,8 +104,8 @@
 					<div class="depth_menus">
 						<ul>
 							<li class="depth_menu"><a href="./sub_4.html">자주하는질문</a></li>
-							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">광고/제휴 문의</a></li>
-							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">1:1 문의</a></li>
+							<li class="depth_menu"><a href="#">광고/제휴 문의</a></li>
+							<li class="depth_menu"><a href="#">1:1 문의</a></li>
 						</ul>
 					</div>
 				</li>
@@ -167,14 +166,7 @@
 
 	</script>
 
-	<!-- 콘텐츠 시작 { -->
-	<!-- <div id="wrapper">
-    <div id="container_wr">
-   
-    <div id="container">
-        <h2 id="container_title"><span title="회원 가입">회원 가입</span></h2> -->
 
-	<!-- 회원정보 입력/수정 시작 { -->
 
 	<div class="register">
 		<script src="http://boogoz.com/js/jquery.register_form.js"></script>
@@ -194,55 +186,46 @@
 						<h3>사이트 이용정보 입력</h3>
 					</div>
 					<div class="register_form_body">
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class=" thead">
 								<label for="reg_mb_id" class="requ_icon">
 									아이디<strong class="sound_only">필수</strong>
 								</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-3 padding2">
-										<input type="text" name="mb_id" value="" id="reg_mb_id" required=""
-											title="아이디 검색" class="frm_input full_input " minlength="3" maxlength="20"
-											placeholder="아이디">
-										<span id="msg_mb_id"></span>
-									</div>
-									<div class="col-md-9 padding2">
-										<span class="add_text1">영문자, 숫자, _ 만 입력 가능. 최소 3자이상 입력하세요.</span>
-									</div>
+
+							<div class="tbody">
+								<div class="">
+									<input type="text" name="mb_id" value="" id="reg_mb_id" required="" title="아이디 검색"
+										class="frm_input full_input " minlength="3" maxlength="20" placeholder="아이디">
+									<span id="msg_mb_id"></span>
 								</div>
+
+								<span class="add_text1">영문자, 숫자, _ 만 입력 가능. 최소 3자이상 입력하세요.</span>
+
 							</div>
+
 						</div>
-						<div class="row">
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_password" class="requ_icon">비밀번호<strong
-												class="sound_only">필수</strong></label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody">
-											<input type="password" name="mb_password" id="reg_mb_password" required=""
-												title="비밀번호 입력" class="frm_input full_input" minlength="3"
-												maxlength="20" placeholder="비밀번호">
-										</div>
-									</div>
+						<div class="">
+							<div class="input_group">
+								<div class="thead">
+									<label for="reg_mb_password" class="requ_icon">비밀번호<strong
+											class="sound_only">필수</strong></label>
+								</div>
+								<div class="tbody">
+									<input type="password" name="mb_password" id="reg_mb_password" required=""
+										title="비밀번호 입력" class="frm_input full_input" minlength="3" maxlength="20"
+										placeholder="비밀번호">
 								</div>
 							</div>
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_password_re" class="requ_icon">비밀번호 확인<strong
-												class="sound_only">필수</strong></label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody">
-											<input type="password" name="mb_password_re" id="reg_mb_password_re"
-												required="" class="frm_input full_input" title="비밀번호 입력 확인"
-												minlength="3" maxlength="20" placeholder="비밀번호 확인">
-										</div>
-									</div>
+							<div class="input_group ">
+								<div class="thead">
+									<label for="reg_mb_password_re" class="requ_icon">비밀번호 확인<strong
+											class="sound_only">필수</strong></label>
+								</div>
+								<div class="tbody">
+									<input type="password" name="mb_password_re" id="reg_mb_password_re" required=""
+										class="frm_input full_input" title="비밀번호 입력 확인" minlength="3" maxlength="20"
+										placeholder="비밀번호 확인">
 								</div>
 							</div>
 						</div>
@@ -254,193 +237,193 @@
 						<h3>장례식장 등록</h3>
 					</div>
 					<div class="register_form_body">
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label for="reg_mb_funeral_name" class="requ_icon">장례식장명<strong
 										class="sound_only">필수</strong></label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-3 padding2">
-										<input type="text" id="reg_mb_funeral_name" name="mb_funeral_name" value=""
-											title="장례식장명 입력" required="" class="frm_input full_input " size="10"
-											placeholder="장례식장명을 입력해주세요">
-									</div>
+
+							<div class=" tbody">
+								<div class="">
+									<input type="text" id="reg_mb_funeral_name" name="mb_funeral_name" value=""
+										title="장례식장명 입력" required="" class="frm_input full_input " size="10"
+										placeholder="장례식장명을 입력해주세요">
 								</div>
 							</div>
+
 						</div>
 
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label class="requ_icon">장례식장 주소</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-8 col-md-3 padding2">
+
+							<div class=" tbody">
+								<div class="address-cell">
+									<div class="input-box">
 										<input type="text" name="mb_zip" value="" id="reg_mb_zip" title="우편번호"
 											class="frm_input twopart_input " size="5" maxlength="6" placeholder="우편번호">
 									</div>
-									<div class="col-4 col-md-3 padding2">
+									<div class="btn-box ">
 										<button type="button" class="btn_frmline"
 											onclick="win_zip('fregisterform', 'mb_zip', 'mb_addr1', 'mb_addr2', 'mb_addr3', 'mb_addr_jibeon');">주소
 											검색</button>
 									</div>
-									<div class="col-md-8 padding2">
-										<input type="text" name="mb_addr1" value="" id="reg_mb_addr1" title="기본주소"
-											class="frm_input frm_address full_input " size="50" placeholder="기본주소">
-									</div>
-									<div class="col-md-8 padding2">
-										<input type="text" name="mb_addr2" value="" id="reg_mb_addr2" title="상세주소"
-											class="frm_input frm_address full_input" size="50" placeholder="상세주소">
-									</div>
-									<div class="col-md-8 padding2">
-										<input type="text" name="mb_addr3" value="" id="reg_mb_addr3" title="참고항목"
-											class="frm_input frm_address full_input" size="50" readonly="readonly"
-											placeholder="참고항목">
-										<input type="hidden" name="mb_addr_jibeon" value="">
-									</div>
 								</div>
+								<div class="">
+									<input type="text" name="mb_addr1" value="" id="reg_mb_addr1" title="기본주소"
+										class="frm_input frm_address full_input " size="50" placeholder="기본주소">
+								</div>
+								<div class=" ">
+									<input type="text" name="mb_addr2" value="" id="reg_mb_addr2" title="상세주소"
+										class="frm_input frm_address full_input" size="50" placeholder="상세주소">
+								</div>
+								<div class=" ">
+									<input type="text" name="mb_addr3" value="" id="reg_mb_addr3" title="참고항목"
+										class="frm_input frm_address full_input" size="50" readonly="readonly"
+										placeholder="참고항목">
+									<input type="hidden" name="mb_addr_jibeon" value="">
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="">
+							<div class="input_group ">
+
+								<div class=" thead">
+									<label for="reg_mb_nick" class="requ_icon">
+										신청자 이름<strong class="sound_only">필수</strong>
+									</label>
+								</div>
+
+								<div class="tbody">
+									<input type="text" name="mb_name" value="" id="reg_mb_name" required="" title="이름입력"
+										class="frm_input nospace full_input" size="10" maxlength="20"
+										placeholder="이름을 입력해주세요">
+									<span id="msg_mb_nick"></span>
+								</div>
+
+
+							</div>
+
+							<div class="input_group">
+
+								<div class="thead">
+									<label for="reg_mb_tit" class="requ_icon">
+										신청자 직함<strong class="sound_only">필수</strong>
+									</label>
+								</div>
+
+								<div class="tbody">
+									<input type="text" name="mb_applicant_name" value="" id="reg_mb_applicant_name"
+										required="" title="직함 입력" class="frm_input nospace full_input" size="10"
+										maxlength="20" placeholder="직함을 입력해주세요">
+								</div>
+
+
 							</div>
 						</div>
 
 
-						<div class="row">
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_nick" class="requ_icon">
-											신청자 이름<strong class="sound_only">필수</strong>
-										</label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody">
-											<input type="text" name="mb_name" value="" id="reg_mb_name" required=""
-												title="이름입력" class="frm_input nospace full_input" size="10"
-												maxlength="20" placeholder="이름을 입력해주세요">
-											<span id="msg_mb_nick"></span>
-										</div>
-									</div>
-								</div>
-							</div>
 
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_tit" class="requ_icon">
-											신청자 직함<strong class="sound_only">필수</strong>
-										</label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody">
-											<input type="text" name="mb_applicant_name" value=""
-												id="reg_mb_applicant_name" required="" title="직함 입력"
-												class="frm_input nospace full_input" size="10" maxlength="20"
-												placeholder="직함을 입력해주세요">
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-
-
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class=" thead">
 								<label for="reg_mb_hp" class="requ_icon">휴대폰번호<strong
 										class="sound_only">필수</strong></label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-6 padding2">
-										<input type="text" name="mb_hp" value="" id="reg_mb_hp" required=""
-											class="frm_input full_input" maxlength="20" placeholder="휴대폰번호">
-									</div>
-								</div>
+
+							<div class=" tbody">
+
+								<input type="text" name="mb_hp" value="" id="reg_mb_hp" required=""
+									class="frm_input full_input" maxlength="20" placeholder="휴대폰번호">
+
 							</div>
+
 						</div>
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label for="reg_mb_tel" class="requ_icon">장례식장 전화번호<strong
 										class="sound_only">필수</strong></label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-6 padding2">
-										<input type="text" name="mb_tel" value="" id="reg_mb_tel" required=""
-											title="전화번호 입력" class="frm_input full_input" maxlength="20"
-											placeholder="전화번호를 입력해주세요. (부고장에 넣어드립니다)">
-									</div>
-								</div>
+
+							<div class=" tbody">
+
+								<input type="text" name="mb_tel" value="" id="reg_mb_tel" required="" title="전화번호 입력"
+									class="frm_input full_input" maxlength="20"
+									placeholder="전화번호를 입력해주세요. (부고장에 넣어드립니다)">
+
 							</div>
+
 						</div>
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label for="reg_mb_email">E-mail
 
 								</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-6 padding2">
-										<input type="hidden" name="old_email" value="">
-										<input type="text" name="mb_email" value="" id="reg_mb_email" title="e-mail 입력"
-											class="frm_input email full_input" size="70" maxlength="100"
-											placeholder="E-mail">
-									</div>
-								</div>
+
+							<div class=" tbody">
+
+								<input type="hidden" name="old_email" value="">
+								<input type="text" name="mb_email" value="" id="reg_mb_email" title="e-mail 입력"
+									class="frm_input email full_input" size="70" maxlength="100" placeholder="E-mail">
+
 							</div>
+
 						</div>
 
-						<div class="row">
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_homepage">홈페이지</label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody lh-73">
-											<input type="text" name="mb_homepage" value="" id="reg_mb_homepage"
-												title="홈페이지 주소입력" class="frm_input full_input " size="70"
-												maxlength="255" placeholder="홈페이지">
-										</div>
-									</div>
+						<div class="">
+							<div class="input_group ">
+
+								<div class="thead">
+									<label for="reg_mb_homepage">홈페이지</label>
 								</div>
+
+								<div class="tbody lh-73">
+									<input type="text" name="mb_homepage" value="" id="reg_mb_homepage"
+										title="홈페이지 주소입력" class="frm_input full_input " size="70" maxlength="255"
+										placeholder="홈페이지">
+								</div>
+
+
 							</div>
 
 
-							<div class="input_group col-md-12 col-lg-6">
-								<div class="row">
-									<div class="col-12 col-md-4 thead">
-										<label for="reg_mb_img" class="frm_label">
-											로고
-										</label>
-									</div>
-									<div class="col-12 col-md-7 padding2">
-										<div class="tbody">
-											<input type="file" name="mb_img" id="reg_mb_img" title="로고 등록">
-											<span class="add_text2">이미지 크기는 가로 1000픽셀, 세로 1000픽셀 이하로 해주세요.<br>
-												gif, jpg, png파일만 가능하며 용량 500,000바이트 이하만 등록됩니다.</span>
-										</div>
-									</div>
+							<div class="input_group">
+
+								<div class=" thead">
+									<label for="reg_mb_img" class="frm_label">
+										로고
+									</label>
 								</div>
+
+								<div class="tbody">
+									<input type="file" name="mb_img" id="reg_mb_img" title="로고 등록">
+									<span class="add_text2">이미지 크기는 가로 1000픽셀, 세로 1000픽셀 이하로 해주세요.<br>
+										gif, jpg, png파일만 가능하며 용량 500,000바이트 이하만 등록됩니다.</span>
+								</div>
+
+
 							</div>
 						</div>
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label for="reg_mb_room_number">빈소</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10">
-								<div class="row tbody">
-									<div class="col-md-12 padding2">
-										<input type="text" name="mb_room_number" value="" id="reg_mb_room_number"
-											title="빈소 입력" class="frm_input full_input " size="70" maxlength="255"
-											placeholder="예시) 1호실, 3호실, 5호실">
-									</div>
-								</div>
+
+							<div class=" tbody">
+
+								<input type="text" name="mb_room_number" value="" id="reg_mb_room_number" title="빈소 입력"
+									class="frm_input full_input " size="70" maxlength="255"
+									placeholder="예시) 1호실, 3호실, 5호실">
+
 							</div>
+
 						</div>
 
 					</div>
@@ -451,60 +434,60 @@
 						<h3>부가 입력정보</h3>
 					</div>
 					<div class="register_form_body">
-						<div class="input_group row">
+						<div class="input_group ">
 						</div>
 
 
 
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class=" thead">
 								<label for="reg_mb_funeral_txt1">지하철</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10 padding2">
-								<div class="tbody">
-									<textarea name="mb_funeral_txt1" id="reg_mb_funeral_txt1"
-										placeholder="부고장에 들어갈 설명입니다"></textarea>
-								</div>
+
+							<div class="tbody">
+								<textarea name="mb_funeral_txt1" id="reg_mb_funeral_txt1"
+									placeholder="부고장에 들어갈 설명입니다"></textarea>
 							</div>
+
 						</div>
 
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class="thead">
 								<label for="reg_mb_funeral_txt2">버스</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10 padding2">
-								<div class="tbody">
-									<textarea name="mb_funeral_txt2" id="reg_mb_funeral_txt2"
-										placeholder="부고장에 들어갈 설명입니다"></textarea>
-								</div>
+
+							<div class="tbody">
+								<textarea name="mb_funeral_txt2" id="reg_mb_funeral_txt2"
+									placeholder="부고장에 들어갈 설명입니다"></textarea>
 							</div>
+
 						</div>
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class=" thead">
 								<label for="reg_mb_funeral_txt3">주차</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10 padding2">
-								<div class="tbody">
-									<textarea name="mb_funeral_txt3" id="reg_mb_funeral_txt3"
-										placeholder="부고장에 들어갈 설명입니다"></textarea>
-								</div>
+
+							<div class="tbody">
+								<textarea name="mb_funeral_txt3" id="reg_mb_funeral_txt3"
+									placeholder="부고장에 들어갈 설명입니다"></textarea>
 							</div>
+
 						</div>
 
 
-						<div class="input_group row">
-							<div class="col-12 col-md-4 col-lg-2 thead">
+						<div class="input_group ">
+							<div class=" thead">
 								<label for="reg_mb_funeral_txt4">자가용</label>
 							</div>
-							<div class="col-12 col-md-8 col-lg-10 padding2">
-								<div class="tbody">
-									<textarea name="mb_funeral_txt4" id="reg_mb_funeral_txt4"
-										placeholder="부고장에 들어갈 설명입니다"></textarea>
-								</div>
+
+							<div class="tbody">
+								<textarea name="mb_funeral_txt4" id="reg_mb_funeral_txt4"
+									placeholder="부고장에 들어갈 설명입니다"></textarea>
 							</div>
+
 						</div>
 
 					</div>
@@ -743,18 +726,18 @@
 	<div id="ft" class="footer">
 		<div class="containers">
 			<div class="foot_top">
-				<div class="ft_logo"><a href=""><img src="http://boogoz.com/img/main/ft_lg.png" alt="리코렌인프라"></a></div>
+				<div class="ft_logo"><a href=""><img src="./img/main/ft_lg.png" alt="리코렌인프라"></a></div>
 			</div>
 			<div class="foot_bot">
 				<div class="foot_top_inner ">
 					<ul class="nav_wrap">
-						<li><a href="http://boogoz.com/bbs/content.php?co_id=privacy">개인정보처리방침</a></li>
-						<li><a href="http://boogoz.com/bbs/faq.php?fm_id=1">고객센터</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">고객센터</a></li>
 					</ul>
 				</div>
 				<div class="foot_bot_inn ">
 					<div class="logo_footer">
-						<img src="http://boogoz.com/img/main/ft_lg.png" alt="리코렌인프라">
+						<img src="./img/main/ft_lg.png" alt="리코렌인프라">
 					</div>
 					<dl class="info">
 						<dd>상호명 : (주)리코렌인프라 | 대표이사 : 김광현 | 사업자등록번호 411-81-91466</dd>
@@ -763,7 +746,7 @@
 						<small class="copy">Copyright © Ri Corean Infra All rights reserved.</small>
 					</dl>
 					<div class="right_info">
-						<a href="http://boogoz.com/bbs/faq.php">
+						<a href="./sub_4.html">
 							<div class="round_box">
 								<div class="left_box">
 									<p class="cust_tit">리코렌인프라 고객센터</p>

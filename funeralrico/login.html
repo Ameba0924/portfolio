@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta property="og:type" content="">
-	<meta property="og:image" content="http://boogoz.com/common/img/kakaometa.png">
 	<meta property="og:description" content="">
 
 
@@ -30,6 +29,7 @@
 	<script src="http://boogoz.com/js/jquery-1.12.4.min.js?ver=191202"></script>
 
 	<script src="./css_js/jquery.menu.js"></script>
+	<script src="https://kit.fontawesome.com/276b630690.js" crossorigin="anonymous"></script>
 	<script src="./css_js/common.js"></script>
 	<script src="./css_js/popper.min.js"></script>
 	<script src="./css_js/bootstrap.bundle.min.js"></script>
@@ -44,14 +44,14 @@
 	<section id="header_wrap">
 		<div id="header_sub" class="jbMenu login_head">
 			<div class="header_in">
-				<div class="home"><a href="/"><img src="http://boogoz.com/img/main/home.png" alt="홈"></a></div>
+				<div class="home"><a href="./index.html"><img src="./img/main/home.png" alt="홈"></a>
+				</div>
 				<div class="togg_btn"><button class="tog_bt"> </button></div>
 				<div class="wrap_box">
 					<h1>
 						<a href="./index.html">
-							<img class="bl_logo" src="http://boogoz.com/img/main/top_logo2.png" alt="리코렌인프라" title="로고">
+							<img class="bl_logo" src="./img/main/login_lg.png" alt="리코렌인프라" title="로고">
 
-							<img class="login_lg" src="http://boogoz.com/img/main/login_lg.png" alt="리코렌인프라" title="로고">
 						</a>
 					</h1>
 					<div id="lnb">
@@ -101,8 +101,8 @@
 					<div class="depth_menus">
 						<ul>
 							<li class="depth_menu"><a href="./sub_4.html">자주하는질문</a></li>
-							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">광고/제휴 문의</a></li>
-							<li class="depth_menu"><a href="http://boogoz.com/bbs/qalist.php">1:1 문의</a></li>
+							<li class="depth_menu"><a href="#">광고/제휴 문의</a></li>
+							<li class="depth_menu"><a href="#">1:1 문의</a></li>
 						</ul>
 					</div>
 				</li>
@@ -166,11 +166,11 @@
 				<fieldset id="login_fs">
 					<legend>회원로그인</legend>
 					<label for="login_id" class="log_tit">아이디<strong class="sound_only"> 필수</strong></label>
-					<input type="text" name="mb_id" id="login_id" required="" title="아이디 입력" class="frm_input required"
-						size="20" maxlength="20" placeholder="아이디">
+					<input type="text" name="mb_id" id="login_id" required="" class="frm_input required" size="20"
+						maxlength="20" placeholder="아이디">
 					<label for="login_pw" class="log_tit">비밀번호<strong class="sound_only"> 필수</strong></label>
-					<input type="password" name="mb_password" id="login_pw" title="비밀번호 입력" required=""
-						class="frm_input required" size="20" maxlength="20" placeholder="비밀번호">
+					<input type="password" name="mb_password" id="login_pw" required="" class="frm_input required"
+						size="20" maxlength="20" placeholder="비밀번호">
 					<div id="login_info">
 						<div class="login_if_auto chk_box">
 							<input type="checkbox" name="auto_login" id="login_auto_login" title="자동로그인 체크"
@@ -227,13 +227,13 @@
 	<div id="ft" class="footer">
 		<div class="containers">
 			<div class="foot_top">
-				<div class="ft_logo"><a href=""><img src="http://boogoz.com/img/main/ft_lg.png" alt="리코렌인프라"></a></div>
+				<div class="ft_logo"><a href=""><img src="./img/main/ft_lg.png" alt="리코렌인프라"></a></div>
 			</div>
 			<div class="foot_bot">
 				<div class="foot_top_inner ">
 					<ul class="nav_wrap">
-						<li><a href="http://boogoz.com/bbs/content.php?co_id=privacy">개인정보처리방침</a></li>
-						<li><a href="http://boogoz.com/bbs/faq.php?fm_id=1">고객센터</a></li>
+						<li><a href="#">개인정보처리방침</a></li>
+						<li><a href="#">고객센터</a></li>
 					</ul>
 				</div>
 				<div class="foot_bot_inn ">
@@ -245,7 +245,7 @@
 						<small class="copy">Copyright © Ri Corean Infra All rights reserved.</small>
 					</dl>
 					<div class="right_info">
-						<a href="http://boogoz.com/bbs/faq.php">
+						<a href="./sub_4.html">
 							<div class="round_box">
 								<div class="left_box">
 									<p class="cust_tit">리코렌인프라 고객센터</p>
@@ -281,7 +281,7 @@
 
 	<!--------- 상단으로 ---------->
 	<button type="button" id="ma_top_btn">
-		<i class="xi-angle-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+		<i class="fas fa-chevron-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
 	</button>
 
 	<script>

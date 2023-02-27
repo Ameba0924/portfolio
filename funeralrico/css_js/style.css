@@ -600,9 +600,14 @@ input:-ms-input-placeholder {color:#aaa;font-weight:300;}
 .list-box .box-item .top_info .tt_01 {font-size: 17px;letter-spacing: -1px;}
 .list-box .box-item .top_info .tt_02 {font-size: 26px;letter-spacing: -0.05em;font-weight: 600;}
 .list-box .box-item .deta-wrap {padding: 20px 25px;border: 1px solid #efefef;border-top: 0;box-shadow: 3px 8px 6px #f7f7f7;}
-.list-box .box-item .deta-wrap .detail {border-top:2px solid #777;padding:0 12px;} 
-.list-box .box-item .deta-wrap .detail .detail_li {border-bottom: 1px solid #f1f1f1;}
-.list-box .box-item .deta-wrap .detail .thead {background:#f6f7f8;font-size: 15px;padding: 10px 20px;font-weight: 500;letter-spacing: -0.05em;color: #444;}
+.list-box .box-item .deta-wrap .detail {border-top:2px solid #777;} 
+.list-box .box-item .deta-wrap .detail .detail_li {border-bottom: 1px solid #f1f1f1;    display: flex;justify-content: space-between;align-items: stretch;}
+.list-box .box-item .deta-wrap .detail  .table-item_list{width: 50%;display: flex;justify-content: space-between;align-items: stretch;}
+.list-box .box-item .deta-wrap .detail  .table-item_list.wid_100{width: 100%;}
+.list-box .box-item .deta-wrap .detail  .table-item_list.wid_100 .left_box{width: 15%;}
+.list-box .box-item .deta-wrap .detail  .table-item_list.wid_100 .right_box{width: 85%;}
+.list-box .box-item .deta-wrap .detail .left_box {background:#f6f7f8;font-size: 15px;padding: 10px 20px;font-weight: 500;letter-spacing: -0.05em;color: #444;width: 30%;}
+.list-box .box-item .deta-wrap .detail .right_box {width: 70%;padding: 0 20px;}
 .list-box .box-item .deta-wrap .detail .tbody {font-size: 15px;padding: 10px 0;letter-spacing: -0.05em;}
 
 .mobile_fu .fu_body  .bg_whi{background:#fff;margin: 10px 0;}
@@ -699,28 +704,34 @@ input:-ms-input-placeholder {color:#aaa;font-weight:300;}
 	.list-box .box-item .deta-wrap .detail .thead {padding:8px 4px;font-size: 13px;letter-spacing: -1.2px;}
 	.list-box .box-item .deta-wrap .detail .mpadding5 {padding:8px 5px;}
 	.list-box .box-item .deta-wrap .detail .tbody {padding:0;font-size: 13px;letter-spacing: -1.2px;}
+	.list-box .box-item .deta-wrap .detail .detail_li{flex-wrap: wrap;}
+	.list-box .box-item .deta-wrap .detail .table-item_list{width: 100%;}
+	.list-box .box-item .deta-wrap .detail .table-item_list.wid_100 .left_box{width: 35%;}
+	.list-box .box-item .deta-wrap .detail .right_box{display: flex;align-items: center; }
+	.list-box .box-item .deta-wrap .detail .left_box{font-size: 13px;}
 
 	.chk_box_style {padding:0;}
 	.mobile_fu .fu_body .fu_body_bg .round_box{background-position:right -10px top -45px ; background-size:145px auto;}
 
 
 
+
+
+
 }
 @media (max-width:500px){
-	.mobile_fu .fu_body .main_text {
-    margin-bottom: 0;
-}
+	.mobile_fu .fu_body .main_text {margin-bottom: 0;}
 	.mobile_fu .fu_body .info_box {margin-left:5%;}
 	.mobile_fu .fu_body .main_loc {padding: 25px 6%;}
-	.mobile_fu .fu_body .message {
-    padding: 25px 6%;
-}
+	.mobile_fu .fu_body .message {padding: 25px 6%;}
 
 	.mobile_fu .footer_fu .ft_sv {font-size:13px;}
 	.mobile_fu .footer_fu .copy {font-size:12px;}
 	.mobile_fu .footer_fu .ft_sv img {height:25px;}
 	#bo_vc article .pf_img {width:20%}
-	.list-box .box-item .top_info .sang_j {line-height:30px;font-size:17px;}
+	.list-box .box-item .top_info .sang_j {line-height:26px;font-size:14px;}
+	.list-box .box-item .top_info .tt_02{font-size: 18px;}
+	
 	
 	.mobile_fu .fu_body .main_text .tt_01{font-size: 16px;}
 	.mobile_fu .fu_body .main_text .tt_02{font-size: 24px;}
@@ -768,9 +779,9 @@ input:-ms-input-placeholder {color:#aaa;font-weight:300;}
 	.mobile_fu .fu_body .main_loc .loc_con .right-a .lt_link{width: 62px;height: 62px;padding: 4px;}
 	.mobile_fu .fu_body .main_loc .loc_con .right-a .lt_link span{font-size: 13px;}
 	.mobile_fu .fu_body .main_loc .loc_con .loc_info .lt_02 .address_box{margin: 10px auto;}
+	.mobile_fu .fu_body .fu_body_bg .round_box{background-position:right -20px top -45px ; background-size:120px auto;}
 	.message_wrapper{padding: 10px 0px;}
 	#bo_vc article{padding:5px 0;}
-	.mobile_fu .fu_body .fu_body_bg .round_box{background-position:right -20px top -45px ; background-size:120px auto;}
 	
 	.bottom_fx .fx_con .right-a {position:relative;right:auto;top:auto;display: flex;justify-content: space-between;margin-top: 8px;}
 }

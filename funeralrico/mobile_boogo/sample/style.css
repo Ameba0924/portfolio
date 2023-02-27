@@ -40,7 +40,7 @@
 .num_wrap .flex_box li:last-child:after{display:none;}
 .num_wrap .flex_box .box .img_ico{margin-right: 20px;width: 70px;height: 70px;background: #f4f6f9;border-radius: 50%;line-height: 74px;text-align: center;}
 .num_wrap .flex_box .box .img_ico i{font-size: 33px;line-height: 70px;color: #0d7ec1;}
-.num_wrap .flex_box .box .img_ico svg{font-size: 33px;line-height: 70px;    color: #254b76;    height: 70px;}
+.num_wrap .flex_box .box .img_ico svg{font-size: 22px;line-height: 55px;color: #254b76;height: 55px;}
 .num_wrap .flex_box .box .txt_cont span{font-size: 16px;font-weight: 300;color: #666666;}
 .num_wrap .flex_box .box .txt_cont .num{color: #464646;font-size: 32px;font-weight: 600;margin-top: 4px;letter-spacing: -0.05em;}
 
@@ -73,12 +73,14 @@
 	.num_wrap {margin: 20px 0 0 5%;}
 	.num_wrap .num_tit {font-size:15px;}
 	.num_wrap .flex_box {display:block;}
-	.num_wrap .flex_box .box {margin-bottom: 20px;}
 	.num_wrap .flex_box li:after {display:none;}
-	.num_wrap .flex_box .box .img_ico {width:52px;height:52px;background:#0d7ec1;}
+	.num_wrap .flex_box .box .img_ico {width:52px;height:52px;background: #273d71;line-height: 52px;margin-bottom: 10px;}
+	.num_wrap .flex_box .box .txt_cont {width:100%;}
 	.num_wrap .flex_box .box .img_ico i {color:#fff;line-height:52px;font-weight:400;}
+	.num_wrap .flex_box .box .img_ico svg{color:#fff;line-height:52px;font-weight:400;font-size: 20px;height: 52px;}
 	.num_wrap .flex_box .box .txt_cont span {font-size:15px;}
-	.num_wrap .flex_box .box .txt_cont .num {font-size:24px;}
+	.num_wrap .flex_box .box .txt_cont .num {font-size:22px;}
+	.num_wrap .flex_box .box{flex-wrap: wrap;margin-bottom: 20px;padding-right: 0;}
 	.left_area {margin-bottom:0;}
 	.left_area .text01 {display:none;}
 	.left_area .text03{font-size:16px;font-weight:500;color:#484848;}
@@ -90,5 +92,8 @@
 }
 @media(max-width:480px){
 	.ctt_sample:before {background-size:80%;}
+	.num_wrap .flex_box .box .txt_cont .num{display: block; margin-top: 3px;}
+	.num_wrap .flex_box .box .img_ico{width: 38px;height: 38px; margin-bottom: 10px;}
+	.num_wrap .flex_box .box .img_ico svg{font-size: 15px; height: 38px;}
 
 }

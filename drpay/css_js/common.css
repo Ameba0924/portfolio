@@ -198,7 +198,7 @@ strong{font-weight:500;}
 #sub_visual{width:100%;text-align:center; background:#e8e9eb; }
 .backgroundimg{position:relative; width:100%; text-align:center; margin:0 auto; z-index:0; }
 .visual_area {width:100%; max-width:1920px;min-height:463px; margin:0 auto; position:relative;}
-.visual_area .content_box{position:absolute; left:50%;top:59%;transform:translate(-50%,-50%);}
+.visual_area .content_box{position:absolute; left:50%;top:50%;transform:translate(-50%,-50%);}
 .visual_area .content_box .tit{font-size: 54px;color: #fff;}
 .visual_area .content_box .desc{position:relative;font-size: 20px;color: #fff;}
 

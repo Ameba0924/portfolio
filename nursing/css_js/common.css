@@ -468,7 +468,7 @@ white-space: nowrap; padding: 5px 8px; border-radius: 3px 3px; background:#c5352
 #sub_tit .normal_txt{display:none; margin:0px 0; font-size:1.2em; color:#fff; text-transform:uppercase; text-align:center; line-height:1.6; word-break: keep-all; font-family: 'Noto Sans KR', sans-serif;}
 #sub_tit .normal_txt .color1{color:#fd7701;}
 
-.scontents{width:100%;max-width:1200px;height:100%;margin:0px auto;padding: 4% 0 4%;background:none;}
+.scontents{width:100%;max-width:1200px;margin:0px auto;padding: 4% 0 4%;background:none;}
 .scontents:after{ content:""; display:block; clear:both;}
 .scontents .bg_vline { display: block; width:1px; height:40px; background: url('/theme/daontheme_business03/html/image/bg_vline.gif') no-repeat center; margin:0px auto; }
 .scontents h3.title {  font-size: 2.5em;  text-align: center; margin-top:20px;}
