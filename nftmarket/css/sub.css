@@ -71,7 +71,7 @@
 .main_box .cont_list li .de_btn {width: 65%;background: #2122fa;color: #fff;line-height: 36px;border-radius: 4px;font-size: 1.4rem;border: 1px solid #2122fa;}
 
 
-.main_box .btn_wrap{text-align: center;padding-top: 2.8rem;}
+.main_box .btn_wrap{text-align: center;margin:6rem 0 3rem;}
 .main_box .btn_wrap .btn_box{position: relative;display: inline-block;}
 .main_box .btn_wrap .btn_box .load{position: absolute; top: 21%; left: 36%;font-size:3rem; color:#fff; }
 .main_box .btn_wrap .more{color: #ffffff;position: relative;}

@@ -67,7 +67,7 @@ input[type=password]:-moz-placeholder { /* Firefox 18- */
   font-family: 'Noto Sans KR', sans-serif;
 }
 .merr {font-family: 'Merriweather Sans', sans-serif;}
-.mont {font-family: 'Montserrat', sans-serif;}
+.mont {font-family: 'Montserrat', sans-serif;letter-spacing: 0.01em;}
 
 a, img{border:0px; vertical-align:middle;}
 a{text-decoration:none;}
