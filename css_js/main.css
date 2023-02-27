@@ -511,6 +511,14 @@ header .header_inner .gnb_list .list a{
     padding: .5rem 0;
     font-size: 20px;
 }
+.section_5 .right-box .info_list .list svg{
+    font-size: 20px;
+    vertical-align: middle; 
+    margin-right:8px;
+}
+.section_5 .right-box .info_list .list a{
+    color: #fff;
+}
 .section_5 .right-box .btn_pdf{
     color: #fff;
     border: 1px solid #fff;
