@@ -262,6 +262,9 @@ footer .footer-right .flex .box_info dl dd a{color: #ababab;font-size: 14px;font
 	footer .footer-right .flex{flex-wrap: wrap;}
 	footer .footer-left{padding: 40px 30px;}
 	.main .swiper-pagination{bottom: 10px !important;}
+	.main .swiper-slide{height: 450px;}
+	.main .box_txt{left: 25px;}
+	.main .box_txt .title {font-size: 32px;}
 }
 @media (max-width:500px){
 	

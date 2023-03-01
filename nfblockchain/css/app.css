@@ -345,6 +345,7 @@ a:hover {color:#000;}
 
 .node_box .btn_wrap a .box .tit{color: #0af2ce;font-weight: 500;font-size: 1.2rem;padding-left: 1.75rem;position: relative;}
 .node_box .btn_wrap a .box .tit i{color: #fff;margin-right: .25rem;font-size: 1.25rem;vertical-align: middle;position: absolute;left: 0;top: 3px;}
+.node_box .btn_wrap a .box .tit svg{color: #fff;margin-right: .25rem;font-size: 1.25rem;vertical-align: middle;position: absolute;left: 0;top: 3px;}
 .node_box .btn_wrap a .box .title_val{color: #fff;font-weight: 600;font-size: 1.25rem;position: absolute;right: 15px;bottom: 15px;font-family: 'Lato';letter-spacing: -0.01em;}
 .node_box .btn_wrap a .box .click_txt {position:absolute;right: 16px;top: 20px;color: #9f9f9f;font-size: 1.1rem;}
 .node_2box .lists_node{display: flex;align-items: center;justify-content: space-between;margin-bottom: 1rem;}
@@ -353,6 +354,7 @@ a:hover {color:#000;}
 .node_2box .lists_node li a .box_total{padding: 1rem;position: relative;}
 .node_2box .lists_node li a .box_total .tit{color: #0af2ce;font-size: 1rem;font-weight: 500;padding-left: 1.75rem;position: relative;line-height: 128%;}
 .node_2box .lists_node li a .box_total .tit i{color: #fff;position: absolute;left: 0;font-size: 1.2rem;top: 3px;}
+.node_2box .lists_node li a .box_total .tit svg{color: #fff;position: absolute;left: 0;font-size: 1.2rem;top: 3px;}
 .node_2box .lists_node li a .box_total .title_val{color: #fff;position: absolute;right: 15px;bottom: 15px;font-size: 1.2rem;font-weight: 600;font-family: 'Lato';letter-spacing: -0.01em;}
 .node_2box .lists_node li a .box_total .click_txt {position:absolute;right: 16px;top: 16px;color: #9f9f9f;font-size: 1.1rem;}
 
@@ -465,7 +467,7 @@ a:hover {color:#000;}
 .form_box.mypage{margin: 1rem 0 0;}
 .form_box.mypage .link_box{margin: 1rem 0 0; text-align: center;}
 .form_box.mypage .link {color: #0af2ce;font-size:1.1rem;}
-.form_box.mypage .caution {margin: 1rem 0;color: #1cf2ce;text-align: center;font-size:1.2rem;}
+.form_box.mypage .caution {margin: 1rem 0;color: #1cf2ce;text-align: center;font-size:1rem;}
 .page_btn{display: inline-block;text-align: center;padding: .85rem 0;font-size: 1.1rem;font-weight: 400;color: #7f7f7f;background: #2c2b2d;width: 100%;}
 
 .page_btn.wid33 {width:33.3333%;}
@@ -494,7 +496,7 @@ a:hover {color:#000;}
 .input_style input:focus{border: 1px solid #06fcf9 !important; box-shadow: 0 1px 6px rgb(83 144 255 / 40%) !important; background:none !important;}
 .input_style .input-group-text{background: #ecedef; color: #a4a4a5;font-size:0.9rem;font-weight:500; letter-spacing:0.03em;border:1px solid #ccc ;border-top-right-radius: 0.25rem;border-bottom-right-radius: 0.25rem;    }
 .input_style .button_style {color: #fff;background: #674fff;line-height: 0; position: absolute;right: 8px;top: 50%;transform: translateY(-50%); padding: 20px 18px;display: inline-block; border-top-left-radius: 0 !important;border-bottom-left-radius: 0 !important;border-radius: 0.25rem !important;}
-.btn-complete {background: #f50666;color: #fff !important;font-size: 1.1rem;font-weight: 400;width: 100%;margin-top: 2rem;padding:0;height: 48px;border-radius: 4px;line-height: 48px;display: inline-block;}
+.btn-complete {background: #f50666;color: #fff !important;font-size: 1.1rem;font-weight: 400;width: 100%;margin-top: 2rem;height: 48px;padding:0;border-radius: 4px;line-height: 48px;display: inline-block;}
 .flex_btn{display: flex;justify-content: space-between; margin-top:1.5rem;}
 .btn-complete.yel{background:yellow;color:#111 !important;width: 48%;font-weight: 500;font-size: 1.1rem;}
 .modal_node .modal-content{background:#00091b;box-shadow: 0px 0px 16px 4px rgba(255,255,255,.15);}
@@ -860,7 +862,7 @@ a:hover {color:#000;}
 .hash_wrap .hash_contents .hash_list {border-right:1px solid #660dff; padding:12px 0; text-align:center; width:33%; color:#fff}
 .hash_wrap .hash_contents .hash_list:last-child {border-right:0;}
 .hash_wrap .hash_table .table th {color:#06d7d4}
-.hash_wrap .hash_table .table td {border-bottom:1px solid #06d7d4; color:#a2a2a2}
+.hash_wrap .hash_table .table td {border-bottom:1px solid #06d7d4; color:#a2a2a2;padding: 0.85rem .5rem;}
 .hash_wrap .hash_table .table .table_center {text-align:center}
 .hash_wrap .hash_table .table .table_right {text-align:right}
 

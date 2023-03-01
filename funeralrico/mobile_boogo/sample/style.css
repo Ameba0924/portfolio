@@ -31,18 +31,18 @@
 .sample_img .sp_img {width:100%;transition: 0.5s all ease;-webkit-transition: 0.5s all ease;-moz-transition: 0.5s all ease;-ms-transition: 0.5s all ease;-o-transition: 0.5s all ease;animation:topmove 4s infinite ease-in-out;}
 .big_img {margin: 60px auto;text-align:center;width: 100%;max-width: 1200px;}
 .big_img .big_sp_img {border: 4px solid #eee;padding: 40px 0;width:100%;}
-.num_wrap {position: absolute;bottom: 25px;left: 0;}
+.num_wrap {position: absolute;bottom: 25px;left: 0;width: 724px;}
 .num_wrap .num_tit {font-size: 18px;font-weight: 500;letter-spacing: -0.05em;margin-bottom: 30px;}
 .num_wrap .flex_box{display: flex;justify-content: space-between;}
-.num_wrap .flex_box .box{display: flex;padding-right: 70px;position:relative;}
-.num_wrap .flex_box li:after{content:'';background: #e5e5e5;height:80px;width:1px;position:absolute;right:30px;top:50%;transform:translateY(-50%);}
+.num_wrap .flex_box .box{display: flex;padding-right: 20px;position:relative;width: 50%;}
+.num_wrap .flex_box li:after{content:'';background: #e5e5e5;height:80px;width:1px;position:absolute;right: 38px;top:50%;transform:translateY(-50%);}
 .num_wrap .flex_box li:last-child{padding-right:0;}
 .num_wrap .flex_box li:last-child:after{display:none;}
-.num_wrap .flex_box .box .img_ico{margin-right: 20px;width: 70px;height: 70px;background: #f4f6f9;border-radius: 50%;line-height: 74px;text-align: center;}
+.num_wrap .flex_box .box .img_ico{margin-right: 22px;width: 70px;height: 70px;background: #f4f6f9;border-radius: 50%;line-height: 70px;text-align: center;display: inline-block;}
 .num_wrap .flex_box .box .img_ico i{font-size: 33px;line-height: 70px;color: #0d7ec1;}
-.num_wrap .flex_box .box .img_ico svg{font-size: 22px;line-height: 55px;color: #254b76;height: 55px;}
-.num_wrap .flex_box .box .txt_cont span{font-size: 16px;font-weight: 300;color: #666666;}
-.num_wrap .flex_box .box .txt_cont .num{color: #464646;font-size: 32px;font-weight: 600;margin-top: 4px;letter-spacing: -0.05em;}
+.num_wrap .flex_box .box .img_ico svg{font-size: 28px;line-height: 55px;color: #254b76;height: 55px;height: 70px;}
+.num_wrap .flex_box .box .txt_cont span{font-size: 16px;font-weight: 400;color: #525252;}
+.num_wrap .flex_box .box .txt_cont .num{color: #464646;font-size: 32px;font-weight: 600;margin-top: 8px;letter-spacing: -0.01em;display: block;line-height: 1;}
 
 @keyframes topmove{
 	0%{transform:translateY(0);}
@@ -70,17 +70,17 @@
 @media(max-width:768px){
 	.ctt_sample {padding:0;}
 	.ctt_sample:before {background-size:50%;}
-	.num_wrap {margin: 20px 0 0 5%;}
-	.num_wrap .num_tit {font-size:15px;}
+	.num_wrap {margin: 20px 0 0 5%;width: auto;padding: 20px 0 20px 20px;}
+	.num_wrap .num_tit {font-size: 17px;}
 	.num_wrap .flex_box {display:block;}
 	.num_wrap .flex_box li:after {display:none;}
 	.num_wrap .flex_box .box .img_ico {width:52px;height:52px;background: #273d71;line-height: 52px;margin-bottom: 10px;}
 	.num_wrap .flex_box .box .txt_cont {width:100%;}
 	.num_wrap .flex_box .box .img_ico i {color:#fff;line-height:52px;font-weight:400;}
 	.num_wrap .flex_box .box .img_ico svg{color:#fff;line-height:52px;font-weight:400;font-size: 20px;height: 52px;}
-	.num_wrap .flex_box .box .txt_cont span {font-size:15px;}
-	.num_wrap .flex_box .box .txt_cont .num {font-size:22px;}
-	.num_wrap .flex_box .box{flex-wrap: wrap;margin-bottom: 20px;padding-right: 0;}
+	.num_wrap .flex_box .box .txt_cont span {font-size: 14px;}
+	.num_wrap .flex_box .box .txt_cont .num {font-size: 21px;}
+	.num_wrap .flex_box .box{flex-wrap: wrap;margin-bottom: 25px;padding-right: 0;}
 	.left_area {margin-bottom:0;}
 	.left_area .text01 {display:none;}
 	.left_area .text03{font-size:16px;font-weight:500;color:#484848;}
@@ -93,7 +93,7 @@
 @media(max-width:480px){
 	.ctt_sample:before {background-size:80%;}
 	.num_wrap .flex_box .box .txt_cont .num{display: block; margin-top: 3px;}
-	.num_wrap .flex_box .box .img_ico{width: 38px;height: 38px; margin-bottom: 10px;}
-	.num_wrap .flex_box .box .img_ico svg{font-size: 15px; height: 38px;}
+	.num_wrap .flex_box .box .img_ico{width: 42px;height: 42px;margin-bottom: 10px;}
+	.num_wrap .flex_box .box .img_ico svg{font-size: 19px;height: 42px;}
 
 }
