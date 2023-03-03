@@ -228,7 +228,6 @@ body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
 .footer  .foot_top_inner .nav_wrap li:last-child a:after{display:none;}
 .footer .foot_top  .ft_logo{position: absolute;width: 132px;left: 0;}
 .footer .foot_top  .ft_logo a{display: block;}
-.footer .foot_top  .ft_logo a img{width: 100%;}
 .footer .foot_bot{padding-left: 180px;text-align: left;}
 .footer .foot_bot .foot_bot_inn{display: flex;justify-content: space-between;align-items: center;border-top: 1px solid #5a5a5a;}
 .footer .foot_bot .foot_bot_inn .info{text-align: left;padding-top: 18px;color: #dadada;}
@@ -422,7 +421,7 @@ body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
     .sub_bn .sub_tit{display:none;}
     .sub_bn .nav_title:before{display:none;}
     #header_sub h1 a .bl_logo{display:none;}
-    #header_sub.login_head h1 a .bl_logo{display:block;width:142px;}
+    #header_sub.login_head h1 a .bl_logo{display:block;width:106px;}
     .sub_bn .nav_title{font-size:20px; margin-bottom:0;}
     .sub_bn .content{top:50%;}
     #header_sub .header_in .togg_btn button{background-image:url('../img/main/toggle_btn.png');}
