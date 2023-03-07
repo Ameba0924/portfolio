@@ -49,6 +49,9 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 button{outline:none; border:none; background:none;}
+button:focus-visible {outline: 3px solid #f5f5f5;}
+/* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {outline: none;box-shadow: 1px 1px 5px rgb(222, 255, 8);}
 img{vertical-align:top;}
 a{text-decoration:none; color:#222;}
 a:hover {color:#000;}

@@ -11,9 +11,7 @@
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<title>nfblockchain</title>
-
 	<link rel="stylesheet" href="./css/default.css">
-
 	<!--begin::Fonts -->
 	<link rel="shortcut icon" href="./img/favicon.ico">
 	<link rel="stylesheet"
@@ -21,7 +19,6 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap" rel="stylesheet">
-
 	<!--end::Fonts -->
 
 	<!-- 공통 CSS, 폰트 및 전체적인 css 수정 -->
@@ -47,7 +44,12 @@
 
 <body class="">
 
+
 	<div class="mobile-wrap   ">
+		<!--스킵네이게이션 영역--> 
+		<div class="user-skip" id="skip-navi">
+			<a href="#main_cont">본문 영역 바로가기</a>
+		</div>
 		<div class="header">
 			<h1 class="logo"><a href="./index.html"><img src="./img/logo_app.png" alt="NF blockchain"></a></h1>
 		</div>
@@ -57,7 +59,7 @@
 
 		</style>
 
-		<div class="main_blue">
+		<div id="main_cont" class="main_blue">
 			<div class="start">
 				<div
 					class="swiper-container mySwiper swiper-container-initialized swiper-container-vertical swiper-container-pointer-events">
