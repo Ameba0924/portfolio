@@ -32,8 +32,8 @@ box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);}
 .pic_lt .text2{font-size:16px;color:#777;font-weight:300;margin: 16px 0 50px;text-overflow: ellipsis;white-space: normal; height:50px;overflow: hidden;}
 
 
-.pic_lt .swiper-button-prev,.pic_lt  .swiper-container-rtl .swiper-button-prev{background-image: url(/theme/ricorean/html/image/prev.png);left: -45px;right: auto;}
-.pic_lt .swiper-button-next,.pic_lt  .swiper-container-rtl .swiper-button-next{background-image: url(/theme/ricorean/html/image/next.png);left: auto;right: -45px;}
+.pic_lt .swiper-button-prev,.pic_lt  .swiper-container-rtl .swiper-button-prev{background-image: url(../image/prev.png);left: -45px;right: auto;}
+.pic_lt .swiper-button-next,.pic_lt  .swiper-container-rtl .swiper-button-next{background-image: url(../image/next.png);left: auto;right: -45px;}
 .swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{opacity:1 !important;}
 .pic_lt .swiper-button-next, .swiper-button-next {position: absolute;top: 40%;transform: translateY(-50%);width: 35px;height: 68px;margin-top: -22px;z-index: 10;cursor: pointer;background-position: center;background-repeat: no-repeat;background-size: 35px 68px;}
 .pic_lt .swiper-button-prev, .swiper-button-prev {position: absolute;top: 40%;transform: translateY(-50%);width: 35px;height: 68px;margin-top: -22px;z-index: 10;cursor: pointer;background-position: center;background-repeat: no-repeat;background-size: 35px 68px;pointer-events:auto;}

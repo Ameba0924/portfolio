@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고려대학교의로원 장례식장</title>
+    <title>예약상담 관리 | 고려대학교의로원 장례식장</title>
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
@@ -14,6 +14,10 @@
 </head>
 
 <body>
+     <!--스킵네이게이션 영역--> 
+	 <div class="user-skip" id="skip-navi">
+        <a href="#container">본문 영역 바로가기</a>
+    </div>
     <header>
         <div class="header_top">
             <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="고려대학교의료원 장례식장"></a></h1>
@@ -37,7 +41,7 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div id="container" class="container">
             <h2 class="cont-tit sct_1">예약상담 관리</h2>
 
             <div class="cont_area sct">
@@ -78,6 +82,7 @@
                 <div class="table-wrap">
 
                     <table>
+                        <caption>예약상담 목록</caption>
                         <colgroup>
                             <col width="9%">
                             <col width="9%">
@@ -159,6 +164,7 @@
             <h3 class="modal-tit"><img src="./img/t_ico2.png" alt="">예약상담 등록</h3>
             <p class="txt">[ *표시는 필수로 입력해주세요 ]</p>
             <table class="modal_tb">
+                <caption>예약상담 등록 목록</caption>
                 <tbody>
                     <tr>
                         <th>고인명</th>

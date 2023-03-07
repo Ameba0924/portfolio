@@ -82,6 +82,11 @@ section.mainslide{padding:0;}
 section.mainslide .bx-wrapper{border:none}
 .section4{border-top:1px solid #eee;}
 
+#skip-navi a {position: absolute;text-align: center;width: 170px;padding: 7px 0;display: block;background: #222;color: #fff;left: -9999px;font-size: 15px;font-weight: 500;}
+#skip-navi a:focus { top:0;left: 0%; z-index:999999 !important; text-decoration:none;}
+button:focus-visible {outline: 3px solid #000;}
+  /* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {outline: none;box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);}
 /* header-------------------------------- */
 header{position:relative;}
 .header .logo{ float: left; padding:32px 0;}
@@ -276,7 +281,7 @@ header{position:relative;}
 .robot .high_box .box .inner_box .plus:before{content:'';position: absolute;left: 50%;width: 6px;height: 28px;background: #eee;top: 50%;transform: translate(-50%,-50%)}
 .robot .high_box .box .inner_box .plus:after{content:'';position: absolute;height: 6px;width: 28px;background: #eee;top: 50%;transform: translate(-50%,-50%);left: 0}
 /* 교육 */
- .edu{background: #f8f8f8;}
+ .edu{background: #f8f8f8;overflow: hidden;}
 .edu .txt_wrap{margin-bottom: 70px;}
 .edu .txt_wrap .tit{font-size: 41px;font-weight: 600; line-height:138%}
 .edu .box_edu{position:relative;}

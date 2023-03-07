@@ -49,7 +49,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .header_inner .gnb .nav li .nav_depth .depth_menu li a:last-child{padding-bottom:1.2rem;}
 
 .header_inner .right{position: absolute;right: 4rem;top: 50%;transform: translateY(-50%);}
-.header_inner .right .nav_login a{color: #00cbb8;font-size: 16px;margin-right: 2.25rem;}
+.header_inner .right .nav_login a{color: #00cbb8;font-size: 19px;margin-right: 14px;}
 .header_inner .right .nav_login a i{font-size: 27px;vertical-align: middle;}
 .header_inner .right .nav_login .wallet{border: 1px solid #00cbb8;border-radius: 4px;padding: .9rem 1.35rem;font-weight: 400;margin: 0;font-size: 1.1rem;}
 .header_inner .right .nav_login .wallet svg{margin-right:.5rem;font-size: 16px;}

@@ -11,7 +11,7 @@
 		content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
 
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<title>IPKIN</title>
+	<title>NFT 찾기 | IPKIN</title>
 
 
 	<link rel="stylesheet" href="./css/default.css">
@@ -52,6 +52,10 @@
 			overflow: hidden !important;
 		}
 	</style>
+	<!--스킵네이게이션 영역--> 
+	<div class="user-skip" id="skip-navi">
+        <a href="#container">본문 영역 바로가기</a>
+    </div>
 
 	<header class="header " id="top_menu">
 		<button class="menu_btn"><i class="fas fa-bars"></i></button>
@@ -446,7 +450,7 @@
 		});
 
 	</script>
-	<div class="main_box">
+	<div  class="main_box">
 		<div class="top_subwrap">
 			<div class="container">
 
@@ -496,26 +500,7 @@
 			</div>
 		</div>
 
-
-
-		<div class="tab_content nft_box" id="divEmpty" style="display:none;">
-			<div class="container">
-				<div class="img_wrapper"><img src="./img/sub_empty2.png" alt=""></div>
-				<p class="title">등록된 NFT가 없습니다</p>
-				<div class="btn_wrap">
-					<div class="btn_box">
-						<button class="more " id="btnLoadItems2"
-							onclick="LoadNFTitems('', '', 12, from, strCategory, strNFTSearch, 0);"><span
-								id="showMore2">더 로드</span> <i class="xi-spinner-3 load xi-spin" id="loading2"
-								style="display: none;"></i></button>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="tab_content" id="divNotEmpty" style="display: block;">
+		<div id="container" class="tab_content" id="divNotEmpty" style="display: block;">
 			<div class="container">
 				<ul class="cont_list" id="divNFTitems">
 					<li class="swiper-slide">

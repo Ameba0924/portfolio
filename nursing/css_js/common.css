@@ -62,37 +62,14 @@ a{text-decoration:none;}
 strong{font-weight:500;}
 .clearfix:after{content:''; display:block; clear:both}
 *, :after, :before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+/* 바로가기 */
+#skip-navi a {position: absolute;text-align: center;width: 170px;padding: 7px 0;display: block;background: #222;color: #fff;left: -9999px;font-size: 15px;font-weight: 500;}
+#skip-navi a:focus { top:0;left: 0%; z-index:999999 !important; text-decoration:none;}
 
-.pT10 {padding-top:10px;}
-.pT15 {padding-top:15px;}
-.pT20 {padding-top:20px;}
-.pT25 {padding-top:25px;}
-.pT30 {padding-top:30px;}
-.pT40 {padding-top:40px;}
-.pT50 {padding-top:50px;}
-
-.pR10 {padding-right:10px;}
-.pR15 {padding-right:15px;}
-.pR20 {padding-right:20px;}
-.pR25 {padding-right:25px;}
-.pR30 {padding-right:30px;}
-.pR40 {padding-right:40px;}
-.pR50 {padding-right:50px;}
-
-.pB10 {padding-bottom:10px;}
-.pB15 {padding-bottom:15px;}
-.pB20 {padding-bottom:20px;}
-.pB25 {padding-bottom:25px;}
-.pB30 {padding-bottom:30px;}
-.pB40 {padding-bottom:40px;}
-.pB50 {padding-bottom:50px;}
-
-.pL10 {padding-left:10px;} .pL15 {padding-left:15px;} .pL20 {padding-left:20px;} 
-.pL25 {padding-left:25px;} .pL30 {padding-left:30px;} .pL40 {padding-left:40px;} 
-.pL50 {padding-left:50px;}
-
-.mt170{ margin-top:170px !important;}
-
+button:focus-visible {outline: 3px solid #000;}
+  /* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {outline: none;box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);}
+ table caption{  position: absolute;width: 1px;height: 1px;margin: 0;padding: 0;border: 0;overflow: hidden;white-space: nowrap;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);} 
 .sview{display:none;} 
 .mview{display:none;}
 
@@ -127,7 +104,7 @@ strong{font-weight:500;}
 .rico_bold600 {font-weight: 700;margin-right: 10px;}
 
 /* Ã¯Â¿Â½ÃŸÂ°Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½~Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½ Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½ Ã¯Â¿Â½Ã¯Â¿Â½Ã¯Â¿Â½ */
-#mobile_header {width:100%; height:60px;  line-height:60px; border:0px solid red; z-index:99999; display:none;position:fixed;top:0;left:0;}
+#mobile_header {width:100%; height:60px;  line-height:60px; border:0px solid red; z-index:999; display:none;position:fixed;top:0;left:0;}
 #mobile_header .inner {top:0; left:0; z-index:50; width:100%; height:60px; line-height:60px; overflow:hidden; background:#f29001;}
 #mobile_header .mo_lg {width:220px;padding-top:10px;text-align:center;margin:0 auto;position: absolute;left: 50%;transform: translateX(-50%);}
 #mobile_header .mo_lg img { width:90%; overflow:hidden;}
@@ -161,7 +138,7 @@ strong{font-weight:500;}
 #header_wrap { width:100%; min-width:1200px; overflow-x:hidden;     overflow-y: hidden;}
 .wrap_box { position:relative; width:100%; max-width:1200px; margin:0 auto; background:none; }
 #header {position:absolute;top:0;left:0;width:100%;min-height:80px;z-index:500 !important;}
-#header_sub {position: fixed;width:100%;margin:0 auto;z-index: 9999999999999;background: #fff;}
+#header_sub {position: fixed;width:100%;margin:0 auto;z-index: 8000;background: #fff;}
 #header_wrap .header_on {border-bottom:0px solid #ddd}
 #header h1, #header_sub h1 { position:absolute; display:block;  line-height:80px; left:0; transition: all .3s ease-in-out; background:none;}
 #header h1 a img, #header_sub h1 a img{vertical-align:middle;width: 100%;}

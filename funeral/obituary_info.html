@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고려대학교의로원 장례식장</title>
+    <title>부고정보 보기 | 고려대학교의로원 장례식장</title>
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
@@ -13,6 +13,10 @@
 </head>
 
 <body>
+     <!--스킵네이게이션 영역--> 
+	 <div class="user-skip" id="skip-navi">
+        <a href="#container">본문 영역 바로가기</a>
+    </div>
     <header>
         <div class="header_top">
             <h1 class="logo"><a href="./index.html"><img src="./img/logo.png" alt="고려대학교의료원 장례식장"></a></h1>
@@ -36,13 +40,14 @@
         </div>
     </header>
     <main>
-        <div class="container">
+        <div id="container" class="container">
             <h2 class="cont-tit sct_3">부고관리</h2>
             <div class="sct info_wrap">
                 <h3 class="sct_tit">부고 정보</h3>
                 <div class="btn_pos"><button href="" id="md_btn" class="btn_big">기타정보</button></div>
                 <div class="table_box">
                     <table class="list_info">
+                        <caption>고인정보 목록</caption>
                         <tbody>
                             <tr>
                                 <th>
@@ -186,6 +191,7 @@
                 <div class="table-wrap">
 
                     <table>
+                        <caption> 상주정보 목록</caption>
                         <colgroup>
                             <col width="28%">
                             <col width="36%">
@@ -296,6 +302,7 @@
                     </p>
                 </div>
                 <table class="modal_tb">
+                    <caption>기타정보 등록 목록</caption>
                     <tbody>
                         <tr>
                             <th>근조화환</th>

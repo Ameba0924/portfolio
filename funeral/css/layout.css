@@ -83,3 +83,23 @@ input[type="checkbox"], input[type="radio"] {
 	border-radius: 6px;
 	position: relative;
 }
+#skip-navi a {
+	position: absolute;
+	text-align: center;
+	width: 170px;
+	padding: 7px 0;
+	display: block;
+	background: #222;
+	color: #fff;
+	left: -9999px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#skip-navi a:focus { 
+	top:0;
+	left: 0%; 
+	z-index:999999 !important;
+	text-decoration:none;
+}
+table caption{overflow: hidden ; margin: 0; padding: 0;width: 1px; height: 1px; position: absolute;}

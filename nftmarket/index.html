@@ -33,8 +33,6 @@
 	<link href="./css/explorer.css" rel="stylesheet" type="text/css">
 	<link href="./css/sub.css" rel="stylesheet" type="text/css">
 
-
-
 	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
 		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 	<script src="./js/common.js" defer></script>
@@ -46,7 +44,11 @@
 
 <body class="">
 
-
+	
+	 <!--스킵네이게이션 영역--> 
+	 <div class="user-skip" id="skip-navi">
+        <a href="#container">본문 영역 바로가기</a>
+    </div>
 	<style>
 		body.modal-open {
 			overflow: hidden !important;
@@ -479,7 +481,7 @@
 
 
 
-	<div class="main_con">
+	<div id="container" class="main_con">
 		<div class="main_slide">
 			<div class="swiper-container mySwiper ">
 				<div class="swiper-wrapper">

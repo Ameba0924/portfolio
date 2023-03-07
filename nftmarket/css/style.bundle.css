@@ -3526,7 +3526,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1rem; }
   .nav-link:hover, .nav-link:focus {
-    text-decoration: none; }
+   }
   .nav-link.disabled {
     color: #6c757d;
     pointer-events: none;
@@ -15578,12 +15578,12 @@ body {
   body a:hover,
   body a:active,
   body a:focus {
-    text-decoration: none !important; }
+   }
   html a,
   html button,
   body a,
   body button {
-    outline: none !important; }
+   }
 
 body {
   display: -webkit-box;
