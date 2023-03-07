@@ -8,7 +8,7 @@ html, body, div, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr,
 body {background:#f5f6fa; margin:0;  padding:0; font-size:14px;}
 dl, ul, ol, li { list-style:none outside none; }
 legend {position:absolute; margin:0; padding:0; font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
-label, input, button, select, img {vertical-align:middle}
+label, input, button, select, img {vertical-align:middle;line-height: 52px;}
 input, button {margin:0;padding:0;font-size:14px; -webkit-border-radius:0; -webkit-appearance:none;}
 button {cursor:pointer}
 select::-ms-expand { display: none;}
@@ -152,7 +152,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .main_table01 .table01_td .table01_wid > div:nth-child(6) {width: 14%;}
 .main_table01 .table01_td .table01_wid > div:nth-child(7) {width: 14%;}
 .main_table01 .table01_td .table01_wid .td_coin_box {text-align: left;display: flex;align-items: center;}
-.main_table01 .table01_td .table01_wid .td_coin_box .coin_img {width: 38px;height: 38px;background: rgba(18,25,33,0.05);border-radius: 50%;margin-right: 9px;text-align: center;padding: 6px 0;}
+.main_table01 .table01_td .table01_wid .td_coin_box .coin_img {width: 38px;height: 38px;background: rgba(18,25,33,0.05);border-radius: 50%;margin-right: 9px;text-align: center;display: flex;align-items: center;justify-content: center;}
 .main_table01 .table01_td .table01_wid .td_coin_box .coin_img img {max-width: 26px;width: 100%;vertical-align: top;}
 .main_table01 .table01_td .table01_wid .td_coin_box .coin_name {margin: 0;font-size: 16px;margin-right: 4px;font-weight: 500;word-break:break-all;}
 .main_table01 .table01_td .table01_wid .box_btn {border: 1px solid #d1d3d5;padding: 9px 16px;border-radius: 4px;font-size: 14px;font-weight: 400;}
@@ -250,7 +250,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .coin_top {display: flex;padding-bottom: 10px;align-items:center;}
 .coin_top .coin_name_box {display: flex;max-width: 500px;width: 100%;padding: 0 24px 0 16px;align-items: center;    position: relative;}
 .coin_top .coin_name_box .coin_info {display: flex;align-items: center;}
-.coin_top .coin_name_box .coin_info .coin_img {width: 40px;height: 40px;background: rgba(255,255,255,0.3);border-radius: 50%;text-align: center;padding: 6px;margin-right: 6px;}
+.coin_top .coin_name_box .coin_info .coin_img {width: 40px;height: 40px;background: rgba(255,255,255,0.3);border-radius: 50%;text-align: center;margin-right: 6px;display: flex;justify-content: center;align-items: center;}
 .coin_top .coin_name_box .coin_info .coin_name {font-size: 20px;font-weight: 600;cursor: pointer;color:#fff;}
 .coin_top .coin_name_box .coin_info .coin_name i {color: rgba(255,255,255,0.7);font-size: 20px;}
 .coin_top .coin_name_box .coin_info .coin_name span {display: block;color: rgba(255,255,255,0.5);font-size: 14px;font-weight: 400;margin-top: 4px;}
