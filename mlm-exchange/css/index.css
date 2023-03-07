@@ -8,7 +8,7 @@ html, body, div, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr,
 body {background:#f5f6fa; margin:0;  padding:0; font-size:14px;}
 dl, ul, ol, li { list-style:none outside none; }
 legend {position:absolute; margin:0; padding:0; font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
-label, input, button, select, img {vertical-align:middle;line-height: 52px;}
+label, input, button, select, img {vertical-align:middle;}
 input, button {margin:0;padding:0;font-size:14px; -webkit-border-radius:0; -webkit-appearance:none;}
 button {cursor:pointer}
 select::-ms-expand { display: none;}
@@ -429,8 +429,8 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .or_buy .rg_wid {width: calc(100% - 105px);}
 .or_buy .or_buy_list li {display: flex;align-items: center;margin-bottom: 10px;background: transparent;color: #fff;}
 .or_buy .or_buy_list .inp_group {position: relative;box-sizing: border-box;background: #1f263f;padding: 0 55px 0 16px;border-radius: 4px;}
-.or_buy .or_buy_list .inp_group .inp {color: #fff;}
-.or_buy .or_buy_list .inp_group .unit {position: absolute;right: 16px;top: 11px;font-size: 12px;color: rgba(255,255,255,0.5);}
+.or_buy .or_buy_list .inp_group .inp {color: #fff;padding: 6px 0;}
+.or_buy .or_buy_list .inp_group .unit {position: absolute;right: 16px;top: 50%;transform: translateY(-50%);font-size: 12px;color: rgba(255,255,255,0.5);}
 .or_buy .or_buy_list .inp_ran {display: flex;justify-content: space-between;}
 .or_buy .or_buy_list .inp_ran .range_box {width: 152px;margin-right: 12px;vertical-align: middle;box-sizing: border-box;}
 .or_buy .or_buy_list .inp_ran .range_val_box {width: calc(100% - 174px);padding: 0 8px 0 22px;position: relative;border-radius: 4px;background: #1f263f;height: 32px;box-sizing: border-box;}
@@ -636,7 +636,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 	background-image: -ms-linear-gradient( 90deg, rgb(23,26,52) 0%, rgb(15,13,36) 100%);}
 .coin_box .coin_box_list .my_coin a {display: inline-block;width: 100%;height: 100%;padding: 24px;}
 .coin_box .coin_box_list .my_coin .coin_txt {margin-bottom: 12px;}
-.coin_box .coin_box_list .my_coin .coin_txt .coin_img {display: inline-block;width: 32px;height: 32px;border-radius: 100%;background: #fff;margin-right: 9px;padding: 4px;}
+.coin_box .coin_box_list .my_coin .coin_txt .coin_img {display: inline-block;  box-sizing: border-box;width: 32px;height: 32px;border-radius: 100%;background: #fff;margin-right: 9px;padding: 4px;}
 .coin_box .coin_box_list .my_coin .coin_txt .coin_name {color: rgba(255,255,255,0.8);font-size: 16px;display: inline-block;}
 .coin_box .coin_box_list .my_coin .coin_num {text-align: right;}
 .coin_box .coin_box_list .my_coin .coin_num .con_ea {font-size: 28px;font-weight: 500;color: #fff;margin-bottom: 8px;}
@@ -653,10 +653,11 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .box_inner .input_tt {margin-bottom: 0;overflow: hidden;padding-top: 48px;text-align: left;}
 .box_inner .input_tt .inp_lb {font-size: 16px;color: rgba(18,25,33,0.8);margin-bottom: 16px;font-weight: 500;cursor: default;padding-left: 0;}
 .box_inner .input_tt .inp_lb span {font-size: 14px;color: rgba(20,27,35,0.6);margin-top: 2px;float: right;}
-.box_inner .input_tt .inp_box {background: #e9ebf2;padding: 0 16px;border-radius: 3px;font-size: 12px;width: 100%;position: relative;}
+.box_inner .input_tt .inp_box {background: #e9ebf2;border-radius: 3px;font-size: 12px;width: 100%;position: relative;box-sizing: border-box;}
 .box_inner .input_tt .inp_box.in_btn {padding-right: 55px;}
-.box_inner .input_tt .inp_box .inp {height: 54px;width: 100%;display: block;background: transparent;color: rgba(18,25,33,0.8);font-size: 14px;font-weight: 400;}
+.box_inner .input_tt .inp_box .inp {height: 54px;width: 100%;display: block;background: transparent;color: rgba(18,25,33,0.8);font-size: 14px;font-weight: 400;box-sizing: border-box;padding: 0 16px;}
 .box_inner .input_tt .inp_box .copy_btn {position: absolute;right: 0;top: 50%;transform: translateY(-50%);color: #00bfa5;font-size: 27px;width: 55px;height: 100%;}
+.box_inner .input_tt .inp_box .copy_btn svg{color: #00bfa5;}
 .box_inner .info_txt {padding-top: 48px;text-align:left;}
 .box_inner .info_txt .dot_txt {padding-left: 12px;margin-bottom: 10px;line-height: 1.5;color: rgba(20,27,35,0.6);position: relative;}
 .box_inner .info_txt .dot_txt:before {content:'';position: absolute;display: inline-block;width: 4px;height: 4px;border-radius: 100%;background: #00bfa5;left: 0;top: 7px;}
@@ -680,9 +681,9 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .mypg_box .mypg_info .sub_tit {font-size: 18px;font-weight: 500;margin-bottom: 35px;}
 .mypg_box .input_tt {margin-bottom: 22px;}
 .mypg_box .input_tt .inp_lb {padding-left: 0;color: rgba(18,25,33,0.8);font-size: 16px;margin-bottom: 16px;font-weight: 500;}
-.mypg_box .input_tt .inp_box {background: #e9ebf2;width: 100%;padding: 0 16px;border-radius: 3px;position: relative;box-sizing: border-box;}
+.mypg_box .input_tt .inp_box {background: #e9ebf2;width: 100%;border-radius: 3px;position: relative;box-sizing: border-box;}
 .mypg_box .input_tt .inp_box.in_btn {padding-right: 55px;}
-.mypg_box .input_tt .inp_box .inp {width: 100%;height: 54px;line-height: 1.5;padding-right: 55px;}
+.mypg_box .input_tt .inp_box .inp {width: 100%;height: 54px;line-height: 1.5;padding: 0 55px 0 16px;}
 .mypg_box .input_tt .inp_box .copy_btn {position: absolute;right: 0;top: 0;width: 54px;height: 54px;font-size: 24px;color: #00bfa5;}
 .info_invite {margin-top: 60px;}
 .info_invite .invite_li {display: flex;justify-content: center;}
@@ -747,7 +748,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .range_mark_box .mark:nth-child(2) {margin-left:10px}
 
 /** input **/
-.inp {border: none;background: transparent;line-height: 32px;}
+.inp {border: none;background: transparent;/* line-height: 32px; */}
 input[type=text]:focus,input[type=password]:focus, textarea:focus,select:focus {
 -webkit-box-shadow:none;
 -moz-box-shadow:none;
