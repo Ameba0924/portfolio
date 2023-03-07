@@ -70,8 +70,11 @@ input[type=password]:-moz-placeholder { /* Firefox 18- */
 .mont {font-family: 'Montserrat', sans-serif;letter-spacing: 0.01em;}
 
 a, img{border:0px; vertical-align:middle;}
+
 a{text-decoration:none;}
-/*a:hover{ color:#00529B;}*/
+button:focus-visible {outline: 3px solid #000;}
+/* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {outline: none;box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);}
 strong{font-weight:500;}
 .clearfix:after{content:''; display:block; clear:both}
 *, :after, :before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
@@ -118,13 +121,14 @@ strong{font-weight:500;}
 .en_ls{letter-spacing:0.03em;}
 
 .swiper-wrapper {height: auto !important;}
-
 .swiper {width: 100%;}
-
 .swiper-slide {text-align: center;font-size: 18px;display: -webkit-box;display: -ms-flexbox;display: -webkit-flex;display: flex;-webkit-box-pack: center;-ms-flex-pack: center;-webkit-justify-content: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;-webkit-align-items: center;align-items: center;}
-
 .swiper-slide img {display: block;width: 100%;object-fit: cover;}
 
+
+
+#skip-navi a {position: absolute;text-align: center;width: 170px;padding: 7px 0;display: block;background: #222;color: #fff;left: -9999px;font-size: 15px;font-weight: 500;}
+#skip-navi a:focus { top:0;left: 0%; z-index:999999 !important; text-decoration:none;}
 /* */
 #mobile_header {width:100%; height:60px;  line-height:60px; border:0px solid red; z-index:99999; display:none;position:fixed;top:0;left:0;}
 #mobile_header.mh_bg {background:rgba(0,0,0,0.75);}
@@ -166,7 +170,7 @@ strong{font-weight:500;}
 #header_wrap { width:100%; min-width:1200px; overflow-x:hidden; overflow-y: hidden;}
 .wrap_box { position:relative; width:100%; max-width:1200px; margin:0 auto; background:none; }
 #header {position:absolute;top:0;left:0;width:100%;min-height:80px;z-index:500 !important;}
-#header_sub {position: fixed;width:100%;margin:0 auto;z-index: 9999999999999;}
+#header_sub {position: fixed;width:100%;margin:0 auto;z-index: 9999;}
 #header_wrap .header_on {border-bottom:0px solid #ddd}
 #header h1, #header_sub h1 { position:absolute; display:block;  line-height:80px; left:0; transition: all .3s ease-in-out; background:none;}
 #header h1 a img, #header_sub h1 a img{vertical-align:middle;width: 100%;}

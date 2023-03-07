@@ -52,9 +52,65 @@
 
 <body class="">
 
+    
+    <div class="user-skip" id="skip-navi">
+        <a href="#swap">본문 영역 바로가기</a>
+    </div>
 
-
-
+  
+    <header>
+        <div class="header_inner">
+            <button type="button" class="toggle" id="bar"><i class="xi-bars"></i></button>
+            <div class="left">
+                <div class="logo"><a href="./index.html"><img src="./img/w-logo.png" alt="리코렌인프라" title=""></a></div>
+            </div>
+            <div class="gnb">
+                <ul class="nav">
+                    <li><a href="#" onclick="location.href ='./perpetual_contract.html';"
+                            data-name="perpetual_contract">Margin</a></li>
+                    <li><a href="#" onclick="location.href ='./spot.html';" data-name="spot">Spot</a></li>
+                    <li><a href="#" onclick="openmodal();" data-name="option">Option</a></li>
+                    <li><a href="./swap.html" data-name="swap">Swap</a></li>
+                    <li>
+                        <a href="./staking.html" data-name="staking">Staking</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./staking.html" data-name="staking">Staking</a></li>
+                                <li><a href="./pool.html" data-name="pool">Pool</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="./mypage.html">NFT</a></li>
+                    <li><a href="#" onclick="location.href ='./wallets.html';">Wallets</a></li>
+                    <li>
+                        <a href="#" onclick="openmodal();">Support</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Fee Guide</a></li>
+                                <li><a href="">Ricorean Status</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./listing.html">Application</a>
+                        <div class="nav_depth">
+                            <ul class="depth_menu">
+                                <li><a href="./listing.html">Listing</a></li>
+                                <li><a href="./agent.html">Agent</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="nav_login">
+                    <a href=""><i class="fas fa-globe"></i></a>
+                    <a href="#" class="wallet" id="myBtn"><i class="fas fa-wallet"></i><span>Connect Wallet</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
     <div id="sidebox2" class="main_aside">
         <div class="aside_inner">
             <button type="button" class="btn_close" id="close"><i class="xi-close-min"></i></button>
@@ -155,60 +211,6 @@
             </div>
         </div>
     </div>
-    <header>
-        <div class="header_inner">
-            <button type="button" class="toggle" id="bar"><i class="xi-bars"></i></button>
-            <div class="left">
-                <div class="logo"><a href="./index.html"><img src="./img/w-logo.png" alt="리코렌인프라" title=""></a></div>
-            </div>
-            <div class="gnb">
-                <ul class="nav">
-                    <li><a href="#" onclick="location.href ='./perpetual_contract.html';"
-                            data-name="perpetual_contract">Margin</a></li>
-                    <li><a href="#" onclick="location.href ='./spot.html';" data-name="spot">Spot</a></li>
-                    <li><a href="#" onclick="openmodal();" data-name="option">Option</a></li>
-                    <li><a href="./swap.html" data-name="swap">Swap</a></li>
-                    <li>
-                        <a href="./staking.html" data-name="staking">Staking</a>
-                        <div class="nav_depth">
-                            <ul class="depth_menu">
-                                <li><a href="./staking.html" data-name="staking">Staking</a></li>
-                                <li><a href="./pool.html" data-name="pool">Pool</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a href="./mypage.html">NFT</a></li>
-                    <li><a href="#" onclick="location.href ='./wallets.html';">Wallets</a></li>
-                    <li>
-                        <a href="#" onclick="openmodal();">Support</a>
-                        <div class="nav_depth">
-                            <ul class="depth_menu">
-                                <li><a href="">Support</a></li>
-                                <li><a href="">Fee Guide</a></li>
-                                <li><a href="">Ricorean Status</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="./listing.html">Application</a>
-                        <div class="nav_depth">
-                            <ul class="depth_menu">
-                                <li><a href="./listing.html">Listing</a></li>
-                                <li><a href="./agent.html">Agent</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="right">
-                <div class="nav_login">
-                    <a href=""><i class="xi-globus"></i></a>
-                    <a href="#" class="wallet" id="myBtn"><i class="fas fa-wallet"></i><span>Connect Wallet</span></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
 
 
 
@@ -652,7 +654,7 @@
     <div class="loading-box ">
         <span class="loader"></span>
     </div>
-    <div class="exchange spot">
+    <div id="swap" class="exchange spot">
         <div class="ex_wrap">
             <div class="ex_box">
                 <div class="sp_con01">
@@ -660,7 +662,7 @@
                         <div class="search_box">
                             <div class="search_inp_box">
                                 <input type="text" title="검색어를 입력하세요" placeholder="Search">
-                                <button type="button" class="sch"><i class="xi-search"></i></button>
+                                <button type="button" class="sch"><i class="fas fa-search"></i></button>
                             </div>
                         </div>
 
@@ -670,7 +672,7 @@
                                 <li class="all_tabs01 tab_usdd-link" data-tab="front_tab2">USDT</li>
                                 <li class="all_tabs01 tab_usdd-link" data-tab="front_tab3">ETH</li>
                                 <li class="all_tabs01 tab_usdd-link" data-tab="front_tab4">L1</li>
-                                <li class="all_tabs01 tab_usdd-link" data-tab="front_tab5"><i class="xi-star"></i></li>
+                                <li class="all_tabs01 tab_usdd-link" data-tab="front_tab5"><i class="fas fa-star"></i></li>
 
                             </ul>
 
@@ -1232,7 +1234,7 @@
                     <div class="or_box">
                         <div class="pop_dark"></div>
                         <div class="or_box_in mo_tgclr4">
-                            <button type="button" onclick="hideOr()" class="close_btn"><i class="xi-close"></i></button>
+                            <button type="button" onclick="hideOr()" class="close_btn"><i class="fas fa-times"></i></button>
                             <ul class="or_tabs all_tabs">
                                 <li class="tab-link all_tabs04 current" data-tab="or_tab1">Limit</li>
                                 <li class="tab-link all_tabs04" data-tab="or_tab2">Market</li>

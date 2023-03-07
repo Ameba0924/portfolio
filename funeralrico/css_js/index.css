@@ -11,6 +11,9 @@
     font-style: normal;
 }
 button{outline:none; border:none; background:none;}
+button:focus-visible {outline: 3px solid #000;}
+  /* 마우스, 터치로 버튼에 포커스 시 */
+button:focus:not(:focus-visible) {outline: none;box-shadow: 1px 1px 5px rgba(1, 1, 0, .7);}
 .noto_ser {font-family: 'Gowun Batang', serif;}
 body{font-family: 'Noto Sans KR'; letter-spacing:-0.04em;font-weight:300;}
 .section{padding:126px 0; background:#fff;}

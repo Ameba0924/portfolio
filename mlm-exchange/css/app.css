@@ -1,4 +1,4 @@
-/* 팝업 */
+/* íŒì—… */
 .popup-box {position: fixed;top: 0;left:0;width: 100%;height: 100%;background: rgba(0,0,0,.6);z-index: 1006;transition: opacity 0.3s, visibility 0.3s;justify-content: center;align-items: center;display: flex;}
 .popup-box.hide {opacity: 0;visibility: hidden;}
 
@@ -42,7 +42,7 @@
 
 .main_app{background: -webkit-linear-gradient( 90deg, #171a34 0%, #0f0d24 100%);}
 .main_inner{padding-top: 7rem;background:url('/exchange/img/bg_landing.png')no-repeat center top;}
-.main_app .logo{margin: 2rem 0 0 3rem;}
+.main_app .logo{padding: 2rem 0 0 3rem;}
 
 .top_inner{text-align: center;}
 .top_inner .big_logo{width: 40%;margin: 0 auto;}
@@ -53,7 +53,7 @@
 .top_inner .link_btns a{display: inline-block;padding: 1rem 1.2rem;border-radius: 4px;margin: 0 1rem;font-size: 1rem; background: #2e3c4c;color: #9898bf; letter-spacing: 0.01em;}
 
 .top_inner .link_btns a.on{ background: #00bfa5;color: #fff;}
-.bot_wrap{margin-top: 7rem;padding: 6rem 12.6rem;background: -webkit-linear-gradient( 270deg, #171a34 0%, #0f0d24 100%);margin-bottom: 8rem;}
+.bot_wrap{margin-top: 7rem;padding: 6rem 12.6rem;background: -webkit-linear-gradient( 270deg, #171a34 0%, #0f0d24 100%);padding-bottom: 5rem;}
 .bot_wrap.agent{background:#0f0d24;}
 .bot_wrap .email{font-size: 1.3rem;color: #ebebeb;text-align: center;background: #0e1b2e;padding: 1.5rem 0;width: 53%;margin: 0 auto;}
 .bot_wrap .email span{color: #00bfa5;}

@@ -55,6 +55,10 @@ border:1px solid #558ab7 !important;
 #container_wr,
 #ft_wr {width:1200px}
 
+/* 본문바로가기 */
+#skip-navi a {position: absolute;text-align: center;width: 170px;padding: 7px 0;display: block;background: #222;color: #fff;left: -9999px;font-size: 15px;font-weight: 500;}
+#skip-navi a:focus { top:0;left: 0%; z-index:999999 !important; text-decoration:none;}
+
 /* 팝업레이어 */
 #hd_pop {z-index:1000;position:relative;margin:0 auto;height:0}
 #hd_pop h2 {position:absolute;font-size:0;line-height:0;overflow:hidden}
