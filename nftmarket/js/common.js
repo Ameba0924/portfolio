@@ -2,16 +2,14 @@
 $(function(){
 
 
+				
+	//버튼 눌럿을때 토글메뉴
 	
-	
-	
+	$('#btnlang').click(function(){
+		$('#toggleMn').slideToggle();
+	  });
 
-	
-
-
-
-
-
+	  
 	var arrows;
     if (KTUtil.isRTL()) {
         arrows = {
@@ -362,5 +360,9 @@ var win_zip = function(frm_name, frm_zip, frm_addr1, frm_addr2, frm_jibeon) {
             // iframe을 넣은 element를 보이게 한다.
             element_layer.style.display = 'block';
     }
+
+
+
+
 }
 

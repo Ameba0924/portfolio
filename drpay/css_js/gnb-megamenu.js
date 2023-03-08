@@ -34,6 +34,8 @@ function lnb(){
 		}
 	});
 
+	
+
 	Gtarget.css({'height':60,'visibility':'visible'});
 
 }

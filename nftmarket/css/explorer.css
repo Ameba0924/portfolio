@@ -60,7 +60,7 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 .header .toggle_wrapper{display: none;}
 .header .header_con {display:flex;height:8rem;align-items:center;justify-content: space-between;}
 .header .header_con:after{ content: ''; position: absolute; top: 100%;background: rgba(255,255,255,.98); width: 100%;  border-top: 1px solid #d5d5d5; height: 0;}
-.header .header_con.active:after{height:330px;box-shadow: 0 5px 22px 5px rgb(0 0 0 / 6%); }
+.header .header_con.active:after{height:210px;box-shadow: 0 5px 22px 5px rgb(0 0 0 / 6%); }
 .header .header_btn {font-size:2.8rem;color:#333;margin-right:2rem;}
 .header .header_logo {position: absolute;left: 30px;top: 50%;transform: translateY(-50%);     z-index: 14;}
 .header .header_logo a {display:block;}
@@ -134,19 +134,26 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 /* tail */
 .footer {background:#222227;position:relative;padding: 2rem 0 5.5rem;}
 .footer .footer_logo {margin-top:5rem;}
+.footer-top{display: flex;justify-content: space-between;}
+.left-info.right-menu_box{width: 30%;}
+.right-menu_box{width: 60%;display: flex;}
+.right-menu_box .mn-lists{width: 33.333%;}
 
 .footer .footer_info {display:block;color: #a8a8a8;font-size:1.4rem;font-weight:400;margin:1.4rem 0 0;line-height:2.4rem;font-family: 'Pretendard-Regular';}
 .footer .footer_title {margin-top:5rem;font-size:1.6rem;color:#fff;font-weight:600;margin-bottom:1.5rem;}
-
 .footer .footer_nav a {display:block;width:100%;font-size:1.5rem;margin-bottom:1.2rem;color: #bcbcbc;font-weight:400;line-height:2.4rem;font-family: 'Pretendard-Regular';}
-.footer .footer_con {display:flex;width:100%;padding-top:2.5rem;border-top:1px solid hsla(0,0%,100%,.1); margin-top:2rem;}
-
-.footer .footer_con .footer_social a {margin-right:2rem;display:flex;align-items:center;font-size:1.5rem;width:2.2rem;height:2.2rem;position:relative;color:#8d8d8d;}
-
+.footer .footer_con {display:flex;justify-content: space-between; width:100%;padding-top:2.5rem;border-top:1px solid hsla(0,0%,100%,.1); margin-top:2rem;}
+.foot_cont{width: 50%;display: flex;align-items: center;justify-content: flex-end;}
+.footer  .footer_copyright {font-size: 13px; color: #777;}
+.footer .footer_con .footer_social a {margin-right:2rem;font-size:1.5rem;width:2.2rem;height:2.2rem;position:relative;color:#8d8d8d;}
+.footer .footer_con .btn_group {position: relative;}
 .footer .footer_con .btn_group .btn_lang {border-radius:5rem;font-weight:400;border:0;color:#fff;font-size:1.4rem;height:4rem;width:10rem;border: 1px solid #ddd;}
-.footer .footer_con .btn_group .dropdown-menu {min-width:16rem;border-radius:1.6rem;}
-.footer .footer_con .btn_group .dropdown-menu a {font-size:1.3rem;color:#6c757e;padding:0.8rem 1.8rem;}
+.footer .footer_con .btn_group .btn_lang svg{font-size: 14px;vertical-align: bottom;margin-left: 4px;}
+.footer .footer_con .btn_group .dropdown_menu {display: none; min-width: 100px;border-radius: 1.2rem;position: absolute;left: 0;bottom: 100%;background: #fff;text-align: center;}
+.footer .footer_con .btn_group .dropdown_menu a {font-size:1.3rem;color:#6c757e;padding:0.8rem 1.8rem;}
 .footer .dropdown-item:focus, .footer .dropdown-item:hover {color:#16181b;text-decoration:none;background-color:#f8f9fa;}
+
+
 
 .btn_blue {background:#2122fa;color:#fff;}
 .btn_blue:hover {color:#fff;}
@@ -317,12 +324,8 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 .section5 .inner_wrap .txt_wrap .order li .num{font-size: 3rem;color: #2122fa;font-family: 'Lexend';font-weight: 600;}
 .section5 .inner_wrap .txt_wrap .order li .tit_app{margin: 1.5rem 0 .75rem;font-size: 2.5rem;color: #111;font-weight: 600; letter-spacing: -0.06em; font-family: 'Pretendard-Regular';word-break: keep-all;line-height: 136%;}
 .section5 .inner_wrap .txt_wrap .order li .desc{font-size: 1.75rem;color: #777;font-weight: 400;word-break: keep-all;line-height: 130%;}
-
-
 .section5  .img_time img{z-index: 9;position: absolute;right:-100px; top: 30%;width: 33%; opacity:0; transition:.5s cubic-bezier(0.09, 0.76, 0.43, 1.06);}
-
 .section5  .img_time.show img{opacity:1;right:200px;}
-
 
 .hd_pops{border:none;background:none;box-shadow: 5px 5px 22px 4px rgb(52 52 52 / 65%); line-height: 0; border-radius: 0 0 20px 20px;top: 275px !important;left: 50% !important;transform: translateX(-50%);max-width:450px;width:100%;}
 .hd_pops .hd_pops_con {width:100% !important;height:auto !important;}
@@ -345,7 +348,6 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	.hd_pops{top: 115px !important;}
 
 }
-
 @media (max-width:1399px){
 
 	#hd_pop{width:100%;}
@@ -357,7 +359,6 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 
 @media (max-width:1320px){
 	.main_con .main_slide .swiper-slide img{min-height:600px}
-
 	.main_con .main_slide .swiper-pagination{left:63%;}
 	.main_con .main_slide .swiper-button-next{left:81.9% !important;}
 	.main_con .main_slide .swiper-slide .n_visual_txt{top:150px;left:8%;}
@@ -382,13 +383,11 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	.section5 .inner_wrap .txt_wrap .order li .tit_app{font-size:2rem;}
 	.section5 .inner_wrap .txt_wrap .order li .desc{font-size:1.6rem;}
 
-
 }
 @media (max-width:1024px){
 
 	.container_m{padding:0 20px;}
 	.header .header_action {margin-right:0;}
-
 	.header .ex_nav .nav-item {width:100%;padding:0;}
 	.header .ex_nav .nav-item .nav-link {padding:2.4rem;border-bottom:1px solid #eee;overflow:hidden;}
 	.header .ex_nav .nav-item.show .nav-link {color:#2122fa;}
@@ -398,7 +397,6 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	.header .ex_nav .sub_nav .dropdown-item {padding:0;padding:2.4rem;border-bottom:1px solid #eee;margin-bottom:0;}
 	.header .ex_nav .sub_nav .dropdown-item:before {display:none;}
 	.header .ex_nav .sub_nav .dropdown-item .sub_nav_text {font-size:1.6rem;}
-
 
 	.main_con .main_slide .swiper-pagination{right:220px ; bottom:22px; left:auto;}
 	.main_con .main_slide .swiper-button-next, .main_con .main_slide .swiper-button-prev{right:140px !important;width:60px; height:60px;left:auto !important;}
@@ -411,9 +409,7 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	#backscreen {position: fixed;width: 100%;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0,0,0,.6);z-index: 25;display: none;}
 
 	.header .toggle_wrapper .top_inner{display: flex;justify-content: space-between;align-items: center;padding: 1.75rem 2rem;    background: #2122fa;}
-
 	.header .toggle_wrapper .top_inner .logo a img{width: 94px;}
-
 	.header .toggle_wrapper .menu_wrap .list_menu > li .first_nav {position:relative;padding: 2rem 1.95rem;display: block;font-size: 1.95rem;color: #131313;font-family: 'Pretendard-Regular';font-weight: 500;border-bottom: 1px solid #eee;}
 	.header .toggle_wrapper .menu_wrap .list_menu > li .first_nav i{ font-size: 1.95rem;color: #bfbfbf;position: absolute;right: 2rem;top: 50%;transform: translateY(-50%);}
 	.header .toggle_wrapper .menu_wrap .list_menu > li .first_nav svg{font-size: 1.95rem;color: #bfbfbf;position: absolute;right: 2rem;top: 50%;transform: translateY(-50%);}
@@ -434,16 +430,6 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	.header.hd_bg .menu_btn svg{color:#222;}
 	.header.hd_bg .menu_btn i{color:#333;}
 	.header .header_actions .sch_btn{margin-right:2rem;}
-
-
-
-
-
-
-
-
-
-
 }
 @media (max-width:991px){
 	.header .search_box .close_sch { top:15px;   right: 5%;}
@@ -465,12 +451,6 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 	.section4 .top_wrap .sm_icon img{width:50px;}
 	.header .header_search{width:90%;}
 	.section5 .inner_wrap .txt_wrap .order li .tit_app{margin-top:1.1rem;}
-
-
-
-
-
-
 }
 @media (max-width:768px){
 	.section{padding:65px 0;}
@@ -515,6 +495,11 @@ button {padding:0;border:none;background-color:transparent;transition:.5s ease;}
 @media (max-width:598px){
 	.section5 .img_time img{width:80%;}
 	.section4 .top_wrap .flex .frame:hover {    top: 50%;}
+
+	.footer .footer_con{flex-wrap: wrap;}
+	.footer-top{flex-wrap: wrap;}
+	.right-menu_box{width: 100%;}
+	.foot_cont{ justify-content: flex-start;margin-top: 20px;width: 100%;}
 }
 @media (min-width:406px) and (max-width:500px){
 	.section4 .top_wrap .flex .left .title_ex {margin-top: 7.5rem;}
