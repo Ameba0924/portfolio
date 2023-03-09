@@ -129,14 +129,14 @@ header .head_wrap .lang ul li a{color: #959595;display: block;padding: 4px 0;fon
 .section2 .flex-box .right_box .img{width: 100%;}
 .section2 .flex-box .right_box .img img{width: 100%;}
 .section2 .slick-arrow{cursor:pointer;font-size:0;position: absolute;bottom: 20%;left: 30%;z-index: 50;width:104px; height:50px;display: inline-block;background: no-repeat center center/95%;outline: none;border: none;}
-.section2 .slick-prev{background-image:url('./img/arrow-prev.png');}
-.section2 .slick-next{ margin-left: 128px;background-image:url('./img/arrow.png');}
+.section2 .slick-prev{background-image:url('../img/arrow-prev.png');}
+.section2 .slick-next{ margin-left: 128px;background-image:url('../img/arrow.png');}
 
 .main-section-lab .lab{display: flex;justify-content: space-between;}
 .main-section-lab .lab li{background: #000;padding: 102px 80px;width: 33.3333%;border-right: 1px solid #3a3a3a; transition: 1s ease;}
-.main-section-lab .lab .hov1:hover{background:url('img/hover_img.png')no-repeat center center/cover;}
-.main-section-lab .lab .hov2:hover{background:url('img/hover_img2.png')no-repeat center center/cover;}
-.main-section-lab .lab .hov3:hover{background:url('img/hover_img3.png')no-repeat center center/cover;}
+.main-section-lab .lab .hov1:hover{background:url('../img/hover_img.png')no-repeat center center/cover;}
+.main-section-lab .lab .hov2:hover{background:url('../img/hover_img2.png')no-repeat center center/cover;}
+.main-section-lab .lab .hov3:hover{background:url('../img/hover_img3.png')no-repeat center center/cover;}
 .main-section-lab .lab li .box{color: #fff;letter-spacing: -0.04em;}
 .main-section-lab .lab li .box .num{font-size: 48px;color: rgba(255,255,255,.5);font-weight: 600;margin-bottom: 85px;}
 .main-section-lab .lab li .box strong{font-size: 45px;font-weight: 500;}

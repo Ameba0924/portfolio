@@ -160,11 +160,11 @@ header{position:relative;}
 .service_wrap .service_list .service:hover a p span{opacity:1; top:0;}
 .service_wrap .service_list .service a span{display:inline-block;  width:96px; height:96px;background:no-repeat center center/96px auto;}
 .service_wrap .service_list .service a .chabot{background-image:url("../img/icon.png");position: absolute;right: 0;top: 2%}
-.service_wrap .service_list .service a .icon1{background-image:url("../img/icon1.png");position: absolute;right: 0;top: 2%}
-.service_wrap .service_list .service a .icon2{background-image:url("../img/icon2.png");position: absolute;right: 0;top: 2%}
-.service_wrap .service_list .service a .icon3{background-image:url("../img/icon3.png");position: absolute;right: 0;top: 2%}
-.service_wrap .service_list .service a .icon4{background-image:url("../img/icon4.png");position: absolute;right: 0;top: 2%}
-.service_wrap .service_list .service a .icon5{background-image:url("../img/icon5.png");position: absolute;right: 0;top: 2%}
+.service_wrap .service_list .service a .icon1{background-image:url("../img/icon1.PNG");position: absolute;right: 0;top: 2%}
+.service_wrap .service_list .service a .icon2{background-image:url("../img/icon2.PNG");position: absolute;right: 0;top: 2%}
+.service_wrap .service_list .service a .icon3{background-image:url("../img/icon3.PNG");position: absolute;right: 0;top: 2%}
+.service_wrap .service_list .service a .icon4{background-image:url("../img/icon4.PNG");position: absolute;right: 0;top: 2%}
+.service_wrap .service_list .service a .icon5{background-image:url("../img/icon5.PNG");position: absolute;right: 0;top: 2%}
 
 /* schedule-------------------- */
 .shedule{    background: #f2f8f7;}
