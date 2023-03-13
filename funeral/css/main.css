@@ -400,6 +400,9 @@ main .cont_area .table-wrap table tbody td .btn_box .btn{
     font-size: 14px;
     width: 15.5%;
 }
+main .cont_area .table-wrap table tbody td .btn_box .btn.btn_long{
+    width: 22%;
+}
 
 main .cont_area .table-wrap table tbody td.info{
     text-align: left;
