@@ -368,9 +368,11 @@ main .cont_area .table-wrap table tbody td  .view{
     background: #e6e6e6;
     color: #121212;
     font-size: 14px;
-    padding: 12px 14px;
+    padding: 12px 0;
     border-radius: 3px;
-    margin-left: 10px;
+    margin-left: 5px;
+    width: 11%;
+    display: inline-block;
 }
 main .cont_area .table-wrap table tbody td .btn_down{  
     background: #f4f4f4;
@@ -383,18 +385,20 @@ main .cont_area .table-wrap table tbody td  .del{
     background: #4f4f4f;
     color: #fff;
     font-size: 14px;
-    padding: 12px 14px;
+    padding: 12px 0;
     border-radius: 3px;
     margin-left: 3px;
     display: inline-block;
+    width: 11%;
 }
 main .cont_area .table-wrap table tbody td .btn_box .btn{
     border: 1px solid #ddd;
     border-radius: 4px;
     text-align: center;
-    padding: 12px 12px;
+    padding: 12px 0;
     display: inline-block;
     font-size: 14px;
+    width: 15.5%;
 }
 
 main .cont_area .table-wrap table tbody td.info{
