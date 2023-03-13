@@ -257,7 +257,7 @@ header{position:relative;}
 
 .robot .high_box .box .inner_box .img_box{margin: 36px 0 26px;  height:150px;}
 
-.robot .high_box .box .inner_box .img_box:after{content:''; position:absolute;opacity:0; transform:translate(-50%,-50%) scale(0);left:50%; top:50%;border-radius:50%;width:700px;height:700px; transition:0.5s ease;;}
+.robot .high_box .box .inner_box .img_box:after{content:''; position:absolute;opacity:0; transform:translate(-50%,-50%) scale(0);left:50%; top:50%;border-radius:50%;width:700px;height:700px; transition:0.5s ease;}
 .robot .high_box .box .inner_box .img_box1:after{background:#c1e2a8}
 .robot .high_box .box .inner_box .img_box2:after{background:#bacfff}
 .robot .high_box .box .inner_box .img_box3:after{background:#f9b0b0}

@@ -152,6 +152,7 @@ header .head_wrap .lang ul li a{color: #959595;display: block;padding: 4px 0;fon
 .main-section-news .title a{position: absolute;right: 0px;border: 1px solid #333;font-size: 16px;border-radius: 46px;padding: 14px 30px;font-weight: 600;top: 50%;transform: translateY(-50%);}
 .main-section-news .news-wrap{display: flex;justify-content: space-between;align-items:center;padding-top: 40px;border-top: 2px solid #bbbbbb;margin-top: 40px;}
 .main-section-news .news-wrap .img_box{width: 36%;}
+.main-section-news .news-wrap .img_box img{width: 100%;}
 .main-section-news .news-wrap ul{width:64%;}
 .main-section-news .news-wrap ul li:hover  a .flex-box .media{background: #0247e3;color:#fff;border-radius: 45px;}
 .main-section-news .news-wrap ul li a{display: block;padding: 45px 0;border-bottom: 1px solid #eee;}
