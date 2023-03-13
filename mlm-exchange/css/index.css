@@ -429,7 +429,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .or_buy .rg_wid {width: calc(100% - 105px);}
 .or_buy .or_buy_list li {display: flex;align-items: center;margin-bottom: 10px;background: transparent;color: #fff;}
 .or_buy .or_buy_list .inp_group {position: relative;box-sizing: border-box;background: #1f263f;padding: 0 55px 0 16px;border-radius: 4px;}
-.or_buy .or_buy_list .inp_group .inp {color: #fff;padding: 6px 0;}
+.or_buy .or_buy_list .inp_group .inp {color: #fff;padding: 6px 0;width: 100%; box-sizing: border-box;}
 .or_buy .or_buy_list .inp_group .unit {position: absolute;right: 16px;top: 50%;transform: translateY(-50%);font-size: 12px;color: rgba(255,255,255,0.5);}
 .or_buy .or_buy_list .inp_ran {display: flex;justify-content: space-between;}
 .or_buy .or_buy_list .inp_ran .range_box {width: 152px;margin-right: 12px;vertical-align: middle;box-sizing: border-box;}
