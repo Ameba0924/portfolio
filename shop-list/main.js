@@ -24,7 +24,6 @@ function onAdd(){
 }
 
 
-
 function createItem(text){
   const itemRow = document.createElement('li');
   itemRow.setAttribute('class','item_row');
