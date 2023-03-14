@@ -507,7 +507,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 
 
 /* swap */
-#swap{background: linear-gradient(180deg, rgba(22,25,51,1) 0%, rgba(15,14,37,1) 100%);}
+#swap{background: linear-gradient(180deg, rgba(22,25,51,1) 0%, rgba(15,14,37,1) 100%);padding-bottom: 7rem;}
 .txt_box{padding: 12rem 0 2.25rem;text-align: center;}
 .txt_box .tt{color: #fff;font-size: 4.5rem;font-weight: 800;margin-bottom: 3.75rem;}
 .txt_box .tt_p{color: #ffffff66;font-size: 1.2rem;font-weight: 500;}
@@ -584,7 +584,7 @@ header{position: fixed;left: 0;right: 0;top: 0;z-index: 999;  background: rgb(22
 .staking .btn_wrap .txt2{font-size: 1.2rem;color: #70707e;font-weight: 500;margin-bottom: 1rem;}
 
 /* pool */
-.pool_list{width: 70%;margin: 0 auto 8rem;display: flex;justify-content: space-between;z-index:1;}
+.pool_list{width: 70%;margin: 0 auto 0;display: flex;justify-content: space-between;z-index:1;}
 .pool_list .list_item{background: #171a34;border-radius: 4px;width: 47%;padding: 2.75rem 0;text-align: center;position:relative;}
 .pool_list .list_item:after{content: '';left: 0;right: 0;top: 0;bottom: 0;border: 1px solid #f1c71d;position: absolute;border-radius: 4px;opacity:0;z-index: 0;}
 .pool_list .list_item:hover:after{opacity:1;}
