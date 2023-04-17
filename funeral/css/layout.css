@@ -73,7 +73,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 .container{
 	width: 100%;
-	padding:0 25px
+	padding:0 25px;
 	margin: 0 auto;
 	    box-sizing: border-box;
 }
